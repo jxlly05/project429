@@ -2094,3 +2094,5 @@ java.net.SocketException: Connection reset
 [21:36:52] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:63112, peerAddr=94.134.105.152:7639, claimAddress=209.25.141.2:43784, claimToken=[44, 0, 68, -109, -71, -35, 19, -10, -120, 94, -122, 105, -104, 29, -41, -96, -88, -53, -43, -85, 8, 104, -43, -75, -12, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 76, -113, 86, 0, 0, 0, 0, 0, 35, -48, 31, -83, -43, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 30, -17, -124, -39, -79, -86, -9, -37, -8, -125, 72, 29, -78, 66, 19, -73], tunnelServerId=1, dataCenterId=36}
 [21:39:44] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:39:56] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:43:46] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:43:58] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
