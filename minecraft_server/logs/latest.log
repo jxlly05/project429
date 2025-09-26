@@ -252,3 +252,50 @@ java.net.SocketException: Connection reset
 [21:06:36] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:10:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:10:37] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:12:57] [Server thread/INFO]: NotJxlly issued server command: /stop
+[21:12:57] [Server thread/INFO]: [NotJxlly: Stopping the server]
+[21:12:57] [Server thread/INFO]: Stopping server
+[21:12:57] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.1.3
+[21:12:57] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[21:12:57] [Server thread/INFO]: [ScheduledStop] Disabling ScheduledStop v1.0.0
+[21:12:57] [Server thread/INFO]: [ScheduledStop] ShutdownTimer deaktiviert.
+[21:12:57] [Server thread/INFO]: [KeepChunks] Disabling KeepChunks v1.7.3
+[21:12:57] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
+[21:12:57] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.2.1
+[21:12:57] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
+[21:12:57] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[21:12:57] [Server thread/INFO]: Saving players
+[21:12:57] [Server thread/INFO]: NotJxlly lost connection: Server closed
+[21:12:57] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[21:12:57] [Server thread/INFO]: NotJxlly left the game
+[21:12:57] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[21:12:57] [Server thread/INFO]: Saving worlds
+[21:12:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Survival]'/minecraft:overworld
+[21:12:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Survival'
+[21:12:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Survival'
+[21:12:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Survival'
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Saved 3810 block chunks, 3939 entity chunks, 0 poi chunks in world 'Survival' in 6.21s
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Survival'
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Survival'
+[21:13:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Survival_nether]'/minecraft:the_nether
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Survival_nether'
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Survival_nether'
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Survival_nether'
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Survival_nether' in 0.00s
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Survival_nether'
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Survival_nether'
+[21:13:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Survival_the_end]'/minecraft:the_end
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Survival_the_end'
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Survival_the_end'
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Survival_the_end'
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Survival_the_end' in 0.00s
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Survival_the_end'
+[21:13:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Survival_the_end'
+[21:13:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (Survival): All chunks are saved
+[21:13:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:13:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:13:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:13:04] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[21:13:04] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[21:13:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[21:13:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
