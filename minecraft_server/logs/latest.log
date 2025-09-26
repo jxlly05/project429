@@ -215,3 +215,5 @@ java.net.SocketException: Connection reset
 [20:22:13] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:22:26] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:22:52] [Server thread/INFO]: NotJxlly has made the advancement [The City at the End of the Game]
+[20:26:14] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:26:26] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
