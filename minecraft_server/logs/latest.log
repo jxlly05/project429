@@ -1528,3 +1528,8 @@ java.net.SocketException: Connection reset
 [12:26:30] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
 [12:26:30] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
 [12:26:30] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[12:27:56] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[12:28:08] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[12:28:19] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[12:28:19] [Server thread/INFO]: NotJxlly lost connection: Disconnected
+[12:28:19] [Server thread/INFO]: NotJxlly left the game
