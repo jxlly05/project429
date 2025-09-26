@@ -389,3 +389,4 @@ java.net.SocketException: Connection reset
 [10:57:32] [Server thread/INFO]: NotJxlly[/127.0.0.1:58456] logged in with entity id 357 at ([Survival_nether]-499.4840617489069, 99.0, 37.646276850444295)
 [10:59:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [10:59:19] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:00:25] [Server thread/INFO]: NotJxlly has made the advancement [Oh Shiny]
