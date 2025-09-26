@@ -202,3 +202,7 @@ java.net.SocketException: Connection reset
 [20:02:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:02:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:04:59] [Server thread/INFO]: NotJxlly has made the advancement [Remote Getaway]
+[20:06:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:06:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:07:37] [Async Chat Thread - #3/INFO]: <NotJxlly> 0 -1020
+[20:07:41] [Async Chat Thread - #3/INFO]: <NotJxlly> portal
