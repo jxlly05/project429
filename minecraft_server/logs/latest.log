@@ -1574,3 +1574,6 @@ java.net.SocketException: Connection reset
 [12:29:11] [Server thread/INFO]: NotJxlly[/127.0.0.1:48500] logged in with entity id 18214 at ([Survival]-1144.5, 62.0, -515.5)
 [12:31:57] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [12:32:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[12:35:10] [Server thread/INFO]: NotJxlly has made the advancement [Eye Spy]
+[12:36:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[12:36:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
