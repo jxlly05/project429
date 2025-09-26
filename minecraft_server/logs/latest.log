@@ -223,3 +223,6 @@ java.net.SocketException: Connection reset
 [20:34:16] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:34:28] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:35:06] [Server thread/WARN]: NotJxlly moved wrongly!, (0.04531236717070897)
+[20:38:16] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:38:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:39:15] [Server thread/INFO]: NotJxlly has made the advancement [Local Brewery]
