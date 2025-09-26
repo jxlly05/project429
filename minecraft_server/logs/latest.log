@@ -1583,3 +1583,4 @@ java.net.SocketException: Connection reset
 [12:40:29] [Server thread/INFO]: Scanning for legacy world dragon fight...
 [12:40:29] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
 [12:44:05] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[12:44:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
