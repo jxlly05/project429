@@ -34,8 +34,8 @@ Island:
     pitch: 10.92087
     yaw: -90.09545
   spawning:
-    animal:
-      spawn: false
+    misc:
+      spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
@@ -44,8 +44,8 @@ Island:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
-      spawn: true
+    animal:
+      spawn: false
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
@@ -87,12 +87,12 @@ Luebeck:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    animal:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    monster:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -140,17 +140,7 @@ Survival:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    animal:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    monster:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -160,12 +150,22 @@ Survival:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
+    ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    ambient:
+    monster:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    water_ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -208,12 +208,12 @@ Survival_nether:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    animal:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    monster:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -256,7 +256,7 @@ Survival_the_end:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    animal:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -266,7 +266,7 @@ Survival_the_end:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -309,8 +309,8 @@ flatworld:
     pitch: 0.6745374
     yaw: 270.2712
   spawning:
-    animal:
-      spawn: false
+    misc:
+      spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
@@ -319,8 +319,8 @@ flatworld:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
-      spawn: true
+    animal:
+      spawn: false
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
