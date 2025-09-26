@@ -218,3 +218,5 @@ java.net.SocketException: Connection reset
 [20:26:14] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:26:26] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:29:20] [Server thread/INFO]: NotJxlly has reached the goal [Sky's the Limit]
+[20:30:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:30:27] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
