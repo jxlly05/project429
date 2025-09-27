@@ -140,6 +140,11 @@ Survival:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
     water_animal:
       spawn: true
       tick-rate: -1
