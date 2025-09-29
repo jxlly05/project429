@@ -189,3 +189,6 @@ java.net.SocketException: Connection reset
 [15:14:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
 [15:14:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
 [15:14:03] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[15:14:04] [User Authenticator #0/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
+[15:14:06] [Server thread/INFO]: NotJxlly joined the game
+[15:14:06] [Server thread/INFO]: NotJxlly[/127.0.0.1:45174] logged in with entity id 590 at ([Survival]-1145.041236117453, 62.0, -517.4358489130694)
