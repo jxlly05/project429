@@ -160,3 +160,5 @@ java.net.SocketException: Connection reset
 [10:14:06] [Server thread/INFO]: NotJxlly joined the game
 [10:14:07] [Server thread/INFO]: NotJxlly[/127.0.0.1:48280] logged in with entity id 346 at ([Survival]-1235.4320495999925, -49.878703159460805, -477.312340192712)
 [10:15:34] [Server thread/INFO]: NotJxlly issued server command: /tpsbar
+[10:17:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[10:17:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
