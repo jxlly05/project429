@@ -159,3 +159,4 @@ java.net.SocketException: Connection reset
 [10:14:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: bdb2b4e4-35e8-430d-be9b-3c678749ab48, mapped to Bat['Bat'/243, uuid='bdb2b4e4-35e8-430d-be9b-3c678749ab48', l='ServerLevel[Survival]', x=-1201.96, y=-14.65, z=-483.39, cpos=[-76, -31], tl=0, v=true], can't add Bat['Bat'/349, uuid='bdb2b4e4-35e8-430d-be9b-3c678749ab48', l='ServerLevel[Survival]', x=-1218.68, y=-14.93, z=-494.54, cpos=[-77, -31], tl=0, v=false]
 [10:14:06] [Server thread/INFO]: NotJxlly joined the game
 [10:14:07] [Server thread/INFO]: NotJxlly[/127.0.0.1:48280] logged in with entity id 346 at ([Survival]-1235.4320495999925, -49.878703159460805, -477.312340192712)
+[10:15:34] [Server thread/INFO]: NotJxlly issued server command: /tpsbar
