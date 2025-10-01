@@ -188,3 +188,5 @@ java.net.SocketException: Connection reset
 [10:34:58] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [10:34:59] [Server thread/INFO]: NotJxlly joined the game
 [10:34:59] [Server thread/INFO]: NotJxlly[/127.0.0.1:55746] logged in with entity id 296 at ([Survival]-1144.2671402722572, 74.0, -526.8916846430374)
+[10:38:40] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[10:38:53] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
