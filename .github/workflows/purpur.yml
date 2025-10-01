@@ -54,11 +54,12 @@ jobs:
           cd $GITHUB_WORKSPACE/minecraft_server
           java -Xms14G -Xmx14G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -XX:InitiatingHeapOccupancyPercent=15 -jar purpur.jar nogui
 
-      
-
       # 5. Änderungen zurück ins Repo committen und bedingungslos pushen
       - name: Force-push server data to repo
         run: |
+          # 10 Sekunden warten, damit keine Dateien mehr gesperrt sind
+          sleep 10
+
           cd $GITHUB_WORKSPACE
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
