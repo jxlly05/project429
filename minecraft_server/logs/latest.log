@@ -1291,3 +1291,6 @@ java.net.SocketException: Connection reset
 [21:33:47] [Async Chat Thread - #5/INFO]: <NotJxlly> -1950 -720
 [21:37:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:37:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:40:08] [Server thread/WARN]: NotJxlly moved wrongly!, (0.24813599859094637)
+[21:41:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:41:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
