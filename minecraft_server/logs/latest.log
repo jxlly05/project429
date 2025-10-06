@@ -961,3 +961,6 @@ java.net.SocketException: Connection reset
 [19:20:44] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:24:33] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:24:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:28:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:28:46] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:28:53] [Server thread/INFO]: NotJxlly issued server command: /tpsbar
