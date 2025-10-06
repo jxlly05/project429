@@ -253,3 +253,54 @@ java.net.SocketException: Connection reset
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [19:08:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:08:41] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:10:47] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.19:63112, peerAddr=154.255.83.94:45291, claimAddress=209.25.141.2:43776, claimToken=[44, 0, 70, -109, -71, -35, 19, -10, -120, -102, -1, 83, 94, -80, -21, -110, 90, -19, -24, -85, 0, 104, -28, 20, 55, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 76, -113, 86, 0, 0, 0, 0, 0, 35, -48, 31, 19, -24, -85, 0, 0, 0, 0, 0, 37, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 106, 64, 0, -41, -21, 32, 83, -78, 10, -93, 14, 86, -25, -101, 90, 4], tunnelServerId=1, dataCenterId=37}
+[19:10:47] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:10:47] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.141.2:43776 to claim client
+[19:10:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:10:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:10:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:10:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[19:10:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[19:10:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:10:47] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:11:09] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - 1.21.8-2497-a49cdb9 (MC: 1.21.8) ---
+[19:11:09] [Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[19:11:09] [Watchdog Thread/ERROR]: ------------------------------
+[19:11:09] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
+[19:11:09] [Watchdog Thread/ERROR]: ------------------------------
+[19:11:09] [Watchdog Thread/ERROR]: Current Thread: Server thread
+[19:11:09] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: WAITING
+[19:11:09] [Watchdog Thread/ERROR]: 	Stack:
+[19:11:09] [Watchdog Thread/ERROR]: 		java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+[19:11:09] [Watchdog Thread/ERROR]: 		java.base@21.0.8/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+[19:11:09] [Watchdog Thread/ERROR]: 		ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager.loadPoiChunk(ChunkHolderManager.java:1124)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.ai.village.poi.PoiManager.getOrLoad(PoiManager.java:96)
+[19:11:09] [Watchdog Thread/ERROR]: 		io.papermc.paper.util.PoiAccess.findClosestPoiDataRecords(PoiAccess.java:278)
+[19:11:09] [Watchdog Thread/ERROR]: 		io.papermc.paper.util.PoiAccess.findClosestPoiDataRecords(PoiAccess.java:197)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.portal.PortalForcer.findClosestPortalPosition(PortalForcer.java:53)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.NetherPortalBlock.getExitPortal(NetherPortalBlock.java:189)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.NetherPortalBlock.getPortalDestination(NetherPortalBlock.java:182)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.PortalProcessor.getPortalDestination(PortalProcessor.java:33)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.handlePortal(Entity.java:3472)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.baseTick(Entity.java:888)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.baseTick(LivingEntity.java:436)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.tick(Entity.java:863)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3307)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.player.Player.tick(Player.java:352)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:844)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:366)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:608)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:256)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1800)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:421)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1776)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1567)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1283)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:313)
+[19:11:09] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f2c24f1f4b0.run(Unknown Source)
+[19:11:09] [Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+[19:11:09] [Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+[19:11:09] [Watchdog Thread/ERROR]: ------------------------------
+[19:11:09] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
+[19:11:09] [Watchdog Thread/ERROR]: ------------------------------
+[19:11:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11874ms or 237 ticks behind
