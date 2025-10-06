@@ -970,3 +970,4 @@ java.net.SocketException: Connection reset
 [19:36:48] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:40:37] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:40:49] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:41:45] [Server thread/INFO]: Villager Villager['Librarian'/22587, uuid='c10966f7-6a62-4a56-9994-989fe015d27d', l='ServerLevel[Survival]', x=-1920.50, y=83.00, z=-713.70, cpos=[-121, -45], tl=13847, v=true] died, message: 'Librarian was slain by NotJxlly'
