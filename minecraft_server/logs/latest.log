@@ -304,3 +304,5 @@ java.net.SocketException: Connection reset
 [19:11:09] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
 [19:11:09] [Watchdog Thread/ERROR]: ------------------------------
 [19:11:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11874ms or 237 ticks behind
+[19:12:31] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:12:43] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
