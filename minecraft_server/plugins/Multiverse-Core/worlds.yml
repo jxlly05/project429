@@ -135,22 +135,12 @@ Survival:
     pitch: 17.788164
     yaw: -36.409546
   spawning:
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_animal:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -160,7 +150,12 @@ Survival:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    ambient:
+    axolotl:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    water_underground_creature:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -171,6 +166,11 @@ Survival:
       spawn-limit: -1
       exceptions: []
     animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    water_animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
