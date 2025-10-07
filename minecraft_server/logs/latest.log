@@ -132,3 +132,22 @@
 [18:43:04] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] create new minecraft java tunnel
 [18:43:05] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] create new minecraft java tunnel
 [18:43:05] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: gg.playit.api.ApiError: Api error code: 400, req: {"tunnel_type":"minecraft-java","port_type":"tcp","port_count":1,"local_ip":"127.0.0.1","local_port":null,"agent_id":"1acf85de-ad81-487e-a4fb-06b0d606c4c1","type":"create-tunnel"}, res: {"type":"error","code":400,"message":"tunnel already exists for agent"}
+[18:43:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] create new minecraft java tunnel
+[18:43:08] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: gg.playit.api.ApiError: Api error code: 400, req: {"tunnel_type":"minecraft-java","port_type":"tcp","port_count":1,"local_ip":"127.0.0.1","local_port":null,"agent_id":"1acf85de-ad81-487e-a4fb-06b0d606c4c1","type":"create-tunnel"}, res: {"type":"error","code":400,"message":"tunnel already exists for agent"}
+[18:43:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] create new minecraft java tunnel
+[18:43:11] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: gg.playit.api.ApiError: Api error code: 400, req: {"tunnel_type":"minecraft-java","port_type":"tcp","port_count":1,"local_ip":"127.0.0.1","local_port":null,"agent_id":"1acf85de-ad81-487e-a4fb-06b0d606c4c1","type":"create-tunnel"}, res: {"type":"error","code":400,"message":"tunnel already exists for agent"}
+[18:43:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] create new minecraft java tunnel
+[18:43:14] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] got error during setup: gg.playit.api.ApiError: Api error code: 400, req: {"tunnel_type":"minecraft-java","port_type":"tcp","port_count":1,"local_ip":"127.0.0.1","local_port":null,"agent_id":"1acf85de-ad81-487e-a4fb-06b0d606c4c1","type":"create-tunnel"}, res: {"type":"error","code":400,"message":"tunnel already exists for agent"}
+[18:43:18] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: offers-lauderdale.gl.joinmc.link
+[18:43:18] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[18:43:18] [Thread-5/INFO]: playit.gg: tunnel setup
+[18:43:18] [Thread-5/INFO]: playit.gg: offers-lauderdale.gl.joinmc.link
+[18:43:28] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg: Temporary failure in name resolution
+[18:43:33] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
+[18:43:33] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg
+[18:43:38] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
+[18:43:48] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg: Temporary failure in name resolution
+[18:43:53] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
+[18:43:53] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg
+[18:43:58] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
+[18:44:08] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg: Temporary failure in name resolution
