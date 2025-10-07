@@ -131,3 +131,15 @@
 [18:30:20] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg: Temporary failure in name resolution
 [18:30:25] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
 [18:30:25] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg
+[18:30:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
+[18:30:40] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg: Temporary failure in name resolution
+[18:30:45] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
+[18:30:45] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg
+[18:30:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
+[18:31:00] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg: Temporary failure in name resolution
+[18:31:05] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
+[18:31:05] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg
+[18:31:10] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
+[18:31:20] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg: Temporary failure in name resolution
+[18:31:25] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
+[18:31:25] [Thread-5/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: java.net.UnknownHostException: control.playit.gg
