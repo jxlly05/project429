@@ -210,3 +210,6 @@ java.net.SocketException: Connection reset
 [16:17:51] [Server thread/INFO]: NotJxlly issued server command: /spark tps
 [16:18:08] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo
 [16:18:11] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
+[16:18:18] [Async Chat Thread - #2/INFO]: <NotJxlly> -122 -43
+[16:19:00] [Server thread/INFO]: NotJxlly issued server command: /kc keepregion coords -122 -43 current
+[16:19:15] [Server thread/INFO]: NotJxlly issued server command: /kc keepregion coords -122 -43 -117 -49 Survival
