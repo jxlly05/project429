@@ -39,13 +39,13 @@ Island:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
-      spawn: true
+    animal:
+      spawn: false
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
-      spawn: false
+    misc:
+      spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
@@ -140,12 +140,7 @@ Survival:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_underground_creature:
+    water_ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -155,22 +150,27 @@ Survival:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
     water_animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -218,12 +218,12 @@ Survival_nether:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -271,12 +271,12 @@ Survival_the_end:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -324,13 +324,13 @@ flatworld:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
-      spawn: true
+    animal:
+      spawn: false
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
-      spawn: false
+    misc:
+      spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
