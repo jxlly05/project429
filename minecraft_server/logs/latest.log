@@ -811,3 +811,6 @@ java.net.SocketException: Connection reset
 [21:14:40] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:18:28] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:18:41] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:20:26] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[21:20:26] [Server thread/INFO]: NotJxlly lost connection: Disconnected
+[21:20:27] [Server thread/INFO]: NotJxlly left the game
