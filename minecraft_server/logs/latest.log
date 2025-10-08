@@ -801,3 +801,5 @@ java.net.SocketException: Connection reset
 [20:54:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:58:24] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:58:36] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:02:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:02:37] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
