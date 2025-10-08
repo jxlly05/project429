@@ -213,3 +213,8 @@ java.net.SocketException: Connection reset
 [16:18:18] [Async Chat Thread - #2/INFO]: <NotJxlly> -122 -43
 [16:19:00] [Server thread/INFO]: NotJxlly issued server command: /kc keepregion coords -122 -43 current
 [16:19:15] [Server thread/INFO]: NotJxlly issued server command: /kc keepregion coords -122 -43 -117 -49 Survival
+[16:19:22] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo
+[16:19:25] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
+[16:19:47] [Server thread/INFO]: NotJxlly issued server command: /tpsbar
+[16:21:38] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:21:50] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
