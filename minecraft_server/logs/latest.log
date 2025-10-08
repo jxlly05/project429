@@ -114,3 +114,5 @@
 [16:09:36] [Server thread/INFO]: No group conflicts found!
 [16:09:36] [Server thread/INFO]: Done (22.358s)! For help, type "help"
 [16:09:37] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.5.0, you're on: 5.4.2
+[16:13:37] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:13:49] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
