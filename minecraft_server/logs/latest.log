@@ -820,3 +820,6 @@ java.net.SocketException: Connection reset
 [19:37:28] [Server thread/INFO]: NotJxlly joined the game
 [19:37:28] [Server thread/INFO]: NotJxlly[/127.0.0.1:57204] logged in with entity id 5601 at ([Survival]-1142.1366542929038, 72.5, -483.79700328153314)
 [19:37:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:41:05] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[19:41:05] [Server thread/INFO]: NotJxlly lost connection: Disconnected
+[19:41:05] [Server thread/INFO]: NotJxlly left the game
