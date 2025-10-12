@@ -217,3 +217,5 @@ java.net.SocketException: Connection reset
 [19:17:30] [Server thread/INFO]: [NotJxlly: Set own game mode to Spectator Mode]
 [19:18:40] [Server thread/INFO]: [NotJxlly: Set own game mode to Creative Mode]
 [19:18:45] [Server thread/INFO]: NotJxlly issued server command: /mv tp Survival
+[19:19:43] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:19:55] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
