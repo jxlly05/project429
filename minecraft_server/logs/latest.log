@@ -188,3 +188,4 @@ java.net.SocketException: Connection reset
 [19:12:08] [Server thread/INFO]: Preparing spawn area: 0%
 [19:12:08] [Server thread/INFO]: Time elapsed: 119 ms
 [19:12:11] [Server thread/INFO]: NotJxlly issued server command: /mv tp Island
+[19:13:13] [Server thread/INFO]: [NotJxlly: Set own game mode to Spectator Mode]
