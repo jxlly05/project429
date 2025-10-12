@@ -179,3 +179,7 @@ java.net.SocketException: Connection reset
 [19:06:49] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [19:07:38] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:07:50] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:11:39] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:11:52] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:12:00] [Server thread/INFO]: NotJxlly issued server command: /mv list#
+[19:12:02] [Server thread/INFO]: NotJxlly issued server command: /mv list
