@@ -164,3 +164,5 @@ java.net.SocketException: Connection reset
 [15:24:27] [User Authenticator #0/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
 [15:24:28] [Server thread/INFO]: NotJxlly joined the game
 [15:24:28] [Server thread/INFO]: NotJxlly[/127.0.0.1:37398] logged in with entity id 437 at ([Survival]-1143.5499539316354, 63.0, -517.0630349451709)
+[15:26:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:26:24] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
