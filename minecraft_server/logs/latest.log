@@ -408,3 +408,95 @@ java.net.SocketException: Connection reset
 [21:32:48] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [21:33:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:33:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:34:48] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[21:34:48] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[21:34:48] [Server thread/INFO]: NotJxlly lost connection: Disconnected
+[21:34:48] [Server thread/INFO]: NotJxlly left the game
+[21:34:49] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.142:14342, claimAddress=209.25.141.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 94, -122, 105, -114, 56, 6, -48, -90, -82, -81, -85, 8, 104, -19, 112, 121, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -40, -80, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, -18, -78, 97, 68, 84, 65, 15, -107, 102, -55, -103, -87, -103, 78, 81, -31], tunnelServerId=1, dataCenterId=36}
+[21:34:49] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[21:34:49] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.141.2:43784 to claim client
+[21:34:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[21:34:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[21:34:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[21:34:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[21:34:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[21:34:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[21:34:49] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[21:34:50] [nioEventLoopGroup-2-1/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:34:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.142:14349, claimAddress=209.25.141.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 94, -122, 105, -114, 56, 13, 91, -38, -81, 49, -85, 8, 104, -19, 112, 122, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 116, 50, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 114, 2, 109, 33, 96, 97, 117, 67, 78, -109, 121, -11, 46, 116, 21, 19], tunnelServerId=1, dataCenterId=36}
+[21:34:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[21:34:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.141.2:43784 to claim client
+[21:34:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[21:34:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[21:34:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[21:34:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[21:34:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[21:34:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[21:34:50] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[21:34:55] [User Authenticator #1/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
+[21:34:57] [Server thread/INFO]: NotJxlly joined the game
+[21:34:57] [Server thread/INFO]: NotJxlly[/127.0.0.1:34628] logged in with entity id 23788 at ([Survival]-48.37576088061656, 113.0, 573.3000000119209)
+[21:35:08] [Server thread/INFO]: NotJxlly issued server command: /stop
+[21:35:08] [Server thread/INFO]: [NotJxlly: Stopping the server]
+[21:35:08] [Server thread/INFO]: Stopping server
+[21:35:08] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.5.1
+[21:35:08] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.1.3
+[21:35:08] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[21:35:08] [Server thread/INFO]: [ScheduledStop] Disabling ScheduledStop v1.0.0
+[21:35:08] [Server thread/INFO]: [ScheduledStop] ShutdownTimer deaktiviert.
+[21:35:08] [Server thread/INFO]: [NotTooExpensive] Disabling NotTooExpensive v1.3.4
+[21:35:08] [Server thread/INFO]: [KeepChunks] Disabling KeepChunks v1.7.3
+[21:35:08] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.5.0
+[21:35:08] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[21:35:08] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.0
+[21:35:08] [Server thread/INFO]: Saving players
+[21:35:08] [Server thread/INFO]: NotJxlly lost connection: Server closed
+[21:35:08] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[21:35:08] [Server thread/INFO]: NotJxlly left the game
+[21:35:08] [Server thread/INFO]: Saving worlds
+[21:35:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Survival]'/minecraft:overworld
+[21:35:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Survival'
+[21:35:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Survival'
+[21:35:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Survival'
+[21:35:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[21:35:18] [Server thread/INFO]: [ChunkHolderManager] Saved 333 block chunks, 375 entity chunks, 4 poi chunks in world 'Survival', progress: 22.64
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Saved 1577 block chunks, 1791 entity chunks, 8 poi chunks in world 'Survival' in 13.13s
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Survival'
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Survival'
+[21:35:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Survival_nether]'/minecraft:the_nether
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Survival_nether'
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Survival_nether'
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Survival_nether'
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Survival_nether' in 0.00s
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Survival_nether'
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Survival_nether'
+[21:35:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Survival_the_end]'/minecraft:the_end
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Survival_the_end'
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Survival_the_end'
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Survival_the_end'
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Survival_the_end' in 0.00s
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Survival_the_end'
+[21:35:21] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Survival_the_end'
+[21:35:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (Survival): All chunks are saved
+[21:35:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:35:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:35:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:35:21] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[21:35:21] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[21:35:21] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[21:35:21] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
