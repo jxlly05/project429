@@ -45,6 +45,16 @@ world:
   # Disabling this will make the world property `allow-flight` have no effect.
   enforce-flight: true
   
+  # Sets whether Multiverse will apply the world's entity `tick-rate` config in worlds.yml.
+  # If disabled, the `tick-rate` config in worlds.yml will be ignored.
+  # Disable this if you want paper-world.yml or another plugin to handle entity spawn rate per world.
+  apply-entity-spawn-rate: true
+  
+  # Sets whether Multiverse will apply the world's entity `spawn-limit` config when a world is loaded.
+  # If disabled, the `spawn-limit` config in worlds.yml will be ignored.
+  # Disable this if you want paper-world.yml or another plugin to handle entity limits per world.
+  apply-entity-spawn-limit: true
+  
   # Sets whether Multiverse will purge entities on world load based world's entity spawn config.
   auto-purge-entities: true
   
@@ -227,6 +237,15 @@ misc:
   # Change this if you use a custom path for the bukkit.yml file with `--bukkit-settings` startup flag.
   # Note: this config option needs a server restart to take effect.
   bukkit-yml-path: bukkit.yml
+  
+  # Change this if you use a custom path for the server.properties file with `--config` startup flag.
+  # Note: this config option needs a server restart to take effect.
+  server-properties-path: server.properties
+  
+  # When enabled, Multiverse will attempt to automatically detect world generator plugins installed on your server.
+  # This option only affects tab-completion within `/mv create` command and output of `/mv generators` command.
+  # Disabling this will not have any affect on the usages of world generator plugins itself.
+  auto-detect-generator-plugins: true
   
   # This is our debug flag to help identify issues with Multiverse.
   # If you are having issues with Multiverse, please set this to 3 and then post your log to pastebin.com
