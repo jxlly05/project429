@@ -287,3 +287,8 @@ java.net.SocketException: Connection reset
 [10:13:00] [User Authenticator #3/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
 [10:13:01] [Server thread/INFO]: NotJxlly joined the game
 [10:13:01] [Server thread/INFO]: NotJxlly[/127.0.0.1:59868] logged in with entity id 3376 at ([Survival]-50.30000001192093, 121.0, 577.6999999880791)
+[10:14:17] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[10:14:17] [Server thread/INFO]: NotJxlly lost connection: Disconnected
+[10:14:17] [Server thread/INFO]: NotJxlly left the game
+[10:15:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[10:15:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
