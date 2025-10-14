@@ -595,3 +595,5 @@ java.net.SocketException: Connection reset
 [10:47:40] [Server thread/INFO]: NotJxlly left the game
 [10:51:09] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [10:51:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[10:55:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[10:55:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
