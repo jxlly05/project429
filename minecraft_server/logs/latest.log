@@ -863,3 +863,5 @@ java.net.SocketException: Connection reset
 [22:01:24] [Server thread/INFO]: NotJxlly has made the advancement [Isn't It Iron Pick]
 [22:01:24] [Server thread/INFO]: NotJxlly has made the advancement [Getting an Upgrade]
 [22:01:24] [Server thread/INFO]: NotJxlly[/127.0.0.1:48508] logged in with entity id 603 at ([WeltMitKurosh]354.7100416764168, 60.6973822192438, 316.69757625345386)
+[22:02:01] [Server thread/INFO]: NotJxlly issued server command: /mvinv toggle last_location
+[22:02:08] [Server thread/INFO]: NotJxlly issued server command: /mvinvgroup
