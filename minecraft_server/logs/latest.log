@@ -840,3 +840,123 @@ java.net.SocketException: Connection reset
 [18:59:17] [Server thread/INFO]: NotJxlly joined the game
 [18:59:17] [Server thread/INFO]: NotJxlly[/127.0.0.1:38714] logged in with entity id 427 at ([Survival]-369.6617775502337, 71.0, -2765.699999988079)
 [18:59:48] [Server thread/INFO]: NotJxlly issued server command: /mv tp Survival
+[18:59:54] [Server thread/INFO]: NotJxlly issued server command: /mv list
+[18:59:58] [Server thread/INFO]: NotJxlly issued server command: /mv create
+[19:00:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:00:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:00:17] [Server thread/INFO]: NotJxlly issued server command: /mv create WeltMitKurosh
+[19:00:33] [Server thread/INFO]: NotJxlly issued server command: /mv create WeltMitKurosh normal
+[19:00:39] [Server thread/INFO]: Preparing start region for dimension minecraft:weltmitkurosh
+[19:00:39] [Server thread/WARN]: NotJxlly moved too quickly! 4.157752182463355,0.7663679939575161,9.084337254217758
+[19:00:39] [Server thread/INFO]: Preparing spawn area: 0%
+[19:00:40] [Server thread/INFO]: Preparing spawn area: 2%
+[19:00:40] [Server thread/INFO]: Preparing spawn area: 2%
+[19:00:41] [Server thread/INFO]: Preparing spawn area: 18%
+[19:00:41] [Server thread/INFO]: Preparing spawn area: 18%
+[19:00:42] [Server thread/INFO]: Preparing spawn area: 18%
+[19:00:42] [Server thread/INFO]: Preparing spawn area: 51%
+[19:00:43] [Server thread/INFO]: Preparing spawn area: 53%
+[19:00:43] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - 1.21.8-2497-a49cdb9 (MC: 1.21.8) ---
+[19:00:43] [Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[19:00:43] [Watchdog Thread/ERROR]: ------------------------------
+[19:00:43] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
+[19:00:43] [Watchdog Thread/ERROR]: ------------------------------
+[19:00:43] [Watchdog Thread/ERROR]: Current Thread: Server thread
+[19:00:43] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:00:43] [Watchdog Thread/ERROR]: 	Stack:
+[19:00:43] [Watchdog Thread/ERROR]: 		java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+[19:00:43] [Watchdog Thread/ERROR]: 		java.base@21.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1398)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.prepareLevels(MinecraftServer.java:879)
+[19:00:43] [Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1432)
+[19:00:43] [Watchdog Thread/ERROR]: 		org.bukkit.Bukkit.createWorld(Bukkit.java:841)
+[19:00:43] [Watchdog Thread/ERROR]: 		org.bukkit.WorldCreator.createWorld(WorldCreator.java:526)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:885)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x00007f3de5daebd0.apply(Unknown Source)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:74)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:883)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x00007f3de5dae988.apply(Unknown Source)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.WorldManager.doCreateWorld(WorldManager.java:272)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x00007f3de5da3d50.apply(Unknown Source)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.WorldManager.createWorld(WorldManager.java:243)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.commands.CreateCommand.onCreateCommand(CreateCommand.java:80)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.commands.CreateCommand$LegacyAlias.onCreateCommand(CreateCommand.java:195)
+[19:00:43] [Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.invoke.LambdaForm$DMH/0x00007f3de4c7c000.invokeSpecial(LambdaForm$DMH)
+[19:00:43] [Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.invoke.LambdaForm$MH/0x00007f3de5dad400.invoke(LambdaForm$MH)
+[19:00:43] [Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+[19:00:43] [Watchdog Thread/ERROR]: 		java.base@21.0.8/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:157)
+[19:00:43] [Watchdog Thread/ERROR]: 		java.base@21.0.8/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[19:00:43] [Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
+[19:00:43] [Watchdog Thread/ERROR]: 		multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
+[19:00:43] [Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[19:00:43] [Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007f3de5d8f7a0.execute(Unknown Source)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:465)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:371)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:359)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2394)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$15(ServerGamePacketListenerImpl.java:2367)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007f3de5d87700.run(Unknown Source)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1486)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1466)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1460)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1417)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1425)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1302)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:313)
+[19:00:43] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f3de4ef8a48.run(Unknown Source)
+[19:00:43] [Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+[19:00:43] [Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+[19:00:43] [Watchdog Thread/ERROR]: ------------------------------
+[19:00:43] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
+[19:00:43] [Watchdog Thread/ERROR]: ------------------------------
+[19:00:43] [Server thread/INFO]: Preparing spawn area: 53%
+[19:00:44] [Server thread/INFO]: Preparing spawn area: 53%
+[19:00:44] [Server thread/INFO]: Time elapsed: 4814 ms
+[19:00:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4827ms or 96 ticks behind
+[19:00:45] [Server thread/INFO]: NotJxlly issued server command: /whitelist add kurocr7
+[19:00:46] [Server thread/INFO]: [NotJxlly: Added Kurocr7 to the whitelist]
+[19:00:48] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.130:13790, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 94, -122, 105, -126, 53, -34, 77, -68, -63, 27, -85, 8, 104, -17, -17, 96, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 1, 28, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, -102, 61, -112, -91, -33, 76, 103, 26, 37, 48, 61, 17, -67, 48, 21, 69], tunnelServerId=1, dataCenterId=36}
+[19:00:48] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:00:48] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[19:00:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:00:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:00:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:00:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[19:00:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[19:00:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:00:48] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:00:49] [nioEventLoopGroup-2-1/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
