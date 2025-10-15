@@ -10,3 +10,10 @@ groups:
     - survival_the_end
     shares:
     - all
+  WeltMitKuroshGroup:
+    worlds:
+    - weltmitkurosh
+    - weltmitkurosh_the_end
+    - weltmitkurosh_nether
+    shares:
+    - all
