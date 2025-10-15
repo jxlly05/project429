@@ -1082,3 +1082,5 @@ java.net.SocketException: Connection reset
 [19:10:34] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [19:12:05] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:12:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:13:18] [Server thread/INFO]: Kurocr7 has made the advancement [Acquire Hardware]
+[19:13:22] [Server thread/INFO]: Kurocr7 has made the advancement [Isn't It Iron Pick]
