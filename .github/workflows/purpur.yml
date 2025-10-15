@@ -72,8 +72,8 @@ jobs:
       # 5. Änderungen zurück ins Repo committen und bedingungslos pushen
       - name: Force-push server data to repo
         run: |
-          # 15 Sekunden warten, damit keine Dateien mehr gesperrt sind
-          sleep 15
+          # 10 Sekunden warten, damit keine Dateien mehr gesperrt sind
+          sleep 10
       
           cd "$GITHUB_WORKSPACE"
           git config user.name "github-actions"
