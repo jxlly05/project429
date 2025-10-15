@@ -252,3 +252,7 @@ java.net.SocketException: Connection reset
 [20:01:30] [Server thread/INFO]: NotJxlly issued server command: /tp Kurocr7 NotJxlly
 [20:01:30] [Server thread/INFO]: [NotJxlly: Teleported Kurocr7 to NotJxlly]
 [20:01:36] [Server thread/INFO]: Kurocr7 has made the advancement [Monster Hunter]
+[20:02:19] [Server thread/INFO]: Kurocr7 has made the advancement [Stone Age]
+[20:02:28] [Server thread/INFO]: NotJxlly issued server command: /mv tp Survival
+[20:02:31] [Server thread/INFO]: Kurocr7 has made the advancement [Getting an Upgrade]
+[20:02:32] [Server thread/INFO]: NotJxlly issued server command: /mv tp WeltMitKurosh
