@@ -247,3 +247,8 @@ java.net.SocketException: Connection reset
 [19:57:53] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [19:59:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:59:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:01:08] [Server thread/INFO]: NotJxlly issued server command: /mv tp WeltMitKurosh
+[20:01:23] [Server thread/INFO]: NotJxlly was slain by Zombie
+[20:01:30] [Server thread/INFO]: NotJxlly issued server command: /tp Kurocr7 NotJxlly
+[20:01:30] [Server thread/INFO]: [NotJxlly: Teleported Kurocr7 to NotJxlly]
+[20:01:36] [Server thread/INFO]: Kurocr7 has made the advancement [Monster Hunter]
