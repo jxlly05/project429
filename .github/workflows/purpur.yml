@@ -74,10 +74,23 @@ jobs:
         run: |
           # 15 Sekunden warten, damit keine Dateien mehr gesperrt sind
           sleep 15
-
-          cd $GITHUB_WORKSPACE
+      
+          cd "$GITHUB_WORKSPACE"
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+      
+          # Änderungen hinzufügen und committen
           git add -A minecraft_server
           git commit -m "Auto-save Minecraft server data" || echo "No changes to commit"
-          git push origin HEAD:main --force
+      
+          # Push versuchen, bis er erfolgreich ist
+          while true; do
+            echo "[Autosave] Versuche, Änderungen zu pushen..."
+            if git push origin HEAD:main --force; then
+              echo "[Autosave] Push erfolgreich!"
+              break
+            else
+              echo "[Autosave] Push fehlgeschlagen, warte 15 Sekunden und versuche erneut..."
+              sleep 15
+            fi
+          done
