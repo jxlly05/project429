@@ -107,7 +107,7 @@ Survival:
   allow-weather: true
   anchor-respawn: true
   auto-heal: true
-  auto-load: true
+  auto-load: false
   bed-respawn: true
   biome: ''
   difficulty: normal
@@ -185,7 +185,7 @@ Survival_nether:
   allow-weather: true
   anchor-respawn: true
   auto-heal: true
-  auto-load: true
+  auto-load: false
   bed-respawn: true
   biome: ''
   difficulty: normal
@@ -238,7 +238,7 @@ Survival_the_end:
   allow-weather: true
   anchor-respawn: true
   auto-heal: true
-  auto-load: true
+  auto-load: false
   bed-respawn: true
   biome: ''
   difficulty: normal
