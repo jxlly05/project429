@@ -90,7 +90,7 @@ jobs:
               echo "[Autosave] Push erfolgreich!"
               break
             else
-              echo "[Autosave] Push fehlgeschlagen, warte 15 Sekunden und versuche erneut..."
-              sleep 15
+              echo "[Autosave] Push fehlgeschlagen, warte 10 Sekunden und versuche erneut..."
+              sleep 10
             fi
           done
