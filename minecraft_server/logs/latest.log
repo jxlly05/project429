@@ -221,3 +221,5 @@ java.net.SocketException: Connection reset
 [19:47:08] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:47:34] [Server thread/INFO]: NotJxlly was slain by Zombie
 [19:47:39] [Server thread/INFO]: NotJxlly issued server command: /mv tp Survival
+[19:50:57] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:51:09] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
