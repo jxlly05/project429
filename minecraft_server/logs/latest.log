@@ -1,232 +1,134 @@
-[20:12:25] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Linux 6.11.0-1018-azure (amd64)
-[20:12:25] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) for Minecraft 1.21.8
-[20:12:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:12:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[20:12:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+[21:33:56] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Linux 6.11.0-1018-azure (amd64)
+[21:33:56] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) for Minecraft 1.21.8
+[21:33:57] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:33:57] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[21:33:57] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
  - KeepChunks (1.7.3), Multiverse-Core (5.3.0), Multiverse-Inventories (5.1.3), NotTooExpensive (1.3.4), ScheduledStop (1.0.0), ViaBackwards (5.5.1), ViaVersion (5.5.0), playit-gg (0.1.4)
-[20:12:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:12:34] [ServerMain/INFO]: Loaded 1407 recipes
-[20:12:34] [ServerMain/INFO]: Loaded 1520 advancements
-[20:12:34] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[20:12:35] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 537.2ms
-[20:12:35] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[20:12:35] [Server thread/INFO]: Loading properties
-[20:12:35] [Server thread/INFO]: This server is running Purpur version 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[20:12:35] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:12:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:12:35] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:12:36] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[20:12:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[20:12:37] [Server thread/INFO]: Default game type: ADVENTURE
-[20:12:37] [Server thread/INFO]: Generating keypair
-[20:12:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:12:37] [Server thread/INFO]: Using epoll channel type
-[20:12:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:12:37] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[20:12:38] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
-[20:12:38] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.0
-[20:12:38] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.0 is now loaded. Registering protocol transformers and injecting...
-[20:12:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:12:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:12:39] [Server thread/ERROR]: [ViaBackwards] ================================
-[20:12:39] [Server thread/ERROR]: [ViaBackwards] YOUR VIAVERSION IS OUTDATED (you are running 5.5.0)
-[20:12:39] [Server thread/ERROR]: [ViaBackwards] PLEASE USE VIAVERSION 5.5.1 OR NEWER
-[20:12:39] [Server thread/ERROR]: [ViaBackwards] LINK: https://ci.viaversion.com/
-[20:12:39] [Server thread/ERROR]: [ViaBackwards] VIABACKWARDS WILL NOW DISABLE
-[20:12:39] [Server thread/ERROR]: [ViaBackwards] ================================
-[20:12:39] [Server thread/INFO]: [KeepChunks] Loading server plugin KeepChunks v1.7.3
-[20:12:39] [Server thread/INFO]: [NotTooExpensive] Loading server plugin NotTooExpensive v1.3.4
-[20:12:39] [Server thread/INFO]: [ScheduledStop] Loading server plugin ScheduledStop v1.0.0
-[20:12:39] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
-[20:12:39] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.3
-[20:12:39] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.5.1
-[20:12:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:12:39] [Server thread/INFO]: Preparing level "WeltMitKurosh"
-[20:12:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:12:40] [Server thread/INFO]: Preparing spawn area: 0%
-[20:12:40] [Server thread/INFO]: Preparing spawn area: 0%
-[20:12:41] [Server thread/INFO]: Preparing spawn area: 0%
-[20:12:41] [Server thread/INFO]: Time elapsed: 1057 ms
-[20:12:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:12:41] [Server thread/INFO]: Preparing spawn area: 0%
-[20:12:41] [Server thread/INFO]: Time elapsed: 189 ms
-[20:12:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:12:41] [Server thread/INFO]: Preparing spawn area: 0%
-[20:12:41] [Server thread/INFO]: Time elapsed: 136 ms
-[20:12:41] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
-[20:12:42] [Server thread/INFO]: Preparing start region for dimension minecraft:survival_nether
-[20:12:42] [Server thread/INFO]: Time elapsed: 1 ms
-[20:12:42] [Server thread/INFO]: Preparing start region for dimension minecraft:survival_the_end
-[20:12:42] [Server thread/INFO]: Time elapsed: 0 ms
-[20:12:42] [Server thread/INFO]: Preparing start region for dimension minecraft:survival
-[20:12:42] [Server thread/INFO]: Time elapsed: 42 ms
-[20:12:43] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[20:12:43] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[20:12:43] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[20:12:43] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.0
-[20:12:43] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
-[20:12:43] [Server thread/INFO]: [KeepChunks] Enabling KeepChunks v1.7.3
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[20:12:43] [Server thread/INFO]: 
-[20:12:43] [Server thread/INFO]:  _     _                   _______ _                 _          
-[20:12:43] [Server thread/INFO]: (_)   | |                 (_______) |               | |  v1.7.3
-[20:12:43] [Server thread/INFO]:  _____| |_____ _____ ____  _      | |__  _   _ ____ | |  _  ___ 
-[20:12:43] [Server thread/INFO]: |  _   _) ___ | ___ |  _ \| |     |  _ \| | | |  _ \| |_/ )/___)
-[20:12:43] [Server thread/INFO]: | |  \ \| ____| ____| |_| | |_____| | | | |_| | | | |  _ (|___ |
-[20:12:43] [Server thread/INFO]: |_|   \_)_____)_____)  __/ \______)_| |_|____/|_| |_|_| \_|___/ 
-[20:12:43] [Server thread/INFO]:                     |_|                                         
-[20:12:43] [Server thread/INFO]: 
-[20:12:43] [Server thread/INFO]: [KeepChunks] KeepChunks v1.7.3 has been enabled
-[20:12:43] [Server thread/INFO]: [NotTooExpensive] Enabling NotTooExpensive v1.3.4
-[20:12:43] [Server thread/INFO]: [ScheduledStop] Enabling ScheduledStop v1.0.0
-[20:12:43] [Server thread/INFO]: [ScheduledStop] ShutdownTimer aktiviert.
-[20:12:43] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
-[20:12:43] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[20:12:43] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[20:12:43] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.1.3
-[20:12:44] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[20:12:44] [Server thread/INFO]: [Multiverse-Inventories] Version 5.1.3 (API v5.1) Enabled - By dumptruckman and benwoo1110
-[20:12:44] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.5.1
-[20:12:44] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: offers-lauderdale.gl.joinmc.link
-[20:12:44] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
-[20:12:44] [Thread-5/INFO]: playit.gg: tunnel setup
-[20:12:44] [Thread-5/INFO]: playit.gg: offers-lauderdale.gl.joinmc.link
-[20:12:45] [Thread-5/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:82c:10:0:0:0:1, error : java.net.SocketException: Network is unreachable
-[20:12:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[20:12:45] [Server thread/INFO]: [spark] Starting background profiler...
-[20:12:46] [Server thread/INFO]: Done preparing level "WeltMitKurosh" (7.144s)
-[20:12:46] [Server thread/INFO]: Running delayed init tasks
-[20:12:46] [Server thread/INFO]: [Multiverse-Inventories] First run!
-[20:12:46] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[20:12:46] [Server thread/INFO]: Checking for conflicts in groups...
-[20:12:46] [Server thread/INFO]: No group conflicts found!
-[20:12:46] [Server thread/INFO]: Done (25.266s)! For help, type "help"
-[20:12:46] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.5.1, you're on: 5.5.0
-[20:12:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.130:13719, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 94, -122, 105, -126, 53, -105, 42, 124, 17, 72, -85, 8, 104, -16, 0, 66, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -94, 73, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, -69, 81, 60, 52, 39, 86, -56, -60, 82, 44, 8, 44, -57, -45, 59, 55], tunnelServerId=1, dataCenterId=36}
-[20:12:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[20:12:50] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[20:12:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[20:12:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[20:12:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[20:12:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[20:12:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[20:12:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[20:12:51] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[20:12:51] [nioEventLoopGroup-2-1/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[20:12:53] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.130:13721, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 94, -122, 105, -126, 53, -103, -105, 60, -114, 11, -85, 8, 104, -16, 0, 69, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 34, 12, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, -99, 78, -103, -66, 87, -115, 121, 36, 127, 125, 18, 91, -1, -31, 31, 120], tunnelServerId=1, dataCenterId=36}
-[20:12:53] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[20:12:53] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[20:12:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[20:12:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[20:12:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[20:12:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[20:12:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[20:12:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[20:12:54] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[20:12:55] [User Authenticator #0/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
-[20:12:56] [Server thread/INFO]: NotJxlly joined the game
-[20:12:56] [Server thread/INFO]: NotJxlly[/127.0.0.1:46506] logged in with entity id 465 at ([WeltMitKurosh]77.46255253688112, 66.0, 365.30000001192093)
-[20:13:21] [Server thread/INFO]: NotJxlly issued server command: /mv tp Survival
-[20:13:29] [Server thread/INFO]: NotJxlly issued server command: /mv tp WeltMitKurosh
-[20:13:36] [Server thread/INFO]: NotJxlly issued server command: /mv tp Survival
-[20:13:41] [Server thread/INFO]: NotJxlly issued server command: /mv tp ll:WeltMitKurosh
-[20:13:53] [Server thread/INFO]: NotJxlly issued server command: /mv tp ll:Survival
-[20:14:06] [Server thread/INFO]: NotJxlly issued server command: /mv tp ll:WeltMitKurosh
-[20:14:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=93.196.4.119:58187, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 93, -60, 4, 119, -29, 75, -33, -78, 93, 2, -85, 8, 104, -16, 0, -109, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 67, 3, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, 31, 81, 2, 79, 37, 8, -78, -88, -96, -3, -66, -73, 13, -102, -118, -51], tunnelServerId=1, dataCenterId=36}
-[20:14:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[20:14:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[20:14:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[20:14:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[20:14:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[20:14:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[20:14:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[20:14:11] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[20:14:11] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[20:14:12] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=93.196.4.119:59318, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 93, -60, 4, 119, -25, -74, 9, 31, 104, 21, -85, 8, 104, -16, 0, -108, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -46, 22, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, -104, -101, 24, 61, 98, 101, -80, -70, -37, -84, -23, 123, 106, -28, -90, 55], tunnelServerId=1, dataCenterId=36}
-[20:14:12] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[20:14:12] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[20:14:13] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[20:14:13] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[20:14:13] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[20:14:13] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[20:14:13] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[20:14:13] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[20:14:13] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[20:14:13] [User Authenticator #1/INFO]: UUID of player Kurocr7 is ea824033-5ac3-4926-91f6-6466b719e237
-[20:14:15] [Server thread/INFO]: Kurocr7 joined the game
-[20:14:15] [Server thread/INFO]: Kurocr7[/127.0.0.1:45290] logged in with entity id 1349 at ([WeltMitKurosh]78.30000001192093, 63.0, 365.34546928)
-[20:15:27] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:080c:0001:0000:0000:0000:00d3]:20907, peerAddr=[2605:7980:0000:8174:0000:0000:0000:0001]:56036, claimAddress=69.9.184.2:43784, claimToken=[64, 0, 94, 38, 2, -5, -81, 8, 12, 0, 1, 0, 0, 0, 0, 0, 0, 0, -45, 81, -85, 38, 5, 121, -128, 0, 0, -127, 116, 0, 0, 0, 0, 0, 0, 0, 1, -38, -28, 31, -92, -39, 114, -85, 8, 104, -16, 0, -33, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 71, 115, -85, 8, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, -53, -125, 97, -1, -45, 73, -15, 22, 90, 47, 21, 8, -92, 127, -96, 96], tunnelServerId=1, dataCenterId=44}
-[20:15:27] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[20:15:27] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[20:15:27] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[20:15:27] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[20:15:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[20:15:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[20:15:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[20:15:28] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[20:15:28] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[20:15:51] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[20:15:51] [Server thread/INFO]: Kurocr7 lost connection: Disconnected
-[20:15:51] [Server thread/INFO]: Kurocr7 left the game
-[20:15:52] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=93.196.4.119:64760, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 93, -60, 4, 119, -4, -8, 58, -38, 83, -68, -85, 8, 104, -16, 0, -8, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -9, -67, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, -1, 103, 88, -14, 48, -99, 79, -108, 72, -47, -52, 1, 42, -21, -27, 127], tunnelServerId=1, dataCenterId=36}
-[20:15:52] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[20:15:52] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[20:15:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[20:15:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[20:15:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[20:15:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[20:15:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[20:15:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[20:15:52] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[20:16:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[20:16:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[20:20:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[20:21:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[20:24:48] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[20:25:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[20:28:49] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[20:29:01] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:34:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:34:04] [ServerMain/INFO]: Loaded 1407 recipes
+[21:34:04] [ServerMain/INFO]: Loaded 1520 advancements
+[21:34:04] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:34:05] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 527.5ms
+[21:34:05] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[21:34:05] [Server thread/INFO]: Loading properties
+[21:34:05] [Server thread/INFO]: This server is running Purpur version 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[21:34:05] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:34:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:34:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:34:06] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:34:06] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:34:07] [Server thread/INFO]: Default game type: ADVENTURE
+[21:34:07] [Server thread/INFO]: Generating keypair
+[21:34:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:34:07] [Server thread/INFO]: Using epoll channel type
+[21:34:07] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:34:07] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[21:34:07] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
+[21:34:07] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.0
+[21:34:07] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.0 is now loaded. Registering protocol transformers and injecting...
+[21:34:08] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:34:08] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:34:09] [Server thread/ERROR]: [ViaBackwards] ================================
+[21:34:09] [Server thread/ERROR]: [ViaBackwards] YOUR VIAVERSION IS OUTDATED (you are running 5.5.0)
+[21:34:09] [Server thread/ERROR]: [ViaBackwards] PLEASE USE VIAVERSION 5.5.1 OR NEWER
+[21:34:09] [Server thread/ERROR]: [ViaBackwards] LINK: https://ci.viaversion.com/
+[21:34:09] [Server thread/ERROR]: [ViaBackwards] VIABACKWARDS WILL NOW DISABLE
+[21:34:09] [Server thread/ERROR]: [ViaBackwards] ================================
+[21:34:09] [Server thread/INFO]: [KeepChunks] Loading server plugin KeepChunks v1.7.3
+[21:34:09] [Server thread/INFO]: [NotTooExpensive] Loading server plugin NotTooExpensive v1.3.4
+[21:34:09] [Server thread/INFO]: [ScheduledStop] Loading server plugin ScheduledStop v1.0.0
+[21:34:09] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[21:34:09] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.3
+[21:34:09] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.5.1
+[21:34:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:34:09] [Server thread/INFO]: Preparing level "WeltMitKurosh"
+[21:34:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:34:10] [Server thread/INFO]: Preparing spawn area: 0%
+[21:34:11] [Server thread/INFO]: Preparing spawn area: 0%
+[21:34:11] [Server thread/INFO]: Preparing spawn area: 0%
+[21:34:11] [Server thread/INFO]: Time elapsed: 1014 ms
+[21:34:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:34:11] [Server thread/INFO]: Preparing spawn area: 0%
+[21:34:11] [Server thread/INFO]: Time elapsed: 178 ms
+[21:34:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:34:11] [Server thread/INFO]: Preparing spawn area: 0%
+[21:34:11] [Server thread/INFO]: Time elapsed: 137 ms
+[21:34:11] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
+[21:34:12] [Server thread/INFO]: Preparing start region for dimension minecraft:survival_nether
+[21:34:12] [Server thread/INFO]: Time elapsed: 0 ms
+[21:34:12] [Server thread/INFO]: Preparing start region for dimension minecraft:survival_the_end
+[21:34:12] [Server thread/INFO]: Time elapsed: 0 ms
+[21:34:12] [Server thread/INFO]: Preparing start region for dimension minecraft:survival
+[21:34:12] [Server thread/INFO]: Time elapsed: 33 ms
+[21:34:13] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[21:34:13] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[21:34:13] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[21:34:13] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.0
+[21:34:13] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[21:34:13] [Server thread/INFO]: [KeepChunks] Enabling KeepChunks v1.7.3
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
+[21:34:13] [Server thread/INFO]: 
+[21:34:13] [Server thread/INFO]:  _     _                   _______ _                 _          
+[21:34:13] [Server thread/INFO]: (_)   | |                 (_______) |               | |  v1.7.3
+[21:34:13] [Server thread/INFO]:  _____| |_____ _____ ____  _      | |__  _   _ ____ | |  _  ___ 
+[21:34:13] [Server thread/INFO]: |  _   _) ___ | ___ |  _ \| |     |  _ \| | | |  _ \| |_/ )/___)
+[21:34:13] [Server thread/INFO]: | |  \ \| ____| ____| |_| | |_____| | | | |_| | | | |  _ (|___ |
+[21:34:13] [Server thread/INFO]: |_|   \_)_____)_____)  __/ \______)_| |_|____/|_| |_|_| \_|___/ 
+[21:34:13] [Server thread/INFO]:                     |_|                                         
+[21:34:13] [Server thread/INFO]: 
+[21:34:13] [Server thread/INFO]: [KeepChunks] KeepChunks v1.7.3 has been enabled
+[21:34:13] [Server thread/INFO]: [NotTooExpensive] Enabling NotTooExpensive v1.3.4
+[21:34:13] [Server thread/INFO]: [ScheduledStop] Enabling ScheduledStop v1.0.0
+[21:34:13] [Server thread/INFO]: [ScheduledStop] ShutdownTimer aktiviert.
+[21:34:13] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[21:34:13] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.1.3
+[21:34:13] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[21:34:13] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[21:34:14] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[21:34:14] [Server thread/INFO]: [Multiverse-Inventories] Version 5.1.3 (API v5.1) Enabled - By dumptruckman and benwoo1110
+[21:34:14] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.5.1
+[21:34:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: offers-lauderdale.gl.joinmc.link
+[21:34:14] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[21:34:14] [Thread-5/INFO]: playit.gg: tunnel setup
+[21:34:14] [Thread-5/INFO]: playit.gg: offers-lauderdale.gl.joinmc.link
+[21:34:15] [Thread-5/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:82c:10:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[21:34:15] [Server thread/INFO]: [spark] Starting background profiler...
+[21:34:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[21:34:15] [Server thread/INFO]: Done preparing level "WeltMitKurosh" (6.182s)
+[21:34:15] [Server thread/INFO]: Running delayed init tasks
+[21:34:15] [Server thread/INFO]: [Multiverse-Inventories] First run!
+[21:34:15] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:34:15] [Server thread/INFO]: Checking for conflicts in groups...
+[21:34:15] [Server thread/INFO]: No group conflicts found!
+[21:34:15] [Server thread/INFO]: Done (21.084s)! For help, type "help"
+[21:34:15] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.5.1, you're on: 5.5.0
+[21:34:15] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 30168833-801e-40df-ad33-cc324c190769, mapped to Chicken['Chicken'/229, uuid='30168833-801e-40df-ad33-cc324c190769', l='ServerLevel[Survival]', x=-1140.17, y=71.00, z=-480.01, cpos=[-72, -31], tl=0, v=true], can't add Chicken['Chicken'/372, uuid='30168833-801e-40df-ad33-cc324c190769', l='ServerLevel[Survival]', x=-1140.17, y=71.00, z=-479.93, cpos=[-72, -30], tl=0, v=false]
