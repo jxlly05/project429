@@ -802,3 +802,7 @@ java.net.SocketException: Connection reset
 [20:45:52] [User Authenticator #1/INFO]: UUID of player Kurocr7 is ea824033-5ac3-4926-91f6-6466b719e237
 [20:45:54] [Server thread/INFO]: Kurocr7 joined the game
 [20:45:54] [Server thread/INFO]: Kurocr7[/127.0.0.1:39676] logged in with entity id 41779 at ([WeltMitKurosh]-2442.8356301503545, -29.0, 4680.27432123961)
+[20:47:53] [Server thread/INFO]: Kurocr7 has made the advancement [The End?]
+[20:47:53] [Server thread/INFO]: NotJxlly has made the advancement [The End?]
+[20:47:55] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[20:47:55] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
