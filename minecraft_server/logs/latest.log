@@ -408,3 +408,6 @@ java.net.SocketException: Connection reset
 [19:00:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3563ms or 71 ticks behind
 [19:00:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:00:57] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:01:43] [Async Chat Thread - #7/INFO]: <NotJxlly> -2000 78 853
+[19:01:52] [Server thread/INFO]: NotJxlly issued server command: /mv lis
+[19:01:54] [Server thread/INFO]: NotJxlly issued server command: /mv list
