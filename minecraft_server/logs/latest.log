@@ -306,3 +306,5 @@ java.net.SocketException: Connection reset
 [18:37:56] [Server thread/INFO]: NotJxlly has made the advancement [Those Were the Days]
 [18:37:56] [Server thread/INFO]: Kurocr7 has made the advancement [Those Were the Days]
 [18:38:54] [Server thread/INFO]: NotJxlly has made the advancement [Take Aim]
+[18:40:36] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[18:40:49] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
