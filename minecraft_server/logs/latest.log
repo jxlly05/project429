@@ -1000,3 +1000,5 @@ java.net.SocketException: Connection reset
 [21:29:56] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:30:08] [Server thread/WARN]: NotJxlly moved too quickly! -2.5000438690185547,-17.246830463409424,-2.2719874382019043
 [21:30:08] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:33:56] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:34:08] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
