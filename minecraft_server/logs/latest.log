@@ -806,3 +806,5 @@ java.net.SocketException: Connection reset
 [20:47:53] [Server thread/INFO]: NotJxlly has made the advancement [The End?]
 [20:47:55] [Server thread/INFO]: Scanning for legacy world dragon fight...
 [20:47:55] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[20:49:39] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:49:51] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
