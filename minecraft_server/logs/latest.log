@@ -571,3 +571,5 @@ java.net.SocketException: Connection reset
 [19:53:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:53:24] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:53:46] [Server thread/INFO]: Villager Villager['Villager'/18543, uuid='a1037252-d5bc-4f2f-b6b8-792709b13965', l='ServerLevel[WeltMitKurosh]', x=-3374.62, y=66.00, z=5168.19, cpos=[-211, 323], tl=2723, v=true] died, message: 'Villager was slain by Zombie'
+[19:57:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:57:27] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
