@@ -1046,3 +1046,5 @@ java.net.SocketException: Connection reset
 [21:40:18] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
 [21:40:18] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [21:40:27] [Server thread/WARN]: NotJxlly moved too quickly! 7.475519180297852,-0.05184507369995117,7.51191520690918
+[21:41:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:42:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
