@@ -531,3 +531,6 @@ java.net.SocketException: Connection reset
 [19:26:54] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [19:27:11] [Server thread/INFO]: NotJxlly has made the advancement [Diamonds!]
 [19:27:13] [Server thread/INFO]: Kurocr7 has made the advancement [Into Fire]
+[19:28:31] [Server thread/INFO]: NotJxlly has made the advancement [Into Fire]
+[19:28:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:29:07] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
