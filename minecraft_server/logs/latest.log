@@ -496,3 +496,5 @@ java.net.SocketException: Connection reset
 [20:05:12] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [20:06:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:06:13] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:10:01] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:10:14] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
