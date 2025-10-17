@@ -1094,3 +1094,7 @@ java.net.SocketException: Connection reset
 [15:54:42] [Async Chat Thread - #3/INFO]: <NotJxlly> -187 425
 [15:55:36] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
 [15:55:41] [Async Chat Thread - #3/INFO]: <NotJxlly> -195 421
+[15:55:57] [Server thread/INFO]: NotJxlly issued server command: /kc keepregion coords -187 425 -195 421 WeltMitKurosh
+[15:56:04] [Server thread/INFO]: NotJxlly issued server command: /kc list
+[15:56:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:56:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
