@@ -1964,3 +1964,6 @@ java.net.SocketException: Connection reset
 [21:50:39] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:54:28] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:54:40] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:58:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:58:30] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
+[21:58:41] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
