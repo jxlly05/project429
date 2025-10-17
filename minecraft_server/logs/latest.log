@@ -1175,3 +1175,5 @@ java.net.SocketException: Connection reset
 [16:05:22] [User Authenticator #3/INFO]: UUID of player Kurocr7 is ea824033-5ac3-4926-91f6-6466b719e237
 [16:05:23] [Server thread/INFO]: Kurocr7 joined the game
 [16:05:23] [Server thread/INFO]: Kurocr7[/127.0.0.1:51960] logged in with entity id 21141 at ([WeltMitKurosh]-3064.5197534742515, 66.0, 6775.122018228526)
+[16:08:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:08:32] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
