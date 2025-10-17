@@ -2019,3 +2019,5 @@ java.net.SocketException: Connection reset
 [22:22:21] [Server thread/INFO]: Kurocr7[/127.0.0.1:52258] logged in with entity id 32475 at ([WeltMitKurosh]-3050.3361362995843, 68.0, 6818.919377496291)
 [22:22:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [22:22:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:26:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:26:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
