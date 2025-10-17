@@ -189,3 +189,5 @@
 [14:54:12] [User Authenticator #0/INFO]: UUID of player Kurocr7 is ea824033-5ac3-4926-91f6-6466b719e237
 [14:54:13] [Server thread/INFO]: Kurocr7 joined the game
 [14:54:13] [Server thread/INFO]: Kurocr7[/127.0.0.1:35696] logged in with entity id 67 at ([WeltMitKurosh]-3053.502982619627, 70.0, 6781.3059434217685)
+[14:56:03] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:56:16] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
