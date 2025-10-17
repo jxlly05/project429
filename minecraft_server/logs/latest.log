@@ -1092,3 +1092,5 @@ java.net.SocketException: Connection reset
 [15:54:25] [Server thread/INFO]: NotJxlly issued server command: /keepchunks info
 [15:54:35] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
 [15:54:42] [Async Chat Thread - #3/INFO]: <NotJxlly> -187 425
+[15:55:36] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
+[15:55:41] [Async Chat Thread - #3/INFO]: <NotJxlly> -195 421
