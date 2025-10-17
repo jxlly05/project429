@@ -1971,3 +1971,7 @@ java.net.SocketException: Connection reset
 [22:02:42] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [22:06:30] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [22:06:43] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:09:53] [Server thread/INFO]: NotJxlly issued server command: /difficulty hard
+[22:09:53] [Server thread/INFO]: [NotJxlly: The difficulty has been set to Hard]
+[22:10:31] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:10:44] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
