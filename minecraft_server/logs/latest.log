@@ -588,3 +588,4 @@ java.net.SocketException: Connection reset
 [18:35:15] [Server thread/INFO]: Kurocr7[/127.0.0.1:33176] logged in with entity id 2433 at ([WeltMitKurosh]-3070.002727196924, 72.0, 6780.665726539378)
 [18:35:50] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [18:36:02] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[18:37:32] [Server thread/INFO]: Villager Villager['Librarian'/95, uuid='ebe92266-f2e5-4a3f-8498-ff8354bdaae6', l='ServerLevel[WeltMitKurosh]', x=-3060.08, y=60.88, z=6759.05, cpos=[-192, 422], tl=11692, v=true] died, message: 'Librarian was slain by NotJxlly'
