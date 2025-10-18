@@ -294,3 +294,13 @@ java.net.SocketException: Connection reset
 [17:30:23] [Server thread/INFO]: NotJxlly[/127.0.0.1:38096] logged in with entity id 123 at ([WeltMitKurosh]-3481.699999988079, 76.0, 7012.6923978488685)
 [17:30:45] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
 [17:30:57] [Async Chat Thread - #1/INFO]: <NotJxlly> -218 438
+[17:32:03] [Server thread/INFO]: NotJxlly issued server command: /kc keepregion coords -218 438 -213 433
+[17:32:05] [Server thread/INFO]: NotJxlly issued server command: /kc keepregion coords -218 438 -213 433 WeltMitKurosh
+[17:32:17] [Server thread/INFO]: NotJxlly issued server command: /kc list
+[17:33:02] [Server thread/INFO]: NotJxlly issued server command: /spawndummy
+[17:33:02] [Server thread/WARN]: Failed to set protocol: protocol
+[17:33:02] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
+[17:33:02] [Server thread/WARN]: [ViaVersion] Could not find UserConnection for logging-in player 8f59d2be-b75e-4474-8744-0e164d669b4a
+[17:33:02] [Server thread/INFO]: GurjantBot joined the game
+[17:33:02] [Server thread/INFO]: GurjantBot[local] logged in with entity id 1519 at ([WeltMitKurosh]80.5, 65.0, 368.5)
+[17:33:02] [Server thread/INFO]: GurjantBot joined the game.
