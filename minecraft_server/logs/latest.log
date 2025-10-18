@@ -581,3 +581,5 @@ java.net.SocketException: Connection reset
 [08:49:38] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [08:53:26] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [08:53:39] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:56:39] [Server thread/INFO]: NotJxlly issued server command: /whitelist
+[08:56:41] [Server thread/INFO]: NotJxlly issued server command: /whitelist on
