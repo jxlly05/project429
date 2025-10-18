@@ -583,3 +583,8 @@ java.net.SocketException: Connection reset
 [08:53:39] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [08:56:39] [Server thread/INFO]: NotJxlly issued server command: /whitelist
 [08:56:41] [Server thread/INFO]: NotJxlly issued server command: /whitelist on
+[08:57:05] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[08:57:05] [Server thread/INFO]: NotJxlly lost connection: Disconnected
+[08:57:05] [Server thread/INFO]: NotJxlly left the game
+[08:57:26] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[08:57:39] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
