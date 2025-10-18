@@ -334,3 +334,4 @@ java.net.SocketException: Connection reset
 [17:51:23] [Server thread/INFO]: CraftDummy joined the game
 [17:51:23] [Server thread/INFO]: CraftDummy[local] logged in with entity id 4805 at ([WeltMitKurosh]80.5, 65.0, 368.5)
 [17:51:23] [Server thread/INFO]: CraftDummy joined the game.
+[17:53:41] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
