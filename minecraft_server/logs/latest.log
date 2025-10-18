@@ -943,3 +943,6 @@ java.net.SocketException: Connection reset
 [17:01:03] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [17:03:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [17:04:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[17:06:27] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[17:06:27] [Server thread/INFO]: NotJxlly lost connection: Disconnected
+[17:06:27] [Server thread/INFO]: NotJxlly left the game
