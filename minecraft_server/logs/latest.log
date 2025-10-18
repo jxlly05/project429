@@ -348,3 +348,5 @@ java.net.SocketException: Connection reset
 [17:56:42] [Server thread/INFO]: Spectre joined the game.
 [17:57:42] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [17:57:55] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[18:01:44] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[18:01:56] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
