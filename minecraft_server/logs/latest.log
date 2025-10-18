@@ -1,536 +1,398 @@
-[14:10:45] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Linux 6.14.0-1012-azure (amd64)
-[14:10:45] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) for Minecraft 1.21.8
-[14:10:46] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[14:10:46] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[14:10:46] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
- - KeepChunks (1.7.3), Multiverse-Core (5.3.0), Multiverse-Inventories (5.1.3), NotTooExpensive (1.3.4), ScheduledStop (1.0.0), ViaBackwards (5.5.1), ViaVersion (5.5.0), playit-gg (0.1.4)
-[14:10:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:10:53] [ServerMain/INFO]: Loaded 1407 recipes
-[14:10:53] [ServerMain/INFO]: Loaded 1520 advancements
-[14:10:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[14:10:54] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 449.9ms
-[14:10:54] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[14:10:54] [Server thread/INFO]: Loading properties
-[14:10:54] [Server thread/INFO]: This server is running Purpur version 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[14:10:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[14:10:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:10:54] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:10:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[14:10:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[14:10:56] [Server thread/INFO]: Default game type: ADVENTURE
-[14:10:56] [Server thread/INFO]: Generating keypair
-[14:10:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:10:56] [Server thread/INFO]: Using epoll channel type
-[14:10:56] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:10:56] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[14:10:56] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
-[14:10:56] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.0
-[14:10:56] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.0 is now loaded. Registering protocol transformers and injecting...
-[14:10:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[14:10:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[14:10:57] [Server thread/ERROR]: [ViaBackwards] ================================
-[14:10:57] [Server thread/ERROR]: [ViaBackwards] YOUR VIAVERSION IS OUTDATED (you are running 5.5.0)
-[14:10:57] [Server thread/ERROR]: [ViaBackwards] PLEASE USE VIAVERSION 5.5.1 OR NEWER
-[14:10:57] [Server thread/ERROR]: [ViaBackwards] LINK: https://ci.viaversion.com/
-[14:10:57] [Server thread/ERROR]: [ViaBackwards] VIABACKWARDS WILL NOW DISABLE
-[14:10:57] [Server thread/ERROR]: [ViaBackwards] ================================
-[14:10:57] [Server thread/INFO]: [NotTooExpensive] Loading server plugin NotTooExpensive v1.3.4
-[14:10:57] [Server thread/INFO]: [KeepChunks] Loading server plugin KeepChunks v1.7.3
-[14:10:57] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
-[14:10:57] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.5.1
-[14:10:57] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.3
-[14:10:57] [Server thread/INFO]: [ScheduledStop] Loading server plugin ScheduledStop v1.0.0
-[14:10:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:10:57] [Server thread/INFO]: Preparing level "WeltMitKurosh"
-[14:10:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:10:58] [Server thread/INFO]: Preparing spawn area: 0%
-[14:10:58] [Server thread/INFO]: Preparing spawn area: 4%
-[14:10:59] [Server thread/INFO]: Preparing spawn area: 100%
-[14:10:59] [Server thread/INFO]: Time elapsed: 1006 ms
-[14:10:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:10:59] [Server thread/INFO]: Preparing spawn area: 0%
-[14:10:59] [Server thread/INFO]: Time elapsed: 424 ms
-[14:10:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:10:59] [Server thread/INFO]: Preparing spawn area: 0%
-[14:11:00] [Server thread/INFO]: Time elapsed: 222 ms
-[14:11:00] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
-[14:11:01] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[14:11:01] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[14:11:01] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[14:11:01] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.0
-[14:11:01] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
-[14:11:01] [Server thread/INFO]: [NotTooExpensive] Enabling NotTooExpensive v1.3.4
-[14:11:01] [Server thread/INFO]: [KeepChunks] Enabling KeepChunks v1.7.3
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'world' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: [KeepChunks] [KeepChunks] World 'Survival' doesn't exist, or isn't loaded in memory.
-[14:11:01] [Server thread/INFO]: 
-[14:11:01] [Server thread/INFO]:  _     _                   _______ _                 _          
-[14:11:01] [Server thread/INFO]: (_)   | |                 (_______) |               | |  v1.7.3
-[14:11:01] [Server thread/INFO]:  _____| |_____ _____ ____  _      | |__  _   _ ____ | |  _  ___ 
-[14:11:01] [Server thread/INFO]: |  _   _) ___ | ___ |  _ \| |     |  _ \| | | |  _ \| |_/ )/___)
-[14:11:01] [Server thread/INFO]: | |  \ \| ____| ____| |_| | |_____| | | | |_| | | | |  _ (|___ |
-[14:11:01] [Server thread/INFO]: |_|   \_)_____)_____)  __/ \______)_| |_|____/|_| |_|_| \_|___/ 
-[14:11:01] [Server thread/INFO]:                     |_|                                         
-[14:11:01] [Server thread/INFO]: 
-[14:11:01] [Server thread/INFO]: [KeepChunks] KeepChunks v1.7.3 has been enabled
-[14:11:01] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
-[14:11:01] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[14:11:01] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[14:11:01] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.5.1
-[14:11:01] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.1.3
-[14:11:02] [Server thread/INFO]: [Multiverse-Inventories] The following worlds for group 'default' are not loaded: survival_nether, survival, survival_the_end
-[14:11:02] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[14:11:02] [Server thread/INFO]: [Multiverse-Inventories] Version 5.1.3 (API v5.1) Enabled - By dumptruckman and benwoo1110
-[14:11:02] [Server thread/INFO]: [ScheduledStop] Enabling ScheduledStop v1.0.0
-[14:11:02] [Server thread/INFO]: [ScheduledStop] ShutdownTimer aktiviert.
-[14:11:02] [Thread-5/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: offers-lauderdale.gl.joinmc.link
-[14:11:02] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
-[14:11:02] [Thread-5/INFO]: playit.gg: tunnel setup
-[14:11:02] [Thread-5/INFO]: playit.gg: offers-lauderdale.gl.joinmc.link
-[14:11:02] [Thread-5/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:82c:10:0:0:0:1, error : java.net.SocketException: Network is unreachable
-[14:11:03] [Server thread/INFO]: [spark] Starting background profiler...
-[14:11:03] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[14:11:03] [Server thread/INFO]: Done preparing level "WeltMitKurosh" (6.047s)
-[14:11:03] [Server thread/INFO]: Running delayed init tasks
-[14:11:03] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[14:11:03] [Server thread/INFO]: Checking for conflicts in groups...
-[14:11:03] [Server thread/INFO]: No group conflicts found!
-[14:11:03] [Server thread/INFO]: Done (23.648s)! For help, type "help"
-[14:11:03] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.5.1, you're on: 5.5.0
-[14:11:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.176:17807, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 94, -122, 105, -80, 69, -113, 42, 78, 86, 108, -85, 8, 104, -13, -97, -4, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -3, 109, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, -111, 35, 125, 38, 16, 10, -68, -64, -13, -7, -6, 27, -39, 41, 29, 15], tunnelServerId=1, dataCenterId=36}
-[14:11:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:11:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[14:11:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:11:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:11:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:11:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:11:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:11:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:11:08] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:11:09] [nioEventLoopGroup-2-1/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+[15:55:17] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Linux 6.14.0-1012-azure (amd64)
+[15:55:17] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) for Minecraft 1.21.8
+[15:55:19] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:55:20] [ServerMain/WARN]: [MavenLibraryResolver] Use of Maven Central as a CDN is against the Maven Central Terms of Service. Use MavenLibraryResolver.MAVEN_CENTRAL_DEFAULT_MIRROR instead.
+java.lang.RuntimeException: Plugin used Maven Central for library resolution (MavenRepo (https://repo.maven.apache.org/maven2/, default, releases+snapshots))
+	at io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver.addRepository(MavenLibraryResolver.java:126) ~[purpur-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at RFP-4.1.4.jar/me.marlester.rfp.ReallyFakePlayersLoader.classloader(ReallyFakePlayersLoader.java:45) ~[RFP-4.1.4.jar:?]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.build(PaperPluginProviderFactory.java:38) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.build(PaperPluginProviderFactory.java:23) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.provider.type.PluginFileType.register(PluginFileType.java:72) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:95) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at net.minecraft.server.Main.main(Main.java:119) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at org.bukkit.craftbukkit.Main.main(Main.java:250) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[14:11:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.176:17817, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 94, -122, 105, -80, 69, -103, 101, 101, 33, 28, -85, 8, 104, -13, -97, -1, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -52, 29, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 32, 14, -101, -1, -67, 24, 44, -118, -62, 104, -76, -101, 3, 21, -12, 25], tunnelServerId=1, dataCenterId=36}
-[14:11:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:11:11] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[14:11:11] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:11:11] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:11:11] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:11:11] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:11:11] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:11:11] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:11:11] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:11:12] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.176:17822, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 94, -122, 105, -80, 69, -98, 82, -48, 78, -87, -85, 8, 104, -13, -96, 0, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 13, -86, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, -46, 107, 20, -71, 125, -30, -16, 6, -128, -69, 120, 119, -64, -94, -7, -12], tunnelServerId=1, dataCenterId=36}
-[14:11:12] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:11:12] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[14:11:12] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:11:12] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:11:12] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:11:12] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:11:12] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:11:12] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:11:12] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:11:12] [nioEventLoopGroup-2-3/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+[15:55:20] [ServerMain/WARN]: [MavenLibraryResolver] Use of Maven Central as a CDN is against the Maven Central Terms of Service. Use MavenLibraryResolver.MAVEN_CENTRAL_DEFAULT_MIRROR instead.
+java.lang.RuntimeException: Plugin used Maven Central for library resolution (maven5 (https://repo.maven.apache.org/maven2/, default, releases+snapshots))
+	at io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver.addRepository(MavenLibraryResolver.java:126) ~[purpur-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at RFP-4.1.4.jar/me.marlester.rfp.ReallyFakePlayersLoader.classloader(ReallyFakePlayersLoader.java:45) ~[RFP-4.1.4.jar:?]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.build(PaperPluginProviderFactory.java:38) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.build(PaperPluginProviderFactory.java:23) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.provider.type.PluginFileType.register(PluginFileType.java:72) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:95) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at net.minecraft.server.Main.main(Main.java:119) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at org.bukkit.craftbukkit.Main.main(Main.java:250) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[14:11:13] [User Authenticator #0/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
-[14:11:14] [Server thread/INFO]: NotJxlly joined the game
-[14:11:14] [Server thread/INFO]: NotJxlly[/127.0.0.1:49900] logged in with entity id 223 at ([WeltMitKurosh]-3049.694579378474, 59.0, 6780.699999988079)
-[14:12:31] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=45.137.102.43:57962, claimAddress=69.9.184.2:43782, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 45, -119, 102, 43, -30, 106, -67, 78, -97, 22, -85, 6, 104, -13, -96, 79, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 7, 23, -85, 6, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 96, -68, 2, 50, -48, -95, -125, 43, 16, 78, -54, 83, -86, 102, 21, 75], tunnelServerId=1, dataCenterId=36}
-[14:12:31] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:12:31] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43782 to claim client
-[14:12:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:12:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:12:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:12:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:12:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:12:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:12:31] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:14:29] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=31.57.97.221:64129, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 31, 57, 97, -35, -6, -127, 32, 37, 72, -110, -85, 8, 104, -13, -96, -59, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 51, -109, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, -63, 37, -44, 17, -45, -94, 37, -101, -37, -116, 86, -69, -72, 82, 111, -90], tunnelServerId=1, dataCenterId=28}
-[14:14:29] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:14:29] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[14:14:29] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:14:29] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:14:29] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:14:29] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:14:29] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:14:29] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:14:29] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:15:03] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:15:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:15:57] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:080c:0001:0000:0000:0000:00d3]:20907, peerAddr=[2605:7980:0000:8174:0000:0000:0000:0001]:26001, claimAddress=69.9.184.2:43784, claimToken=[64, 0, 94, 38, 2, -5, -81, 8, 12, 0, 1, 0, 0, 0, 0, 0, 0, 0, -45, 81, -85, 38, 5, 121, -128, 0, 0, -127, 116, 0, 0, 0, 0, 0, 0, 0, 1, 101, -111, 81, 102, 94, -16, -85, 8, 104, -13, -95, 29, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 6, -15, -85, 8, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, -74, -128, 38, -46, -89, -71, 91, 116, -80, -32, -51, -12, -111, -38, 60, -47], tunnelServerId=1, dataCenterId=44}
-[14:15:57] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:15:57] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[14:15:57] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:15:57] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:15:57] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:15:57] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:15:57] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:15:57] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:15:57] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:19:03] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:19:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:21:58] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=31.57.97.221:53252, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 31, 57, 97, -35, -48, 4, -23, 64, -50, -47, -85, 8, 104, -13, -94, -122, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -5, -46, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, -107, -67, -64, 59, -70, -22, 67, -80, -54, 10, -59, 80, -67, 82, -25, -51], tunnelServerId=1, dataCenterId=28}
-[14:21:58] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:21:58] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[14:21:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:21:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:21:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:21:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:21:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:21:58] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:21:58] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:22:59] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=45.137.102.43:54781, claimAddress=69.9.184.2:43782, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 45, -119, 102, 43, -43, -3, -42, -45, -15, -95, -85, 6, 104, -13, -94, -61, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -28, -94, -85, 6, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, -71, -8, 49, 97, 54, -102, -90, -65, 48, -22, -34, -25, 44, -53, -60, -91], tunnelServerId=1, dataCenterId=36}
-[14:22:59] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:22:59] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43782 to claim client
-[14:22:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:22:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:22:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:22:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:22:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:22:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:22:59] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:23:05] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:23:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:27:05] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:27:07] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=31.57.97.221:53680, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 31, 57, 97, -35, -47, -80, -109, -16, 9, 43, -85, 8, 104, -13, -93, -69, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 72, 44, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, -117, -62, -95, -54, 73, 44, -28, -70, -27, 36, 104, -28, 11, -10, 24, 72], tunnelServerId=1, dataCenterId=28}
-[14:27:07] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:27:07] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[14:27:07] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:27:07] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:27:07] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:27:07] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:27:07] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:27:07] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:27:07] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:27:16] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:28:00] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:080c:0001:0000:0000:0000:00d3]:20907, peerAddr=[2605:7980:0000:8174:0000:0000:0000:0001]:40388, claimAddress=69.9.184.2:43784, claimToken=[64, 0, 94, 38, 2, -5, -81, 8, 12, 0, 1, 0, 0, 0, 0, 0, 0, 0, -45, 81, -85, 38, 5, 121, -128, 0, 0, -127, 116, 0, 0, 0, 0, 0, 0, 0, 1, -99, -60, -3, 101, -25, -96, -85, 8, 104, -13, -93, -16, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -37, -95, -85, 8, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, -31, -104, -51, 75, 80, -13, -100, -87, 26, -61, -28, 39, -84, 77, 87, -111], tunnelServerId=1, dataCenterId=44}
-[14:28:00] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:28:00] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[14:28:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:28:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:28:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:28:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:28:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:28:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:28:00] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:30:10] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.176:17703, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 94, -122, 105, -80, 69, 39, -118, -101, -84, 44, -85, 8, 104, -13, -92, 114, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 37, 45, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, 38, -6, 103, -64, -22, 49, 62, 104, 14, -93, 119, -104, -50, -112, 94, -14], tunnelServerId=1, dataCenterId=36}
-[14:30:10] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:30:10] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[14:30:10] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:30:10] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:30:10] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:30:10] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:30:10] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:30:10] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:30:10] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:30:10] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[14:30:10] [Server thread/INFO]: NotJxlly lost connection: Disconnected
-[14:30:10] [Server thread/INFO]: NotJxlly left the game
-[14:30:10] [nioEventLoopGroup-2-1/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+[15:55:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/marlester-dev/MCBotLib/1.2.0/MCBotLib-1.2.0.pom
+[15:55:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/github/marlester-dev/MCBotLib/1.2.0/MCBotLib-1.2.0.pom
+[15:55:22] [DefaultMetadataResolver-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:22] [DefaultMetadataResolver-0-2/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:22] [DefaultMetadataResolver-0-1/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:22] [DefaultMetadataResolver-0-3/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-snapshots/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:22] [DefaultMetadataResolver-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:22] [DefaultMetadataResolver-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:23] [DefaultMetadataResolver-0-2/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:23] [DefaultMetadataResolver-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:23] [DefaultMetadataResolver-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:23] [DefaultMetadataResolver-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven.fabricmc.net/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:23] [DefaultMetadataResolver-0-3/INFO]: [MavenLibraryResolver] Downloading https://maven.neoforged.net/releases/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:23] [DefaultMetadataResolver-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:23] [DefaultMetadataResolver-0-2/INFO]: [MavenLibraryResolver] Downloading https://maven.parchmentmc.org/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:24] [DefaultMetadataResolver-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/maven-metadata.xml
+[15:55:25] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/protocol-1.21.4-20250612.174129-27.pom
+[15:55:25] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/protocol-1.21.4-20250612.174129-27.pom
+[15:55:25] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/protocol-1.21.4-20250612.174129-27.pom
+[15:55:25] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-snapshots/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/protocol-1.21.4-20250612.174129-27.pom
+[15:55:26] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/cloudburstmc/nbt/3.0.0.Final/nbt-3.0.0.Final.pom
+[15:55:26] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.pom
+[15:55:26] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.11.0/gson-parent-2.11.0.pom
+[15:55:26] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.pom
+[15:55:26] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.27.0/error_prone_parent-2.27.0.pom
+[15:55:26] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/raphimc/MinecraftAuth/4.1.1/MinecraftAuth-4.1.1.pom
+[15:55:26] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/lenni0451/commons/httpclient/1.6.0/httpclient-1.6.0.pom
+[15:55:26] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.pom
+[15:55:26] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-root/0.12.6/jjwt-root-0.12.6.pom
+[15:55:26] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.pom
+[15:55:26] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-gson/0.12.6/jjwt-gson-0.12.6.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.16/slf4j-parent-2.0.16.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-bom/2.0.16/slf4j-bom-2.0.16.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.9/slf4j-parent-2.0.9.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-bom/2.0.9/slf4j-bom-2.0.9.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.17.0/adventure-bom-4.17.0.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom
+[15:55:27] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/option/1.0.0/option-1.0.0.pom
+[15:55:28] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[15:55:28] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[15:55:28] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[15:55:28] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.pom
+[15:55:28] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service-aggregator/1.1.1/auto-service-aggregator-1.1.1.pom
+[15:55:28] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-json-legacy-impl/4.17.0/adventure-text-serializer-json-legacy-impl-4.17.0.pom
+[15:55:28] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.17.0/adventure-nbt-4.17.0.pom
+[15:55:28] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/cloudburstmc/math/api/2.0/api-2.0.pom
+[15:55:28] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/org/cloudburstmc/math/api/2.0/api-2.0.pom
+[15:55:28] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/org/cloudburstmc/math/api/2.0/api-2.0.pom
+[15:55:29] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/cloudburstmc/math/math-parent/2.0/math-parent-2.0.pom
+[15:55:29] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/org/cloudburstmc/math/math-parent/2.0/math-parent-2.0.pom
+[15:55:29] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/org/cloudburstmc/math/math-parent/2.0/math-parent-2.0.pom
+[15:55:30] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[15:55:30] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/cloudburstmc/math/immutable/2.0/immutable-2.0.pom
+[15:55:30] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/org/cloudburstmc/math/immutable/2.0/immutable-2.0.pom
+[15:55:30] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/org/cloudburstmc/math/immutable/2.0/immutable-2.0.pom
+[15:55:30] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-object-int-maps/8.5.3/fastutil-object-int-maps-8.5.3.pom
+[15:55:30] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-object-int-maps/8.5.3/fastutil-object-int-maps-8.5.3.pom
+[15:55:30] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-object-int-maps/8.5.3/fastutil-object-int-maps-8.5.3.pom
+[15:55:31] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-object-map-parent/8.5.3/fastutil-object-map-parent-8.5.3.pom
+[15:55:31] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-object-map-parent/8.5.3/fastutil-object-map-parent-8.5.3.pom
+[15:55:31] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-object-map-parent/8.5.3/fastutil-object-map-parent-8.5.3.pom
+[15:55:32] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-map-parent/8.5.3/fastutil-map-parent-8.5.3.pom
+[15:55:32] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-map-parent/8.5.3/fastutil-map-parent-8.5.3.pom
+[15:55:32] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-map-parent/8.5.3/fastutil-map-parent-8.5.3.pom
+[15:55:32] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-parent/8.5.3/fastutil-parent-8.5.3.pom
+[15:55:32] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-parent/8.5.3/fastutil-parent-8.5.3.pom
+[15:55:32] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-parent/8.5.3/fastutil-parent-8.5.3.pom
+[15:55:33] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-object-sets/8.5.3/fastutil-object-sets-8.5.3.pom
+[15:55:33] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-object-sets/8.5.3/fastutil-object-sets-8.5.3.pom
+[15:55:33] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-object-sets/8.5.3/fastutil-object-sets-8.5.3.pom
+[15:55:34] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-set-parent/8.5.3/fastutil-set-parent-8.5.3.pom
+[15:55:34] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-set-parent/8.5.3/fastutil-set-parent-8.5.3.pom
+[15:55:34] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-set-parent/8.5.3/fastutil-set-parent-8.5.3.pom
+[15:55:34] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-object-common/8.5.3/fastutil-object-common-8.5.3.pom
+[15:55:34] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-object-common/8.5.3/fastutil-object-common-8.5.3.pom
+[15:55:34] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-object-common/8.5.3/fastutil-object-common-8.5.3.pom
+[15:55:35] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-common-parent/8.5.3/fastutil-common-parent-8.5.3.pom
+[15:55:35] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-common-parent/8.5.3/fastutil-common-parent-8.5.3.pom
+[15:55:35] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-common-parent/8.5.3/fastutil-common-parent-8.5.3.pom
+[15:55:35] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-common/8.5.3/fastutil-common-8.5.3.pom
+[15:55:36] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-common/8.5.3/fastutil-common-8.5.3.pom
+[15:55:36] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-common/8.5.3/fastutil-common-8.5.3.pom
+[15:55:37] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-int-sets/8.5.3/fastutil-int-sets-8.5.3.pom
+[15:55:37] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-int-sets/8.5.3/fastutil-int-sets-8.5.3.pom
+[15:55:37] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-int-sets/8.5.3/fastutil-int-sets-8.5.3.pom
+[15:55:37] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-int-common/8.5.3/fastutil-int-common-8.5.3.pom
+[15:55:37] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-int-common/8.5.3/fastutil-int-common-8.5.3.pom
+[15:55:37] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-int-common/8.5.3/fastutil-int-common-8.5.3.pom
+[15:55:38] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-int-object-maps/8.5.3/fastutil-int-object-maps-8.5.3.pom
+[15:55:38] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-int-object-maps/8.5.3/fastutil-int-object-maps-8.5.3.pom
+[15:55:38] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-int-object-maps/8.5.3/fastutil-int-object-maps-8.5.3.pom
+[15:55:38] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-int-map-parent/8.5.3/fastutil-int-map-parent-8.5.3.pom
+[15:55:38] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-int-map-parent/8.5.3/fastutil-int-map-parent-8.5.3.pom
+[15:55:38] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-int-map-parent/8.5.3/fastutil-int-map-parent-8.5.3.pom
+[15:55:39] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-int-int-maps/8.5.3/fastutil-int-int-maps-8.5.3.pom
+[15:55:39] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-int-int-maps/8.5.3/fastutil-int-int-maps-8.5.3.pom
+[15:55:39] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-int-int-maps/8.5.3/fastutil-int-int-maps-8.5.3.pom
+[15:55:39] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-all/4.1.103.Final/netty-all-4.1.103.Final.pom
+[15:55:39] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.103.Final/netty-buffer-4.1.103.Final.pom
+[15:55:39] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.103.Final/netty-parent-4.1.103.Final.pom
+[15:55:39] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.103.Final/netty-codec-4.1.103.Final.pom
+[15:55:39] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.103.Final/netty-codec-dns-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-haproxy/4.1.103.Final/netty-codec-haproxy-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.103.Final/netty-codec-http-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.103.Final/netty-codec-http2-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-memcache/4.1.103.Final/netty-codec-memcache-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-mqtt/4.1.103.Final/netty-codec-mqtt-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-redis/4.1.103.Final/netty-codec-redis-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-smtp/4.1.103.Final/netty-codec-smtp-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.103.Final/netty-codec-socks-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-stomp/4.1.103.Final/netty-codec-stomp-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-xml/4.1.103.Final/netty-codec-xml-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.103.Final/netty-common-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.103.Final/netty-handler-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.103.Final/netty-transport-native-unix-common-4.1.103.Final.pom
+[15:55:40] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.103.Final/netty-handler-proxy-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler-ssl-ocsp/4.1.103.Final/netty-handler-ssl-ocsp-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.103.Final/netty-resolver-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.103.Final/netty-resolver-dns-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.103.Final/netty-transport-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-rxtx/4.1.103.Final/netty-transport-rxtx-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-sctp/4.1.103.Final/netty-transport-sctp-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-udt/4.1.103.Final/netty-transport-udt-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.103.Final/netty-transport-classes-epoll-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.103.Final/netty-transport-classes-kqueue-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.103.Final/netty-resolver-dns-classes-macos-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.103.Final/netty-transport-native-epoll-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.103.Final/netty-transport-native-kqueue-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.103.Final/netty-resolver-dns-native-macos-4.1.103.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/incubator/netty-incubator-transport-native-io_uring/0.0.24.Final/netty-incubator-transport-native-io_uring-0.0.24.Final.pom
+[15:55:41] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/incubator/netty-incubator-transport-parent-io_uring/0.0.24.Final/netty-incubator-transport-parent-io_uring-0.0.24.Final.pom
+[15:55:42] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/incubator/netty-incubator-transport-classes-io_uring/0.0.24.Final/netty-incubator-transport-classes-io_uring-0.0.24.Final.pom
+[15:55:42] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.101.Final/netty-common-4.1.101.Final.pom
+[15:55:42] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.101.Final/netty-parent-4.1.101.Final.pom
+[15:55:42] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.101.Final/netty-buffer-4.1.101.Final.pom
+[15:55:42] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.101.Final/netty-transport-4.1.101.Final.pom
+[15:55:42] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.101.Final/netty-resolver-4.1.101.Final.pom
+[15:55:42] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.101.Final/netty-transport-native-unix-common-4.1.101.Final.pom
+[15:55:42] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.pom
+[15:55:42] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/Revxrsal/Lamp/common/3.3.4/common-3.3.4.pom
+[15:55:42] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/github/Revxrsal/Lamp/common/3.3.4/common-3.3.4.pom
+[15:55:43] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/Revxrsal/Lamp/bukkit/3.3.4/bukkit-3.3.4.pom
+[15:55:43] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/github/Revxrsal/Lamp/bukkit/3.3.4/bukkit-3.3.4.pom
+[15:55:43] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/dev/dejvokep/boosted-yaml/1.3.7/boosted-yaml-1.3.7.pom
+[15:55:43] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/dev/dejvokep/boosted-yaml-spigot/1.5/boosted-yaml-spigot-1.5.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/inject/guice/7.0.0/guice-7.0.0.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/7.0.0/guice-parent-7.0.0.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/google/5/google-5.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.pom
+[15:55:44] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+[15:55:45] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+[15:55:45] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+[15:55:45] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-assistedinject/7.0.0/guice-assistedinject-7.0.0.pom
+[15:55:45] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/inject/extensions/extensions-parent/7.0.0/extensions-parent-7.0.0.pom
+[15:55:45] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.pom
+[15:55:45] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.18.0/error_prone_parent-2.18.0.pom
+[15:55:45] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.pom
+[15:55:45] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.18/byte-buddy-agent-1.14.18.pom
+[15:55:45] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.14.18/byte-buddy-parent-1.14.18.pom
+[15:55:45] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/marlester-dev/MCBotLib/1.2.0/MCBotLib-1.2.0.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/cloudburstmc/nbt/3.0.0.Final/nbt-3.0.0.Final.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/raphimc/MinecraftAuth/4.1.1/MinecraftAuth-4.1.1.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/lenni0451/commons/httpclient/1.6.0/httpclient-1.6.0.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-gson/0.12.6/jjwt-gson-0.12.6.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/option/1.0.0/option-1.0.0.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-json-legacy-impl/4.17.0/adventure-text-serializer-json-legacy-impl-4.17.0.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.17.0/adventure-nbt-4.17.0.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/cloudburstmc/math/api/2.0/api-2.0.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/cloudburstmc/math/immutable/2.0/immutable-2.0.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-object-int-maps/8.5.3/fastutil-object-int-maps-8.5.3.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-object-sets/8.5.3/fastutil-object-sets-8.5.3.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-object-common/8.5.3/fastutil-object-common-8.5.3.jar
+[15:55:45] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-common/8.5.3/fastutil-common-8.5.3.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-int-sets/8.5.3/fastutil-int-sets-8.5.3.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-int-common/8.5.3/fastutil-int-common-8.5.3.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-int-object-maps/8.5.3/fastutil-int-object-maps-8.5.3.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/nukkitx/fastutil/fastutil-int-int-maps/8.5.3/fastutil-int-int-maps-8.5.3.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-all/4.1.103.Final/netty-all-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.103.Final/netty-buffer-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.103.Final/netty-codec-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.103.Final/netty-codec-dns-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-haproxy/4.1.103.Final/netty-codec-haproxy-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.103.Final/netty-codec-http-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.103.Final/netty-codec-http2-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-memcache/4.1.103.Final/netty-codec-memcache-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-mqtt/4.1.103.Final/netty-codec-mqtt-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-redis/4.1.103.Final/netty-codec-redis-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-smtp/4.1.103.Final/netty-codec-smtp-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.103.Final/netty-codec-socks-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-stomp/4.1.103.Final/netty-codec-stomp-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-xml/4.1.103.Final/netty-codec-xml-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.103.Final/netty-common-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.103.Final/netty-handler-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.103.Final/netty-transport-native-unix-common-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.103.Final/netty-handler-proxy-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler-ssl-ocsp/4.1.103.Final/netty-handler-ssl-ocsp-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.103.Final/netty-resolver-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.103.Final/netty-resolver-dns-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.103.Final/netty-transport-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-rxtx/4.1.103.Final/netty-transport-rxtx-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-sctp/4.1.103.Final/netty-transport-sctp-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-udt/4.1.103.Final/netty-transport-udt-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.103.Final/netty-transport-classes-epoll-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.103.Final/netty-transport-classes-kqueue-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.103.Final/netty-resolver-dns-classes-macos-4.1.103.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.103.Final/netty-transport-native-epoll-4.1.103.Final-linux-x86_64.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.103.Final/netty-transport-native-epoll-4.1.103.Final-linux-aarch_64.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.103.Final/netty-transport-native-epoll-4.1.103.Final-linux-riscv64.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.103.Final/netty-transport-native-kqueue-4.1.103.Final-osx-x86_64.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.103.Final/netty-transport-native-kqueue-4.1.103.Final-osx-aarch_64.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.103.Final/netty-resolver-dns-native-macos-4.1.103.Final-osx-x86_64.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.103.Final/netty-resolver-dns-native-macos-4.1.103.Final-osx-aarch_64.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/incubator/netty-incubator-transport-native-io_uring/0.0.24.Final/netty-incubator-transport-native-io_uring-0.0.24.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/io/netty/incubator/netty-incubator-transport-classes-io_uring/0.0.24.Final/netty-incubator-transport-classes-io_uring-0.0.24.Final.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/Revxrsal/Lamp/common/3.3.4/common-3.3.4.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/Revxrsal/Lamp/bukkit/3.3.4/bukkit-3.3.4.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/dev/dejvokep/boosted-yaml/1.3.7/boosted-yaml-1.3.7.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/dev/dejvokep/boosted-yaml-spigot/1.5/boosted-yaml-spigot-1.5.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/inject/guice/7.0.0/guice-7.0.0.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-assistedinject/7.0.0/guice-assistedinject-7.0.0.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar
+[15:55:46] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.18/byte-buddy-agent-1.14.18.jar
+[15:55:46] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/github/marlester-dev/MCBotLib/1.2.0/MCBotLib-1.2.0.jar
+[15:55:47] [BasicRepositoryConnector-jitpack.io-2-0/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/org/cloudburstmc/math/api/2.0/api-2.0.jar
+[15:55:47] [BasicRepositoryConnector-jitpack.io-2-1/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/org/cloudburstmc/math/immutable/2.0/immutable-2.0.jar
+[15:55:47] [BasicRepositoryConnector-jitpack.io-2-2/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-object-int-maps/8.5.3/fastutil-object-int-maps-8.5.3.jar
+[15:55:47] [BasicRepositoryConnector-jitpack.io-2-3/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-object-sets/8.5.3/fastutil-object-sets-8.5.3.jar
+[15:55:47] [BasicRepositoryConnector-jitpack.io-2-4/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-object-common/8.5.3/fastutil-object-common-8.5.3.jar
+[15:55:47] [BasicRepositoryConnector-jitpack.io-2-0/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-common/8.5.3/fastutil-common-8.5.3.jar
+[15:55:47] [BasicRepositoryConnector-jitpack.io-2-3/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-int-sets/8.5.3/fastutil-int-sets-8.5.3.jar
+[15:55:47] [BasicRepositoryConnector-jitpack.io-2-1/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-int-common/8.5.3/fastutil-int-common-8.5.3.jar
+[15:55:47] [BasicRepositoryConnector-jitpack.io-2-2/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-int-object-maps/8.5.3/fastutil-int-object-maps-8.5.3.jar
+[15:55:47] [BasicRepositoryConnector-jitpack.io-2-0/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/nukkitx/fastutil/fastutil-int-int-maps/8.5.3/fastutil-int-int-maps-8.5.3.jar
+[15:55:47] [BasicRepositoryConnector-jitpack.io-2-2/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/github/Revxrsal/Lamp/common/3.3.4/common-3.3.4.jar
+[15:55:47] [BasicRepositoryConnector-jitpack.io-2-3/INFO]: [MavenLibraryResolver] Downloading https://jitpack.io/com/github/Revxrsal/Lamp/bukkit/3.3.4/bukkit-3.3.4.jar
+[15:55:50] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/org/cloudburstmc/math/api/2.0/api-2.0.jar
+[15:55:51] [BasicRepositoryConnector-repo.opencollab.dev-3-0/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/org/cloudburstmc/math/immutable/2.0/immutable-2.0.jar
+[15:55:51] [BasicRepositoryConnector-repo.opencollab.dev-3-1/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-object-int-maps/8.5.3/fastutil-object-int-maps-8.5.3.jar
+[15:55:51] [BasicRepositoryConnector-repo.opencollab.dev-3-2/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-object-sets/8.5.3/fastutil-object-sets-8.5.3.jar
+[15:55:51] [BasicRepositoryConnector-repo.opencollab.dev-3-3/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-object-common/8.5.3/fastutil-object-common-8.5.3.jar
+[15:55:51] [BasicRepositoryConnector-repo.opencollab.dev-3-4/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-common/8.5.3/fastutil-common-8.5.3.jar
+[15:55:52] [BasicRepositoryConnector-repo.opencollab.dev-3-3/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-int-sets/8.5.3/fastutil-int-sets-8.5.3.jar
+[15:55:52] [BasicRepositoryConnector-repo.opencollab.dev-3-2/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-int-common/8.5.3/fastutil-int-common-8.5.3.jar
+[15:55:52] [BasicRepositoryConnector-repo.opencollab.dev-3-1/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-int-object-maps/8.5.3/fastutil-int-object-maps-8.5.3.jar
+[15:55:52] [BasicRepositoryConnector-repo.opencollab.dev-3-0/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-releases/com/nukkitx/fastutil/fastutil-int-int-maps/8.5.3/fastutil-int-int-maps-8.5.3.jar
+[15:55:54] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/maven-snapshots/org/geysermc/mcprotocollib/protocol/1.21.4-SNAPSHOT/protocol-1.21.4-20250612.174129-27.jar
+[15:55:57] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[15:55:57] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - RFP (4.1.4)
+[15:55:57] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - KeepChunks (1.7.3), Multiverse-Core (5.3.0), Multiverse-Inventories (5.1.3), NotTooExpensive (1.3.4), ScheduledStop (1.0.0), ViaBackwards (5.5.1), ViaVersion (5.5.1), playit-gg (0.1.4)
+[15:56:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:56:04] [ServerMain/INFO]: Loaded 1407 recipes
+[15:56:04] [ServerMain/INFO]: Loaded 1520 advancements
+[15:56:04] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:56:04] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 433.5ms
+[15:56:04] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[15:56:04] [Server thread/INFO]: Loading properties
+[15:56:04] [Server thread/INFO]: This server is running Purpur version 1.21.8-2497-HEAD@a49cdb9 (2025-09-19T01:51:04Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[15:56:04] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:56:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:56:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:56:05] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:56:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:56:05] [Server thread/INFO]: Default game type: ADVENTURE
+[15:56:05] [Server thread/INFO]: Generating keypair
+[15:56:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:56:05] [Server thread/INFO]: Using epoll channel type
+[15:56:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:56:05] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[15:56:05] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/RFP-4.1.4.jar' in 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [MiniPlaceholders]. Please download and install these plugins to run 'RFP'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:581) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:269) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1179) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:313) ~[purpur-1.21.8.jar:1.21.8-2497-a49cdb9]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[14:31:07] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:31:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:31:43] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=31.57.97.221:62918, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 31, 57, 97, -35, -11, -58, 45, -67, -41, 64, -85, 8, 104, -13, -92, -49, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 76, 65, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, -57, -17, 37, 116, 19, 16, 56, 20, -62, -46, -28, -48, 16, -9, 77, 124], tunnelServerId=1, dataCenterId=28}
-[14:31:43] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:31:43] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[14:31:43] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:31:43] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:31:43] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:31:43] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:31:43] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:31:43] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:31:43] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:32:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.176:17620, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 94, -122, 105, -80, 68, -44, 39, -2, 22, -56, -85, 8, 104, -13, -92, -24, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -28, -55, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, -95, 89, -49, -86, -94, -61, -8, -69, -76, -111, -26, -56, -52, 111, -6, 116], tunnelServerId=1, dataCenterId=36}
-[14:32:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:32:08] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[14:32:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:32:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:32:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:32:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:32:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:32:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:32:08] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:32:09] [nioEventLoopGroup-2-1/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[14:32:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.176:17623, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 94, -122, 105, -80, 68, -41, -59, 111, -101, 49, -85, 8, 104, -13, -92, -23, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 56, 50, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, -98, 39, -94, 83, 35, -118, 52, -114, 22, 64, -79, 30, -92, 30, 58, -52], tunnelServerId=1, dataCenterId=36}
-[14:32:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[14:32:09] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[14:32:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[14:32:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[14:32:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[14:32:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[14:32:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[14:32:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[14:32:09] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[14:32:11] [User Authenticator #1/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
-[14:32:11] [Server thread/INFO]: NotJxlly joined the game
-[14:32:11] [Server thread/INFO]: NotJxlly[/127.0.0.1:47050] logged in with entity id 4579 at ([WeltMitKurosh]-2919.8463111119086, 113.0, 6752.120064547059)
-[14:35:09] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:35:21] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:39:09] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:39:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:43:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:43:22] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:47:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:47:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:51:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:51:24] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:55:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:55:24] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:59:13] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[14:59:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:03:13] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:03:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:07:14] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:07:26] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:11:14] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:11:20] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:0830:0001:0000:0000:0000:00d3]:20907, peerAddr=[2a09:bac5:2d7e:01e1:0000:0000:0030:0083]:22964, claimAddress=69.9.184.2:43789, claimToken=[64, 0, 94, 38, 2, -5, -81, 8, 48, 0, 1, 0, 0, 0, 0, 0, 0, 0, -45, 81, -85, 42, 9, -70, -59, 45, 126, 1, -31, 0, 0, 0, 0, 0, 48, 0, -125, 89, -76, 69, 14, -22, 106, -85, 13, 104, -13, -82, 24, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -78, 107, -85, 13, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, -9, -87, 6, -95, -33, -5, -36, 34, 98, 20, 96, 111, -64, 35, 108, 103], tunnelServerId=1, dataCenterId=36}
-[15:11:20] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[15:11:20] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43789 to claim client
-[15:11:20] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[15:11:20] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[15:11:20] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[15:11:20] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[15:11:20] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[15:11:20] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[15:11:20] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[15:11:26] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:15:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:15:27] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:19:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:19:27] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:23:16] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:23:28] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:27:16] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:27:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:31:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:31:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:33:51] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=31.57.97.221:49250, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 31, 57, 97, -35, -64, 98, 8, -32, -116, 127, -85, 8, 104, -13, -77, 86, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 30, -128, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, -89, -37, 7, -61, 15, -101, -128, 101, -55, -4, -51, -52, 103, 36, -90, -124], tunnelServerId=1, dataCenterId=28}
-[15:33:51] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[15:33:51] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[15:33:51] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[15:33:51] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[15:33:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[15:33:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[15:33:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[15:33:52] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[15:33:52] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[15:35:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:35:32] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:38:49] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[15:38:49] [Server thread/INFO]: NotJxlly lost connection: Disconnected
-[15:38:49] [Server thread/INFO]: NotJxlly left the game
-[15:38:49] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.176:17769, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 94, -122, 105, -80, 69, 105, -119, 41, 46, 82, -85, 8, 104, -13, -76, -119, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -63, 83, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 110, -121, -68, 66, -4, 30, 34, 122, -25, -9, -110, -88, -7, -106, -123, -38], tunnelServerId=1, dataCenterId=36}
-[15:38:49] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[15:38:49] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[15:38:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[15:38:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[15:38:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[15:38:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[15:38:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[15:38:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[15:38:49] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[15:38:50] [nioEventLoopGroup-2-1/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:39:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:39:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.176:17606, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 70, -109, -71, -35, -45, 81, -85, 94, -122, 105, -80, 68, -58, -4, 12, -38, -126, -85, 8, 104, -13, -76, -78, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 59, -125, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, -71, 102, -28, 108, 3, 93, -9, -103, -121, -27, -98, -55, -22, 106, -11, 85], tunnelServerId=1, dataCenterId=36}
-[15:39:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[15:39:30] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
-[15:39:30] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[15:39:30] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[15:39:30] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[15:39:30] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[15:39:30] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[15:39:30] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[15:39:30] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[15:39:33] [User Authenticator #2/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
-[15:39:35] [Server thread/INFO]: NotJxlly joined the game
-[15:39:35] [Server thread/INFO]: NotJxlly[/127.0.0.1:34332] logged in with entity id 20311 at ([WeltMitKurosh]-3443.2358884717273, 288.0, 6979.495122909402)
-[15:39:36] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[15:39:41] [Server thread/INFO]: NotJxlly issued server command: /stop
-[15:39:41] [Server thread/INFO]: [NotJxlly: Stopping the server]
-[15:39:41] [Server thread/INFO]: Stopping server
-[15:39:41] [Server thread/INFO]: [ScheduledStop] Disabling ScheduledStop v1.0.0
-[15:39:41] [Server thread/INFO]: [ScheduledStop] ShutdownTimer deaktiviert.
-[15:39:41] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.1.3
-[15:39:41] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.5.1
-[15:39:41] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
-[15:39:41] [Server thread/INFO]: [KeepChunks] Disabling KeepChunks v1.7.3
-[15:39:41] [Server thread/INFO]: [NotTooExpensive] Disabling NotTooExpensive v1.3.4
-[15:39:41] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.5.0
-[15:39:41] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[15:39:41] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.0
-[15:39:41] [Server thread/INFO]: Saving players
-[15:39:41] [Server thread/INFO]: NotJxlly lost connection: Server closed
-[15:39:41] [Server thread/INFO]: NotJxlly left the game
-[15:39:41] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
-[15:39:41] [Server thread/INFO]: Saving worlds
-[15:39:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:overworld
-[15:39:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh'
-[15:39:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh'
-[15:39:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh'
-[15:39:42] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Saved 556 block chunks, 694 entity chunks, 0 poi chunks in world 'WeltMitKurosh' in 0.95s
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh'
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh'
-[15:39:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_nether]'/minecraft:the_nether
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_nether'
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_nether'
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_nether'
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'WeltMitKurosh_nether' in 0.00s
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_nether'
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_nether'
-[15:39:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_the_end]'/minecraft:the_end
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_the_end'
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_the_end'
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_the_end'
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 17 entity chunks, 0 poi chunks in world 'WeltMitKurosh_the_end' in 0.00s
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_the_end'
-[15:39:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_the_end'
-[15:39:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (WeltMitKurosh): All chunks are saved
-[15:39:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:39:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:39:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:39:42] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[15:39:42] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[15:39:42] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[15:39:42] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[15:56:06] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
+[15:56:06] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.1
+[15:56:06] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.1 is now loaded. Registering protocol transformers and injecting...
+[15:56:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:56:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[15:56:07] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:56:07] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[15:56:08] [Server thread/INFO]: [NotTooExpensive] Loading server plugin NotTooExpensive v1.3.4
+[15:56:08] [Server thread/INFO]: [KeepChunks] Loading server plugin KeepChunks v1.7.3
+[15:56:08] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[15:56:08] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.5.1
+[15:56:08] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.3
+[15:56:08] [Server thread/INFO]: [ScheduledStop] Loading server plugin ScheduledStop v1.0.0
+[15:56:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:56:08] [Server thread/INFO]: Preparing level "WeltMitKurosh"
+[15:56:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:56:09] [Server thread/INFO]: Preparing spawn area: 0%
+[15:56:09] [Server thread/INFO]: Preparing spawn area: 4%
+[15:56:09] [Server thread/INFO]: Preparing spawn area: 100%
+[15:56:09] [Server thread/INFO]: Time elapsed: 1010 ms
+[15:56:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:56:09] [Server thread/INFO]: Preparing spawn area: 0%
+[15:56:10] [Server thread/INFO]: Time elapsed: 389 ms
+[15:56:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:56:10] [Server thread/INFO]: Preparing spawn area: 0%
+[15:56:10] [Server thread/INFO]: Time elapsed: 171 ms
+[15:56:10] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
