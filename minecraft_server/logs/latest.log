@@ -994,3 +994,5 @@ java.net.SocketException: Connection reset
 [17:19:58] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [17:20:03] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [17:20:13] [Server thread/INFO]: [NotJxlly: Set own game mode to Creative Mode]
+[17:20:15] [Server thread/INFO]: [NotJxlly: Set own game mode to Survival Mode]
+[17:21:14] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
