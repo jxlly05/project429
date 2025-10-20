@@ -913,3 +913,4 @@ java.net.SocketException: Connection reset
 [17:26:56] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [17:30:44] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [17:30:57] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[17:32:48] [Server thread/INFO]: Villager Villager['Fletcher'/72, uuid='c023f15e-cbee-4345-9aa7-4e73ba3f1b92', l='ServerLevel[WeltMitKurosh]', x=-3059.72, y=58.17, z=6774.66, cpos=[-192, 423], tl=233906, v=true] died, message: 'Fletcher was slain by Zombie'
