@@ -270,3 +270,5 @@ java.net.SocketException: Connection reset
 [14:24:40] [Server thread/INFO]: GurjantBot was slain by Kurocr7
 [14:25:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [14:26:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:29:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:30:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
