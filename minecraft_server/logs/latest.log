@@ -917,3 +917,7 @@ java.net.SocketException: Connection reset
 [17:33:08] [Server thread/INFO]: Villager Villager['Librarian'/73, uuid='ccd0b409-909a-4b95-a998-1384ef4e712a', l='ServerLevel[WeltMitKurosh]', x=-3054.70, y=57.00, z=6771.30, cpos=[-191, 423], tl=234311, v=true] died, message: 'Librarian was slain by Zombie'
 [17:33:44] [Server thread/INFO]: Villager Villager['Librarian'/139, uuid='c78af201-ea3e-4b3f-9741-adebe20a1164', l='ServerLevel[WeltMitKurosh]', x=-3060.54, y=57.00, z=6773.50, cpos=[-192, 423], tl=235023, v=true] died, message: 'Librarian was slain by Zombie'
 [17:34:04] [Server thread/INFO]: Villager Villager['Fletcher'/141, uuid='1c30ed5a-9f40-41b2-83fb-369afd829039', l='ServerLevel[WeltMitKurosh]', x=-3060.70, y=57.85, z=6780.69, cpos=[-192, 423], tl=235424, v=true] died, message: 'Fletcher was slain by Zombie Villager'
+[17:34:42] [Server thread/INFO]: Villager Villager['Fletcher'/140, uuid='889c66c0-d4a3-4366-b6cb-c5152fda8ea5', l='ServerLevel[WeltMitKurosh]', x=-3060.70, y=58.00, z=6774.31, cpos=[-192, 423], tl=236195, v=true] died, message: 'Fletcher was slain by Zombie Villager'
+[17:34:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[17:34:57] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[17:34:59] [Server thread/INFO]: Villager Villager['Librarian'/71, uuid='0b2ccbe0-bdc3-47d7-b59e-a80339dca007', l='ServerLevel[WeltMitKurosh]', x=-3053.44, y=57.00, z=6771.57, cpos=[-191, 423], tl=236525, v=true] died, message: 'Librarian was slain by Zombie Villager'
