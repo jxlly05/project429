@@ -395,3 +395,4 @@ java.net.SocketException: Connection reset
 [15:17:41] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [15:18:05] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [15:18:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:19:03] [Server thread/INFO]: NotJxlly has made the advancement [The Parrots and the Bats]
