@@ -501,3 +501,6 @@ java.net.SocketException: Connection reset
 [23:02:55] [Server thread/INFO]: Kurocr7 was slain by NotJxlly
 [23:03:48] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [23:04:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:06:55] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[23:06:55] [Server thread/INFO]: NotJxlly lost connection: Disconnected
+[23:06:55] [Server thread/INFO]: NotJxlly left the game
