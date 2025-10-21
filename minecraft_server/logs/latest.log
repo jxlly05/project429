@@ -304,3 +304,4 @@ java.net.SocketException: Connection reset
 [21:06:19] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [21:07:19] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:07:32] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:07:50] [Server thread/INFO]: Kurocr7 was slain by Iron Golem
