@@ -473,3 +473,27 @@ java.net.SocketException: Connection reset
 [23:01:16] [Server thread/INFO]: GommeHD joined the game
 [23:01:16] [Server thread/INFO]: GommeHD[local] logged in with entity id 35399 at ([WeltMitKurosh]80.5, 65.0, 368.5)
 [23:01:16] [Server thread/INFO]: GommeHD joined the game.
+[23:01:31] [Server thread/INFO]: GommeHD has died!
+[23:01:31] [Server thread/INFO]: GommeHD was slain by NotJxlly
+[23:01:58] [Server thread/INFO]: NotJxlly issued server command: /spawndummy Kurocr7
+[23:01:58] [Server thread/WARN]: Failed to set protocol: protocol
+[23:01:58] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
+[23:01:58] [Server thread/WARN]: [ViaVersion] Could not find UserConnection for logging-in player 5cdfb8e3-39a2-4e3f-b893-e014613c6925
+[23:01:58] [Server thread/INFO]: Kurocr7 joined the game
+[23:01:58] [Server thread/INFO]: Kurocr7[local] logged in with entity id 35594 at ([WeltMitKurosh]80.5, 65.0, 368.5)
+[23:01:58] [Server thread/INFO]: Kurocr7 joined the game.
+[23:02:16] [Server thread/INFO]: GurjantBot has died!
+[23:02:16] [Server thread/INFO]: GurjantBot was slain by NotJxlly
+[23:02:26] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[23:02:26] [Server thread/INFO]: Kurocr7 lost connection: Disconnected
+[23:02:26] [Server thread/INFO]: Kurocr7 left the game
+[23:02:26] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=93.196.4.119:55547, claimAddress=69.9.184.2:43784, claimToken=[44, 0, 99, -109, -71, -35, -45, 81, -85, 93, -60, 4, 119, -40, -5, -15, -126, 114, 101, -85, 8, 104, -8, 17, 2, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -85, 73, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 29, 28, 0, -124, 6, 21, 50, 49, 49, 46, 105, 112, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 81, -85, 1, 70, -21, 95, 26, -50, -68, 64, 83, 31, -48, -65, 23, 102, 6, -8, -53], tunnelServerId=1, dataCenterId=36}
+[23:02:26] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[23:02:26] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43784 to claim client
+[23:02:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[23:02:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[23:02:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[23:02:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[23:02:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[23:02:26] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[23:02:26] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
