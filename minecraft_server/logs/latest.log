@@ -305,3 +305,5 @@ java.net.SocketException: Connection reset
 [21:07:19] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:07:32] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:07:50] [Server thread/INFO]: Kurocr7 was slain by Iron Golem
+[21:11:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:11:33] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
