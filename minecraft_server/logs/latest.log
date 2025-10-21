@@ -366,3 +366,4 @@ java.net.SocketException: Connection reset
 [22:07:33] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [22:07:46] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [22:09:08] [Server thread/WARN]: Kurocr7 moved wrongly!, (0.0)
+[22:11:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
