@@ -500,3 +500,5 @@ java.net.SocketException: Connection reset
 [21:34:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:36:59] [Async Chat Thread - #6/INFO]: <NotJxlly> KOMM
 [21:37:02] [Async Chat Thread - #6/INFO]: <NotJxlly> ins bett
+[21:38:13] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:38:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
