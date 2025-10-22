@@ -1366,3 +1366,5 @@ java.net.SocketException: Connection reset
 [22:17:26] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
 [22:17:26] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
 [22:17:26] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[22:18:35] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:18:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
