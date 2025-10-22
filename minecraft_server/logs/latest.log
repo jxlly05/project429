@@ -504,3 +504,7 @@ java.net.SocketException: Connection reset
 [21:38:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:42:16] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:42:28] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:46:19] [Server thread/INFO]: Villager Villager['Leatherworker'/652, uuid='fe209f95-9018-4243-92e4-aba90a6331e9', l='ServerLevel[WeltMitKurosh]', x=-3060.17, y=56.05, z=6780.08, cpos=[-192, 423], tl=76463, v=true] died, message: 'Leatherworker tried to swim in lava'
+[21:46:19] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:46:31] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:46:41] [Server thread/INFO]: Villager Villager['Leatherworker'/578, uuid='afe33f51-9380-480d-917e-182ba783bf65', l='ServerLevel[WeltMitKurosh]', x=-3057.54, y=56.05, z=6780.07, cpos=[-192, 423], tl=58251, v=true] died, message: 'Leatherworker tried to swim in lava'
