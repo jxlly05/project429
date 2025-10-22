@@ -548,3 +548,6 @@ java.net.SocketException: Connection reset
 [21:48:23] [User Authenticator #5/INFO]: UUID of player Kurocr7 is ea824033-5ac3-4926-91f6-6466b719e237
 [21:48:24] [Server thread/INFO]: Kurocr7 joined the game
 [21:48:24] [Server thread/INFO]: Kurocr7[/127.0.0.1:42172] logged in with entity id 28572 at ([WeltMitKurosh]-3044.275462316099, 60.0, 6779.136745762061)
+[21:50:21] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:50:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:51:00] [Server thread/INFO]: Villager Villager['Leatherworker'/570, uuid='4eaa5fe7-2879-405d-aced-7805fa414a58', l='ServerLevel[WeltMitKurosh]', x=-3054.54, y=56.05, z=6779.85, cpos=[-191, 423], tl=73428, v=true] died, message: 'Leatherworker tried to swim in lava'
