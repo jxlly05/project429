@@ -221,3 +221,13 @@ java.net.SocketException: Connection reset
 [22:31:46] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [22:35:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [22:35:46] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:38:11] [Server thread/WARN]: Kurocr7 moved too quickly! -6.2537617683410645,-3.1021080017089844,-7.251792728900909
+[22:38:16] [Server thread/WARN]: Kurocr7 moved too quickly! -7.032055497169495,-7.183724999427795,2.647976875305176
+[22:38:27] [Server thread/WARN]: Kurocr7 moved too quickly! -1.5407509803771973,7.535654067993164,-7.7760994881391525
+[22:38:36] [Server thread/WARN]: Kurocr7 moved too quickly! -1.1537208557128906,6.920297622680664,-7.993902091868222
+[22:38:39] [Server thread/WARN]: Kurocr7 moved too quickly! 7.56328010559082,-10.33326369524002,1.2321405410766602
+[22:38:47] [Server thread/WARN]: Kurocr7 moved too quickly! -1.0273637771606445,-19.398080348968506,-1.1126933097839355
+[22:39:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:39:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:39:59] [Async Chat Thread - #2/INFO]: <Kurocr7> wollen wir jetzt schoin nether
+[22:40:07] [Async Chat Thread - #2/INFO]: <Kurocr7> end
