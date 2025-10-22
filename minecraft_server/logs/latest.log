@@ -330,3 +330,6 @@ java.net.SocketException: Connection reset
 [21:13:54] [Server thread/INFO]: NotJxlly[/127.0.0.1:35190] logged in with entity id 13409 at ([WeltMitKurosh]-3145.5420543123337, 64.0, 6937.319605986695)
 [21:13:58] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:14:10] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:17:20] [Server thread/INFO]: NotJxlly has made the advancement [A Seedy Place]
+[21:18:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:18:13] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
