@@ -294,3 +294,4 @@ java.net.SocketException: Connection reset
 [20:44:09] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:47:57] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:48:09] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:50:07] [Server thread/INFO]: Villager Villager['Librarian'/92, uuid='11276979-d518-4aa8-81b5-8015c4878150', l='ServerLevel[WeltMitKurosh]', x=-3055.30, y=56.00, z=6776.68, cpos=[-191, 423], tl=70038, v=true] died, message: 'Librarian tried to swim in lava'
