@@ -11,27 +11,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Repository minimal klonen (nur letzter Commit)
-      - uses: actions/checkout@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 1   # nur letzter Commit
-          persist-credentials: true
-
-      # 1b. Nur die Datei ops.json initial holen (andere ignorieren)
-      - name: Keep only ops.json
+      # 1. Repository initialisieren – ohne Arbeitsverzeichnis-Checkout
+      - name: Init minimal clone (no checkout)
         run: |
-          echo "[Setup] Bereinige alles außer ops.json..."
-          find minecraft_server -mindepth 1 -not -name 'ops.json' -exec rm -rf {} +
-          echo "[Setup] Nur ops.json bleibt erhalten."
+          echo "[Git] Erstelle Minimal-Clone..."
+          git init
+          git remote add origin https://github.com/${{ github.repository }}.git
+          git config core.sparseCheckout true
+          echo "minecraft_server/ops.json" > .git/info/sparse-checkout
+          git pull --depth=1 origin main
+          echo "[Git] Minimaler Checkout (nur ops.json) abgeschlossen."
 
-      # 1c. Vollständigen Repo-Stand holen
-      - name: Fetch and reset to latest (full repo)
+      # 1b. Kontrollausgabe – prüfen, ob nur ops.json vorhanden ist
+      - name: Check repo content
+        run: |
+          echo "[Debug] Dateien im Repo:"
+          ls -R minecraft_server || echo "Ordner minecraft_server leer"
+
+      # 1c. Vollständigen Repo-Stand nachladen
+      - name: Fetch full repo and reset
         run: |
           echo "[Git] Hole vollständigen Stand..."
+          git config core.sparseCheckout false
           git fetch origin main
           git reset --hard origin/main
-          echo "[Git] Vollständiger Repo-Stand ist nun synchron."
+          echo "[Git] Vollständiger Repo-Stand ist jetzt synchron."
 
       # 2. Java 21 installieren
       - name: Setup Java 21
@@ -44,7 +48,7 @@ jobs:
       - name: Check available RAM
         run: free -h
 
-      # 4. Minecraft Server starten (max 15 GB RAM) + Autosave im Hintergrund
+      # 4. Minecraft Server starten (max 15 GB RAM)
       - name: Start AutoSave & Minecraft Server
         run: |
           cd "$GITHUB_WORKSPACE/minecraft_server"
