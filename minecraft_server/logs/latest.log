@@ -51,3 +51,5 @@
 [01:21:21] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [01:24:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [01:24:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[01:28:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[01:28:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
