@@ -1,4 +1,4 @@
-name: Purpur Server Start
+name: Purpur Server Start Mit Allen Welten
 
 on:
   workflow_dispatch:
