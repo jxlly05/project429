@@ -265,3 +265,7 @@ java.net.SocketException: Connection reset
 [19:38:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:42:14] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:42:26] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:46:12] [Server thread/INFO]: NotJxlly experienced kinetic energy while trying to escape Iron Golem
+[19:46:14] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:46:27] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:46:31] [Server thread/INFO]: NotJxlly was slain by Iron Golem
