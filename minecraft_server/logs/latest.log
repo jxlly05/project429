@@ -245,3 +245,5 @@ java.net.SocketException: Connection reset
 [17:49:13] [Server thread/INFO]: Kurocr7 was slain by Enderman
 [17:50:27] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [17:50:40] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[17:54:30] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[17:54:43] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
