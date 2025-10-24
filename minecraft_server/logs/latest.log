@@ -4774,3 +4774,4 @@ java.net.SocketException: Connection reset
 [20:18:35] [Server thread/INFO]: GurjantBot[local] logged in with entity id 32872 at ([WeltMitKurosh]80.5, 65.0, 368.5)
 [20:18:35] [Server thread/INFO]: GurjantBot joined the game.
 [20:18:38] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:21:43] [Server thread/INFO]: NotJxlly issued server command: /mv list
