@@ -1,4 +1,4 @@
-name: Purpur Server Start
+name: Purpur Server Start - Nur WeltMitKurosh
 
 on:
   workflow_dispatch:
@@ -15,10 +15,36 @@ jobs:
       - uses: actions/checkout@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 1         # nur letzter Commit reicht
+          fetch-depth: 1
           persist-credentials: true
           sparse-checkout: |
-            minecraft_server
+            minecraft_server/bukkit.yml
+            minecraft_server/commands.yml
+            minecraft_server/eula.txt
+            minecraft_server/help.yml
+            minecraft_server/ops.json
+            minecraft_server/permissions.yml
+            minecraft_server/purpur.jar
+            minecraft_server/purpur.yml
+            minecraft_server/server.log
+            minecraft_server/server.pid
+            minecraft_server/server.properties
+            minecraft_server/server_output.log
+            minecraft_server/spigot.yml
+            minecraft_server/usercache.json
+            minecraft_server/version_history.json
+            minecraft_server/whitelist.json
+            minecraft_server/banned-ips.json
+            minecraft_server/banned-players.json
+            minecraft_server/cache
+            minecraft_server/config
+            minecraft_server/libraries
+            minecraft_server/logs
+            minecraft_server/plugins
+            minecraft_server/versions
+            minecraft_server/WeltMitKurosh
+            minecraft_server/WeltMitKurosh_nether
+            minecraft_server/WeltMitKurosh_the_end
 
       # 1b. Force-reset auf neuesten Stand
       - name: Reset to latest
