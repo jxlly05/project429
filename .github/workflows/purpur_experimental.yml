@@ -95,6 +95,8 @@ jobs:
             git fetch --all --quiet
             git checkout .
             echo "[Loader] Zusätzliche Welten erfolgreich geladen."
+            echo "==== Festplattenplatz auf Runner ===="
+            df -h /
           } &
 
           echo "[Server] Starte Minecraft Server..."
