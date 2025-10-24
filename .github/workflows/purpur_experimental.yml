@@ -74,15 +74,8 @@ jobs:
           echo "[Autosave] Starte Hintergrund-Autosave-Prozess..."
           {
             while true; do
-              cd "$GITHUB_WORKSPACE"
-              git config user.name "github-actions"
-              git config user.email "github-actions@github.com"
-
-              git add -A minecraft_server || true
-              git commit -m "Force push Minecraft server data $(date)" >/dev/null 2>&1 || true
-              git push origin HEAD:main --force >/dev/null 2>&1 || true
-
-              echo "[Autosave] Repo save done at $(date '+%H:%M:%S')"
+              
+              echo "[Autosave] Nichts wurde gesaved (experimental)"
               sleep 60
             done
           } &
