@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Repository auschecken – nur den minecraft_server-Ordner laden
+      # 1. Repository auschecken – initial nur Kern-Dateien & eine Welt laden
       - uses: actions/checkout@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -59,12 +59,17 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      # 3. RAM prüfen
-      - name: Check available RAM
-        run: free -h
+      # 3. RAM & Festplattenplatz prüfen
+      - name: Check system memory and disk space
+        run: |
+          echo "==== RAM ===="
+          free -h
+          echo ""
+          echo "==== Festplattenplatz auf Runner ===="
+          df -h /
 
-      # 4. Minecraft Server starten (max 15 GB RAM) + Autosave im Hintergrund
-      - name: Start AutoSave & Minecraft Server
+      # 4. Autosave + Minecraft Server Start
+      - name: Start AutoSave & Minecraft Server + Hintergrund-Welt-Nachladen
         run: |
           echo "[Autosave] Starte Hintergrund-Autosave-Prozess..."
           {
@@ -84,6 +89,24 @@ jobs:
           AUTOSAVE_PID=$!
           echo "[Autosave] Hintergrundprozess gestartet mit PID $AUTOSAVE_PID"
 
+          echo "[Loader] Lade zusätzliche Welten im Hintergrund..."
+          {
+            git sparse-checkout add \
+              minecraft_server/flatworld \
+              minecraft_server/Luebeck \
+              minecraft_server/Survival \
+              minecraft_server/Survival_nether \
+              minecraft_server/Survival_the_end \
+              minecraft_server/Island
+
+            git fetch --all --quiet
+            git checkout .
+            echo "[Loader] Zusätzliche Welten erfolgreich geladen."
+            echo "==== Festplattenplatz auf Runner ===="
+            df -h /
+          } &
+
+          echo "[Server] Starte Minecraft Server..."
           cd "$GITHUB_WORKSPACE/minecraft_server"
           java -Xms14G -Xmx14G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -XX:InitiatingHeapOccupancyPercent=15 -jar purpur.jar nogui
 
@@ -91,7 +114,7 @@ jobs:
           kill "$AUTOSAVE_PID" 2>/dev/null || true
           echo "[Autosave] Autosave vollständig gestoppt."
 
-      # 5. Änderungen zurück ins Repo committen und bedingungslos pushen (mit Retry)
+      # 5. Finaler Commit/PUSH
       - name: Force-push server data to repo
         run: |
           sleep 10
@@ -99,23 +122,18 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          # eventuelle alte Locks entfernen (Sicherheitsmaßnahme)
-          if [ -f ".git/index.lock" ]; then
-            echo "[Autosave] Alte index.lock gefunden – lösche..."
-            rm -f .git/index.lock
-          fi
+          [ -f ".git/index.lock" ] && rm -f .git/index.lock
 
           git add -A minecraft_server
           git commit -m "Auto-save Minecraft server data" || echo "No changes to commit"
 
-          # Push versuchen, bis er erfolgreich ist
           while true; do
             echo "[Autosave] Versuche, Änderungen zu pushen..."
             if git push origin HEAD:main --force; then
               echo "[Autosave] Push erfolgreich!"
               break
             else
-              echo "[Autosave] Push fehlgeschlagen, warte 10 Sekunden und versuche erneut..."
+              echo "[Autosave] Push fehlgeschlagen, warte 10 Sekunden..."
               sleep 10
             fi
           done
