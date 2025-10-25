@@ -11,16 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Partial clone only minecraft_server (Lazy Load)
+      # 1. Repository auschecken – initial nur Kern-Dateien & eine Welt laden
+      - name: Clone repo with progress
         run: |
           git config --global protocol.version 2
-      
-          # Partiales Clone nur mit Metadaten
-          git clone --filter=blob:none --depth 1 --sparse https://github.com/jxlly05/project429.git . 2>&1 | tee clone.log
-      
-          # Sparse-Checkout nur auf den Minecraft-Ordner setzen
-          git sparse-checkout set minecraft_server
-
+          GIT_TERMINAL_PROMPT=1 \
+          git clone --depth 1 --progress https://github.com/jxlly05/project429.git .
 
       # 2. Java 21 installieren
       - name: Setup Java 21
@@ -39,13 +35,20 @@ jobs:
           df -h /
 
       # 4. Autosave + Minecraft Server Start
-      - name: Start AutoSave & Minecraft Server + Hintergrund-Welt-Nachladen
+      - name: Start AutoSave & Minecraft Server
         run: |
           echo "[Autosave] Starte Hintergrund-Autosave-Prozess..."
           {
             while true; do
-              
-              echo "[Autosave] Kein Save at $(date '+%H:%M:%S')"
+              cd "$GITHUB_WORKSPACE"
+              git config user.name "github-actions"
+              git config user.email "github-actions@github.com"
+
+              git add -A minecraft_server || true
+              git commit -m "Force push Minecraft server data $(date)" >/dev/null 2>&1 || true
+              git push origin HEAD:main --force >/dev/null 2>&1 || true
+
+              echo "[Autosave] Repo save done at $(date '+%H:%M:%S')"
               sleep 60
             done
           } &
@@ -59,3 +62,29 @@ jobs:
           echo "[Autosave] Serverprozess beendet – beende Autosave-Prozess..."
           kill "$AUTOSAVE_PID" 2>/dev/null || true
           echo "[Autosave] Autosave vollständig gestoppt."
+
+      # 5. Finaler Commit/PUSH
+      - name: Force-push server data to repo
+        run: |
+          sleep 10
+          cd "$GITHUB_WORKSPACE"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+      
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/project429.git
+      
+          [ -f ".git/index.lock" ] && rm -f .git/index.lock
+      
+          git add -A minecraft_server
+          git commit -m "Auto-save Minecraft server data" || echo "No changes to commit"
+      
+          while true; do
+            echo "[Autosave] Versuche, Änderungen zu pushen..."
+            if git push origin HEAD:main --force; then
+              echo "[Autosave] Push erfolgreich!"
+              break
+            else
+              echo "[Autosave] Push fehlgeschlagen, warte 10 Sekunden..."
+              sleep 10
+            fi
+          done
