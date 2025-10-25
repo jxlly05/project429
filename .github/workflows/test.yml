@@ -17,6 +17,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 1
           persist-credentials: true
+          sparse-checkout: |
+            minecraft_server/bukkit.yml
+
 
       # 2. ZIP entpacken (falls vorhanden)
       - name: Restore minimal server ZIP
