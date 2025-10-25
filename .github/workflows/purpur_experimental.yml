@@ -11,73 +11,126 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Repository auschecken – initial nur Kern-Dateien & eine Welt laden
+      # 1. Repository klonen
       - name: Clone repo with progress
         run: |
           git config --global protocol.version 2
           GIT_TERMINAL_PROMPT=1 \
           git clone --depth 1 --progress https://github.com/jxlly05/project429.git .
 
-      # 2. Java 21 installieren
+      # 2. Java installieren
       - name: Setup Java 21
         uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21
 
-      # 3. RAM & Festplattenplatz prüfen
+      # 3. RAM & Disk Check
       - name: Check system memory and disk space
         run: |
           echo "==== RAM ===="
           free -h
           echo ""
-          echo "==== Festplattenplatz auf Runner ===="
+          echo "==== Disk ===="
           df -h /
 
-      # 4. Autosave + Minecraft Server Start
+      # 4. Autosave + Serverstart + Welten im Hintergrund laden (ohne worlds_temp im Workspace)
       - name: Start AutoSave & Minecraft Server
         run: |
+          # gewünschte Welten-Ordner (anpassen falls nötig)
+          WORLD_DIRS="Island Luebeck Survival Survival_nether Survival_the_end flatworld"
+
           echo "[Autosave] Starte Hintergrund-Autosave-Prozess..."
           {
             while true; do
               cd "$GITHUB_WORKSPACE"
+
               git config user.name "github-actions"
               git config user.email "github-actions@github.com"
 
+              # push Haupt-Repo (server data)
               git add -A minecraft_server || true
               git commit -m "Force push Minecraft server data $(date)" >/dev/null 2>&1 || true
+              git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/project429.git >/dev/null 2>&1 || true
               git push origin HEAD:main --force >/dev/null 2>&1 || true
 
-              echo "[Autosave] Repo save done at $(date '+%H:%M:%S')"
+              # --- Welten: temporäres Repo in /tmp erstellen und nur Welten pushen ---
+              TMP_PUSH_DIR="/tmp/worlds_autosave"
+              rm -rf "$TMP_PUSH_DIR"
+              mkdir -p "$TMP_PUSH_DIR"
+              for d in $WORLD_DIRS; do
+                if [ -d "$GITHUB_WORKSPACE/$d" ]; then
+                  cp -a "$GITHUB_WORKSPACE/$d" "$TMP_PUSH_DIR/"
+                fi
+              done
+
+              cd "$TMP_PUSH_DIR"
+              git init >/dev/null 2>&1 || true
+              git config user.name "github-actions"
+              git config user.email "github-actions@github.com"
+              # Ensure branch is named main
+              git add -A
+              git commit -m "Auto-save worlds $(date)" >/dev/null 2>&1 || true
+              # Push into the root of worlds7242 (use TOKEN secret)
+              git remote remove origin >/dev/null 2>&1 || true
+              git remote add origin https://x-access-token:${{ secrets.TOKEN }}@github.com/jxlly05/worlds7242.git
+              git branch -M main >/dev/null 2>&1 || true
+              git push -u origin main --force >/dev/null 2>&1 || true
+
+              # cleanup temp push dir
+              rm -rf "$TMP_PUSH_DIR"
+
+              echo "[Autosave] Repo + Worlds save done at $(date '+%H:%M:%S')"
               sleep 60
             done
           } &
           AUTOSAVE_PID=$!
           echo "[Autosave] Hintergrundprozess gestartet mit PID $AUTOSAVE_PID"
 
+          # Loader: Klonen nach /tmp, dann gewünschte Welten direkt in $GITHUB_WORKSPACE kopieren
+          echo "[Loader] Lade zusätzliche Welten im Hintergrund..."
+          {
+            # location to clone worlds repo temporarily
+            CLONE_TMP="/tmp/worlds7242_clone"
+            rm -rf "$CLONE_TMP"
+            git clone --depth 1 https://x-access-token:${{ secrets.TOKEN }}@github.com/jxlly05/worlds7242.git "$CLONE_TMP"
+
+            # copy only the listed world directories into the runner workspace root
+            for d in $WORLD_DIRS; do
+              if [ -d "$CLONE_TMP/$d" ]; then
+                # Copy into workspace root (overwrite if exists)
+                cp -a "$CLONE_TMP/$d" "$GITHUB_WORKSPACE/" || true
+              fi
+            done
+
+            # remove temporary clone
+            rm -rf "$CLONE_TMP"
+
+            echo "[Loader] Zusätzliche Welten erfolgreich in Arbeitsverzeichnis geladen!"
+            echo "==== Festplattenplatz nach Welt-Import ===="
+            df -h /
+          } &
+
+          # Serverstart (läuft im Haupt-Workspace/minecraft_server wie vorher)
           echo "[Server] Starte Minecraft Server..."
           cd "$GITHUB_WORKSPACE/minecraft_server"
           java -Xms14G -Xmx14G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -XX:InitiatingHeapOccupancyPercent=15 -jar purpur.jar nogui
 
-          echo "[Autosave] Serverprozess beendet – beende Autosave-Prozess..."
+          echo "[Autosave] Serverprozess beendet – Autosave stoppen..."
           kill "$AUTOSAVE_PID" 2>/dev/null || true
           echo "[Autosave] Autosave vollständig gestoppt."
 
-      # 5. Finaler Commit/PUSH
+      # 5. Finaler Push Haupt-Repo
       - name: Force-push server data to repo
         run: |
           sleep 10
           cd "$GITHUB_WORKSPACE"
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-      
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/project429.git
-      
           [ -f ".git/index.lock" ] && rm -f .git/index.lock
-      
           git add -A minecraft_server
           git commit -m "Auto-save Minecraft server data" || echo "No changes to commit"
-      
           while true; do
             echo "[Autosave] Versuche, Änderungen zu pushen..."
             if git push origin HEAD:main --force; then
@@ -88,3 +141,28 @@ jobs:
               sleep 10
             fi
           done
+
+      # 5.1 Finaler Push Welten-Repo (nur Welt-Ordner in Root des worlds7242 Repo)
+      - name: Final force-push worlds
+        run: |
+          WORLD_DIRS="Island Luebeck Survival Survival_nether Survival_the_end flatworld"
+          TMP_PUSH_DIR="/tmp/worlds_final"
+          rm -rf "$TMP_PUSH_DIR"
+          mkdir -p "$TMP_PUSH_DIR"
+          for d in $WORLD_DIRS; do
+            if [ -d "$GITHUB_WORKSPACE/$d" ]; then
+              cp -a "$GITHUB_WORKSPACE/$d" "$TMP_PUSH_DIR/"
+            fi
+          done
+
+          cd "$TMP_PUSH_DIR"
+          git init
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add -A
+          git commit -m "Final autosave worlds $(date)" || echo "No world changes"
+          git remote add origin https://x-access-token:${{ secrets.TOKEN }}@github.com/jxlly05/worlds7242.git
+          git branch -M main >/dev/null 2>&1 || true
+          git push -u origin main --force
+          echo "[Final] Welten erfolgreich in worlds7242 gepusht."
+
