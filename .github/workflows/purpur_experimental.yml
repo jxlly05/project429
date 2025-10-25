@@ -70,12 +70,14 @@ jobs:
           cd "$GITHUB_WORKSPACE"
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
+      
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/project429.git
+      
           [ -f ".git/index.lock" ] && rm -f .git/index.lock
-
+      
           git add -A minecraft_server
           git commit -m "Auto-save Minecraft server data" || echo "No changes to commit"
-
+      
           while true; do
             echo "[Autosave] Versuche, Änderungen zu pushen..."
             if git push origin HEAD:main --force; then
@@ -86,3 +88,4 @@ jobs:
               sleep 10
             fi
           done
+
