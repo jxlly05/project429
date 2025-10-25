@@ -518,5 +518,10 @@ flatworld:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
   world-blacklist: []
   version: 1.2
