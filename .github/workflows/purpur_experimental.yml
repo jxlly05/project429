@@ -12,14 +12,18 @@ jobs:
 
     steps:
       # 1. Repository auschecken – initial nur Kern-Dateien & eine Welt laden
-      - name: Download Minecraft Server Files via SVN
+      - name: Install SVN and Download Minecraft Server Files
         run: |
           set -e
       
-          # Basis-URL deines Repos
+          # SVN installieren
+          sudo apt-get update
+          sudo apt-get install -y subversion
+      
+          # Basis-URL des Repos
           REPO_URL="https://github.com/jxlly05/project429/trunk/minecraft_server"
       
-          # Liste aller Dateien / Ordner, die exportiert werden sollen
+          # Liste der Dateien / Ordner
           PATHS=(
             bukkit.yml
             commands.yml
@@ -50,7 +54,7 @@ jobs:
             WeltMitKurosh_the_end
           )
       
-          # Exportiere jeden Pfad einzeln und zeige Fortschritt
+          # Export
           for p in "${PATHS[@]}"; do
             echo "[SVN Export] Lade $p..."
             svn export --force "$REPO_URL/$p" "$GITHUB_WORKSPACE/$p"
