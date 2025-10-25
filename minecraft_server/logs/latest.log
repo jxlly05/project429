@@ -203,3 +203,6 @@ java.net.SocketException: Connection reset
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [21:45:12] [User Authenticator #0/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
 [21:45:13] [Server thread/INFO]: NotJxlly joined the game
+[21:45:13] [Server thread/INFO]: NotJxlly[/127.0.0.1:46472] logged in with entity id 387 at ([WeltMitKurosh]-3050.514395457677, 70.0, 6779.814956976204)
+[21:45:19] [Server thread/INFO]: NotJxlly issued server command: /mv list
+[21:45:40] [Server thread/INFO]: NotJxlly issued server command: /mv load Island
