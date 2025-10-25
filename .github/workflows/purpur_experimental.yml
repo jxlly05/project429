@@ -45,15 +45,8 @@ jobs:
           echo "[Autosave] Starte Hintergrund-Autosave-Prozess..."
           {
             while true; do
-              cd "$GITHUB_WORKSPACE"
-              git config user.name "github-actions"
-              git config user.email "github-actions@github.com"
-
-              git add -A minecraft_server || true
-              git commit -m "Force push Minecraft server data $(date)" >/dev/null 2>&1 || true
-              git push origin HEAD:main --force >/dev/null 2>&1 || true
-
-              echo "[Autosave] Repo save done at $(date '+%H:%M:%S')"
+              
+              echo "[Autosave] Kein Save at $(date '+%H:%M:%S')"
               sleep 60
             done
           } &
@@ -67,30 +60,3 @@ jobs:
           echo "[Autosave] Serverprozess beendet – beende Autosave-Prozess..."
           kill "$AUTOSAVE_PID" 2>/dev/null || true
           echo "[Autosave] Autosave vollständig gestoppt."
-
-      # 5. Finaler Commit/PUSH
-      - name: Force-push server data to repo
-        run: |
-          sleep 10
-          cd "$GITHUB_WORKSPACE"
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-      
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/project429.git
-      
-          [ -f ".git/index.lock" ] && rm -f .git/index.lock
-      
-          git add -A minecraft_server
-          git commit -m "Auto-save Minecraft server data" || echo "No changes to commit"
-      
-          while true; do
-            echo "[Autosave] Versuche, Änderungen zu pushen..."
-            if git push origin HEAD:main --force; then
-              echo "[Autosave] Push erfolgreich!"
-              break
-            else
-              echo "[Autosave] Push fehlgeschlagen, warte 10 Sekunden..."
-              sleep 10
-            fi
-          done
-
