@@ -1,0 +1,31 @@
+name: Purpur Server Start - Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  start-server:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Repository auschecken
+      - uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+          persist-credentials: true
+
+      # 2. ZIP entpacken (falls vorhanden)
+      - name: Restore minimal server ZIP
+        run: |
+          if [ -f minecraft_server_minimal.zip ]; then
+            echo "[Restore] Entpacke minecraft_server_minimal.zip..."
+            rm -rf minecraft_server
+            unzip minecraft_server_minimal.zip -d .
+            echo "[Restore] Fertig."
+          else
+            echo "[Restore] Keine ZIP gefunden – erster Start."
+          fi
