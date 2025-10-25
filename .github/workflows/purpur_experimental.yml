@@ -14,10 +14,9 @@ jobs:
       - name: Partial clone only minecraft_server (Lazy Load)
         run: |
           git config --global protocol.version 2
-          GIT_TERMINAL_PROMPT=1
-
-          # Partiales Clone nur mit Metadaten, keine Blobs vorher
-          git clone --filter=blob:none --depth 1 --sparse https://github.com/jxlly05/project429.git .
+      
+          # Partiales Clone nur mit Metadaten
+          git clone --filter=blob:none --depth 1 --sparse https://github.com/jxlly05/project429.git . 2>&1 | tee clone.log
       
           # Sparse-Checkout nur auf den Minecraft-Ordner setzen
           git sparse-checkout set minecraft_server
