@@ -1,4 +1,4 @@
-name: Purpur Server Start - Experimental
+name: Purpur Server Start - Nur WeltMitKurosh
 
 on:
   workflow_dispatch:
@@ -11,6 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       # 0. Cache laden, nur verwenden wenn aktueller Commit nicht neuer ist
       - name: Determine last Minecraft commit timestamp
         id: last-commit
