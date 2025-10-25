@@ -12,55 +12,11 @@ jobs:
 
     steps:
       # 1. Repository auschecken – initial nur Kern-Dateien & eine Welt laden
-      - name: Install SVN and Download Minecraft Server Files
+      - name: Clone repo with progress
         run: |
-          set -e
-      
-          # SVN installieren
-          sudo apt-get update
-          sudo apt-get install -y subversion
-      
-          # Basis-URL des Repos
-          REPO_URL="https://github.com/jxlly05/project429/trunk/minecraft_server"
-      
-          # Liste der Dateien / Ordner
-          PATHS=(
-            bukkit.yml
-            commands.yml
-            eula.txt
-            help.yml
-            ops.json
-            permissions.yml
-            purpur.jar
-            purpur.yml
-            server.log
-            server.pid
-            server.properties
-            server_output.log
-            spigot.yml
-            usercache.json
-            version_history.json
-            whitelist.json
-            banned-ips.json
-            banned-players.json
-            cache
-            config
-            libraries
-            logs
-            plugins
-            versions
-            WeltMitKurosh
-            WeltMitKurosh_nether
-            WeltMitKurosh_the_end
-          )
-      
-          # Export
-          for p in "${PATHS[@]}"; do
-            echo "[SVN Export] Lade $p..."
-            svn export --force "$REPO_URL/$p" "$GITHUB_WORKSPACE/$p"
-          done
-      
-          echo "[SVN Export] Alle Dateien und Welten wurden erfolgreich geladen."
+          git config --global protocol.version 2
+          GIT_TERMINAL_PROMPT=1 \
+          git clone --depth 1 --progress https://github.com/jxlly05/project429.git .
 
       # 2. Java 21 installieren
       - name: Setup Java 21
