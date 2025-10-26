@@ -3480,3 +3480,5 @@ java.net.SocketException: Connection reset
 [22:54:17] [Server thread/INFO]: BetaPlayer joined the game.
 [22:57:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [22:58:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:01:55] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:02:07] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
