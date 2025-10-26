@@ -3478,3 +3478,5 @@ java.net.SocketException: Connection reset
 [22:54:17] [Server thread/INFO]: BetaPlayer joined the game
 [22:54:17] [Server thread/INFO]: BetaPlayer[local] logged in with entity id 50253 at ([WeltMitKurosh]80.5, 65.0, 368.5)
 [22:54:17] [Server thread/INFO]: BetaPlayer joined the game.
+[22:57:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:58:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
