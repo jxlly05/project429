@@ -358,3 +358,6 @@
 [20:32:31] [User Authenticator #0/INFO]: UUID of player Kurocr7 is ea824033-5ac3-4926-91f6-6466b719e237
 [20:32:32] [Server thread/INFO]: Kurocr7 joined the game
 [20:32:32] [Server thread/INFO]: Kurocr7[/127.0.0.1:40126] logged in with entity id 505 at ([WeltMitKurosh]-3052.582831246439, 71.5, 6779.08199803224)
+[20:33:25] [Server thread/INFO]: Kurocr7 has made the advancement [Hidden in the Depths]
+[20:33:25] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:33:37] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
