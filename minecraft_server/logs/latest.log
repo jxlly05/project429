@@ -542,3 +542,5 @@ java.net.SocketException: Connection reset
 [21:13:32] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:13:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:14:42] [Server thread/INFO]: Kurocr7 has made the advancement [What a Deal!]
+[21:17:33] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:17:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
