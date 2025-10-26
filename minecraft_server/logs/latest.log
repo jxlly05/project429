@@ -544,3 +544,6 @@ java.net.SocketException: Connection reset
 [21:14:42] [Server thread/INFO]: Kurocr7 has made the advancement [What a Deal!]
 [21:17:33] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:17:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:21:34] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:21:46] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:21:51] [Server thread/INFO]: Named entity Drowned['fred'/12063, uuid='6632a095-4e2f-4b11-9003-1856951cb0d8', l='ServerLevel[WeltMitKurosh]', x=-3051.50, y=55.25, z=6776.22, cpos=[-191, 423], tl=18942, v=true] died: fred was slain by Iron Golem
