@@ -724,3 +724,13 @@ java.net.SocketException: Connection reset
 [22:29:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [22:33:47] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [22:33:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:37:48] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:38:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:38:11] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo cu
+[22:38:14] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
+[22:38:18] [Async Chat Thread - #7/INFO]: <NotJxlly> -188 420
+[22:38:35] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
+[22:39:11] [Server thread/INFO]: NotJxlly issued server command: /kc keepchunk -188 420 -195 428 WeltMitKurosh
+[22:39:22] [Server thread/INFO]: NotJxlly issued server command: /kc keepchunk coords -188 420 -195 428 WeltMitKurosh
+[22:39:39] [Server thread/INFO]: NotJxlly issued server command: /kc keepregion coords -188 420 -195 428 WeltMitKurosh
+[22:39:47] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
