@@ -598,3 +598,10 @@ java.net.SocketException: Connection reset
 [22:05:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [22:09:42] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [22:09:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:12:18] [Server thread/INFO]: NotJxlly issued server command: /spawndummy
+[22:12:18] [Server thread/WARN]: Failed to set protocol: protocol
+[22:12:18] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
+[22:12:18] [Server thread/WARN]: [ViaVersion] Could not find UserConnection for logging-in player 17ba7a2e-8d9b-49f9-be75-6031ffa42853
+[22:12:18] [Server thread/INFO]: GurjantBot joined the game
+[22:12:18] [Server thread/INFO]: GurjantBot[local] logged in with entity id 24142 at ([WeltMitKurosh]80.5, 65.0, 368.5)
+[22:12:18] [Server thread/INFO]: GurjantBot joined the game.
