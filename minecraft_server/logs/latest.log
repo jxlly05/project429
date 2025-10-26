@@ -765,3 +765,5 @@ java.net.SocketException: Connection reset
 [22:41:56] [Server thread/INFO]: Kurocr7 joined the game
 [22:41:56] [Server thread/INFO]: Kurocr7[/127.0.0.1:50182] logged in with entity id 43907 at ([WeltMitKurosh]-2412.503175654942, -24.0, 4633.555397098435)
 [22:42:01] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:43:59] [Server thread/WARN]: NotJxlly moved wrongly!, (-1.1389695468451997)
+[22:45:16] [Server thread/INFO]: NotJxlly issued server command: /spawn
