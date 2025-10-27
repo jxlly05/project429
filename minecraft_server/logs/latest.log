@@ -37,3 +37,5 @@
 [00:43:51] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
 [00:43:51] [Server thread/INFO]: Kurocr7 lost connection: Disconnected
 [00:43:51] [Server thread/INFO]: Kurocr7 left the game
+[00:46:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:46:32] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
