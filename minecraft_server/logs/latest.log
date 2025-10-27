@@ -26,3 +26,5 @@
 [00:26:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [00:26:29] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [00:27:49] [Server thread/INFO]: Villager Villager['Leatherworker'/622, uuid='332ed392-3df6-4573-95fb-ef31eba16096', l='ServerLevel[WeltMitKurosh]', x=-3214.61, y=63.00, z=6950.13, cpos=[-201, 434], tl=260267, v=true] died, message: 'Leatherworker was slain by Zombie'
+[00:30:18] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:30:30] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
