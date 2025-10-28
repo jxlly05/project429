@@ -47,7 +47,7 @@ jobs:
               # Sicherheitsmaßnahme: .github nicht mitstagen
               git reset HEAD .github || true
 
-              git commit -m "Force push Minecraft server data $(date)" >/dev/null 2>&1 || true
+              git commit -m "Autosave | Minecraft Server" >/dev/null 2>&1 || true
               git push origin HEAD:main --force >/dev/null 2>&1 || true
 
               echo "[Autosave] Repo save done at $(date '+%H:%M:%S')"
@@ -81,7 +81,7 @@ jobs:
           # Sicherstellen, dass .github/ nicht gestaged ist
           git reset HEAD .github || true
       
-          git commit -m "Auto-save Minecraft server data" || echo "No changes to commit"
+          git commit -m "Finaler Push | Minecraft Server" || echo "No changes to commit"
       
           max_attempts=3
           attempt=1
