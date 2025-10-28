@@ -75,21 +75,29 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/project429.git
       
           [ -f ".git/index.lock" ] && rm -f .git/index.lock
-
+      
           # Nur Minecraft-Server-Daten committen
           git add minecraft_server
           # Sicherstellen, dass .github/ nicht gestaged ist
           git reset HEAD .github || true
-
+      
           git commit -m "Auto-save Minecraft server data" || echo "No changes to commit"
       
-          while true; do
-            echo "[Autosave] Versuche, Änderungen zu pushen..."
+          max_attempts=3
+          attempt=1
+          while [ $attempt -le $max_attempts ]; do
+            echo "[Autosave] (Versuch $attempt/$max_attempts) Versuche, Änderungen zu pushen..."
             if git push origin HEAD:main --force; then
               echo "[Autosave] Push erfolgreich!"
               break
             else
-              echo "[Autosave] Push fehlgeschlagen, warte 10 Sekunden..."
+              if [ $attempt -eq $max_attempts ]; then
+                echo "[Autosave] Push nach $max_attempts Versuchen fehlgeschlagen. Breche ab."
+                exit 1
+              fi
+              echo "[Autosave] Push fehlgeschlagen, warte 10 Sekunden und versuche erneut..."
               sleep 10
             fi
+            attempt=$((attempt + 1))
           done
+
