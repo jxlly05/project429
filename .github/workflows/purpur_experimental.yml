@@ -35,31 +35,36 @@ jobs:
       # 4. Autosave + Minecraft Server Start
       - name: Start AutoSave & Minecraft Server
         run: |
-          echo "[Server] Starte Hintergrund-Server-Prozess..."
+          echo "[Autosave] Starte Hintergrund-Autosave-Prozess..."
+
+          # Autosave-Prozess im Hintergrund starten und PID merken
           {
-            cd "$GITHUB_WORKSPACE/minecraft_server"
-            java -Xms14G -Xmx14G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -XX:InitiatingHeapOccupancyPercent=15 -jar purpur.jar nogui
-          } &
-          SERVER_PID=$!
-          echo "[Autosave] SERVER gestartet mit PID $SERVER_PID"
-
-
-          while true; do
+            while true; do
               cd "$GITHUB_WORKSPACE"
               git config user.name "github-actions"
               git config user.email "github-actions@github.com"
-
-              # Nur den Minecraft-Server-Ordner committen
-              git add minecraft_server || true
-              # Sicherheitsmaßnahme: .github nicht mitstagen
-              git reset HEAD .github || true
-
+        
+              git add -A minecraft_server || true
               git commit -m "Autosave | Minecraft Server" >/dev/null 2>&1 || true
               git push origin HEAD:main --force >/dev/null 2>&1 || true
-
-              echo "[Autosave] Repo save done at $(date '+%H:%M:%S')"
+        
+              echo "[Autosave] Repo save done"
               sleep 60
             done
+          } &
+          AUTOSAVE_PID=$!
+        
+          echo "[Autosave] Hintergrundprozess gestartet mit PID $AUTOSAVE_PID"
+        
+          # Minecraft-Server starten
+          cd "$GITHUB_WORKSPACE/minecraft_server"
+          java -Xms14G -Xmx14G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -XX:InitiatingHeapOccupancyPercent=15 -jar purpur.jar nogui
+        
+          # Sobald der Serverprozess endet, Autosave stoppen
+          echo "[Autosave] Serverprozess beendet – beende Autosave-Prozess..."
+          kill "$AUTOSAVE_PID" 2>/dev/null || true
+        
+          echo "[Autosave] Autosave vollständig gestoppt."
       # 5. Finaler Commit/PUSH
       - name: Force-push server data to repo
         run: |
