@@ -43,6 +43,8 @@ jobs:
               cd "$GITHUB_WORKSPACE"
               git config user.name "github-actions"
               git config user.email "github-actions@github.com"
+
+              git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/project429.git
         
               git add -A minecraft_server || true
               git commit -m "Autosave | Minecraft Server" >/dev/null 2>&1 || true
