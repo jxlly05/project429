@@ -41,21 +41,44 @@ jobs:
               cd "$GITHUB_WORKSPACE"
               git config user.name "github-actions"
               git config user.email "github-actions@github.com"
-
+          
               # Nur den Minecraft-Server-Ordner committen
               git add minecraft_server || true
               # Sicherheitsmaßnahme: .github nicht mitstagen
               git reset HEAD .github || true
-
-              git commit -m "Autosave | Minecraft Server" >/dev/null 2>&1 || true
-              git push origin HEAD:main --force >/dev/null 2>&1 || true
-
-              echo "[Autosave] Repo save done at $(date '+%H:%M:%S')"
+          
+              # Commit erstellen, falls Änderungen vorhanden
+              if git diff --cached --quiet; then
+                echo "[Autosave] Keine Änderungen zum Committen"
+              else
+                git commit -m "Autosave | Minecraft Server"
+                
+                # Push mit Retry, wartet bis Push abgeschlossen
+                max_attempts=3
+                attempt=1
+                while [ $attempt -le $max_attempts ]; do
+                  if git push origin HEAD:main --force; then
+                    echo "[Autosave] Push erfolgreich bei $(date '+%H:%M:%S')"
+                    break
+                  else
+                    if [ $attempt -eq $max_attempts ]; then
+                      echo "[Autosave] Push nach $max_attempts Versuchen fehlgeschlagen!"
+                    else
+                      echo "[Autosave] Push fehlgeschlagen, versuche erneut in 10 Sekunden..."
+                      sleep 10
+                    fi
+                  fi
+                  attempt=$((attempt + 1))
+                done
+              fi
+          
+              # Warte 60 Sekunden bis zum nächsten Autosave
               sleep 60
             done
           } &
           AUTOSAVE_PID=$!
           echo "[Autosave] Hintergrundprozess gestartet mit PID $AUTOSAVE_PID"
+
 
           echo "[Server] Starte Minecraft Server..."
           cd "$GITHUB_WORKSPACE/minecraft_server"
