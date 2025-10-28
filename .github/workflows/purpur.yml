@@ -59,7 +59,7 @@ jobs:
           cd "$GITHUB_WORKSPACE/minecraft_server"
           java -Xms14G -Xmx14G -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -XX:InitiatingHeapOccupancyPercent=15 -jar purpur.jar nogui
 
-          echo "[Autosave] Serverprozess beendet – beende Autosave-Prozess..."
+          echo "[Autosave] beende Autosave-Prozess..."
           kill "$AUTOSAVE_PID" 2>/dev/null || true
           echo "[Autosave] Autosave vollständig gestoppt."
 
