@@ -45,7 +45,7 @@ jobs:
               git config user.email "github-actions@github.com"
 
               git add -A minecraft_server || true
-              git commit -m "Force push Minecraft server data $(date)" >/dev/null 2>&1 || true
+              git commit -m "Autosave | Minecraft Server" >/dev/null 2>&1 || true
               git push origin HEAD:main --force >/dev/null 2>&1 || true
 
               echo "[Autosave] Repo save done at $(date '+%H:%M:%S')"
@@ -76,7 +76,7 @@ jobs:
           [ -f ".git/index.lock" ] && rm -f .git/index.lock
       
           git add -A minecraft_server
-          git commit -m "Auto-save Minecraft server data" || echo "No changes to commit"
+          git commit -m "Finaler Push | Minecraft Server" || echo "No changes to commit"
       
           while true; do
             echo "[Autosave] Versuche, Änderungen zu pushen..."
