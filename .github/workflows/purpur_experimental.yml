@@ -17,6 +17,11 @@ jobs:
           git config --global protocol.version 2
           GIT_TERMINAL_PROMPT=1 \
           git clone --depth 1 --progress https://github.com/jxlly05/project429.git .
+      
+          echo "[Cleanup] Entferne .github/workflows vom Runner..."
+          rm -rf .github/workflows || true
+          echo "[Cleanup] .github/workflows erfolgreich gelöscht."
+
       # 2. Java 21 installieren
       - name: Setup Java 21
         uses: actions/setup-java@v5
@@ -32,6 +37,7 @@ jobs:
           echo ""
           echo "==== Festplattenplatz auf Runner ===="
           df -h /
+          
       # 4. Autosave + Minecraft Server Start
       - name: Start AutoSave & Minecraft Server
         run: |
@@ -67,6 +73,7 @@ jobs:
           kill "$AUTOSAVE_PID" 2>/dev/null || true
         
           echo "[Autosave] Autosave vollständig gestoppt."
+          
       # 5. Finaler Commit/PUSH
       - name: Force-push server data to repo
         run: |
@@ -81,8 +88,6 @@ jobs:
       
           # Nur Minecraft-Server-Daten committen
           git add minecraft_server
-          # Sicherstellen, dass .github/ nicht gestaged ist
-          git reset HEAD .github || true
       
           git commit -m "Finaler Push | Minecraft Server" || echo "No changes to commit"
       
