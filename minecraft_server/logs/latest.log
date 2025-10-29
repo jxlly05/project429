@@ -280,3 +280,7 @@
 [11:51:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [11:54:55] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [11:55:07] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:58:01] [Server thread/INFO]: Villager Villager['Fletcher'/219, uuid='1b9e0603-b19c-412b-b4a5-2a375952eab2', l='ServerLevel[WeltMitKurosh]', x=-3056.92, y=56.45, z=6771.50, cpos=[-192, 423], tl=134162, v=true] died, message: 'Fletcher tried to swim in lava'
+[11:58:10] [Server thread/INFO]: Villager Villager['Fletcher'/81, uuid='9719f592-3ba5-4724-904b-6bd40f1cd17d', l='ServerLevel[WeltMitKurosh]', x=-3056.86, y=57.05, z=6771.70, cpos=[-192, 423], tl=134341, v=true] died, message: 'Fletcher burned to death'
+[11:58:56] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:59:08] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
