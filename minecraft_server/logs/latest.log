@@ -252,3 +252,6 @@
 [11:22:37] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [11:22:43] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [11:22:56] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:26:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:26:57] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:27:05] [Server thread/INFO]: Villager Villager['Librarian'/13710, uuid='e8c27405-3ea1-4710-b9ad-8d27fcffd5cf', l='ServerLevel[WeltMitKurosh]', x=-3054.30, y=56.02, z=6775.30, cpos=[-191, 423], tl=46439, v=true] died, message: 'Librarian tried to swim in lava'
