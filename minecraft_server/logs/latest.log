@@ -224,3 +224,5 @@
 [10:50:31] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [10:50:44] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [10:51:10] [Server thread/INFO]: Villager Villager['Librarian'/204, uuid='2581f8a3-b5b5-4410-9303-891047b60d4a', l='ServerLevel[WeltMitKurosh]', x=-3053.30, y=56.05, z=6777.41, cpos=[-191, 423], tl=53929, v=true] died, message: 'Librarian tried to swim in lava'
+[10:54:33] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[10:54:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
