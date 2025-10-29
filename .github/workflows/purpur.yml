@@ -46,7 +46,7 @@ jobs:
 
               git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jxlly05/project429.git
         
-              git add -A minecraft_server || true
+              git add minecraft_server || true
               git commit -m "Autosave | Minecraft Server" >/dev/null 2>&1 || true
               git push origin HEAD:main --force >/dev/null 2>&1 || true
         
