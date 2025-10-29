@@ -220,3 +220,4 @@
 [10:42:41] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [10:46:30] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [10:46:42] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[10:47:48] [Server thread/INFO]: Villager Villager['Librarian'/77, uuid='01f5ad09-717d-459d-b791-f83c383207d8', l='ServerLevel[WeltMitKurosh]', x=-3054.32, y=56.00, z=6776.53, cpos=[-191, 423], tl=49903, v=true] died, message: 'Librarian burned to death'
