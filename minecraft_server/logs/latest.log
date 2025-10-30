@@ -1718,3 +1718,5 @@
 [23:38:35] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
 [23:38:39] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
 [23:38:43] [Async Chat Thread - #11/INFO]: <NotJxlly> -195 420
+[23:39:10] [Server thread/INFO]: NotJxlly issued server command: /kc keepregion coords -187 431 -195 420 WeltMitKurosh
+[23:39:21] [Server thread/INFO]: NotJxlly issued server command: /kc chunkinfo current
