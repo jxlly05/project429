@@ -295,3 +295,9 @@
 [17:30:37] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [17:34:28] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [17:34:40] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[17:36:50] [Server thread/INFO]: NotJxlly issued server command: /spawndummy
+[17:36:50] [Server thread/WARN]: Failed to set protocol: protocol
+[17:36:50] [Server thread/WARN]: [Multiverse-Core] The destination in FirstSpawnLocation in config is invalid
+[17:36:50] [Server thread/INFO]: GurjantBot joined the game
+[17:36:50] [Server thread/INFO]: GurjantBot[local] logged in with entity id 12434 at ([WeltMitKurosh]80.5, 65.0, 368.5)
+[17:36:50] [Server thread/INFO]: GurjantBot joined the game.
