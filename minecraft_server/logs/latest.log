@@ -1629,3 +1629,4 @@
 [02:19:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [02:23:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [02:23:18] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[02:26:26] [Server thread/INFO]: Villager Villager['Farmer'/1040, uuid='ab29498e-3fd9-4845-8ccc-aa214d57d74a', l='ServerLevel[WeltMitKurosh]', x=-3178.20, y=65.50, z=6933.30, cpos=[-199, 433], tl=313533, v=true] died, message: 'Farmer was slain by Zombie'
