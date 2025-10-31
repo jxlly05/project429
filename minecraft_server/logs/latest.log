@@ -1612,3 +1612,6 @@
 [01:50:39] [Server thread/INFO]: Spectre joined the game.
 [01:50:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [01:51:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[01:55:00] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[01:55:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[01:56:15] [Server thread/WARN]: Kurocr7 moved wrongly!, (-0.7999280723285693)
