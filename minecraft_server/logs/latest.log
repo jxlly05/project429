@@ -2511,3 +2511,5 @@ java.net.SocketException: Connection reset
 [23:02:13] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [23:02:26] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [23:03:06] [Server thread/INFO]: NotJxlly has reached the goal [Postmortal]
+[23:06:15] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:06:27] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
