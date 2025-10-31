@@ -2173,3 +2173,5 @@ java.net.SocketException: Connection reset
 [21:21:57] [Async Chat Thread - #12/INFO]: <NotJxlly> -3095
 [21:22:03] [Async Chat Thread - #12/INFO]: <NotJxlly> -3095 6801
 [21:23:29] [Server thread/INFO]: Kurocr7 was doomed to fall
+[21:25:39] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:25:52] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
