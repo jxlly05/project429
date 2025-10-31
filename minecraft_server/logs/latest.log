@@ -1970,3 +1970,5 @@ java.net.SocketException: Connection reset
 [19:52:50] [Server thread/INFO]: NotJxlly issued server command: /tpsbar
 [19:53:05] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [19:53:17] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:57:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:57:19] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
