@@ -2430,3 +2430,5 @@ java.net.SocketException: Connection reset
 [21:37:31] [Server thread/INFO]: Kurocr7 has completed the challenge [Hero of the Village]
 [21:37:43] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:37:55] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:41:45] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:41:57] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
