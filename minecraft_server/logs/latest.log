@@ -2043,3 +2043,4 @@ java.net.SocketException: Connection reset
 [20:45:38] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:49:27] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [20:49:39] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:50:38] [Server thread/WARN]: Player NotJxlly just tried to change non-editable sign
