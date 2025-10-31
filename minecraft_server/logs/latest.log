@@ -2427,3 +2427,5 @@ java.net.SocketException: Connection reset
 [21:32:05] [Async Chat Thread - #14/INFO]: <NotJxlly> -3095 6801
 [21:33:42] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [21:33:54] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:37:31] [Server thread/INFO]: Kurocr7 has completed the challenge [Hero of the Village]
+[21:37:43] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
