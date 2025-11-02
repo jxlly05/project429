@@ -2024,3 +2024,6 @@
 [22:56:13] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
 [22:56:13] [Server thread/INFO]: Kurocr7 lost connection: Disconnected
 [22:56:13] [Server thread/INFO]: Kurocr7 left the game
+[22:58:03] [Server thread/INFO]: Villager Villager['Cartographer'/125, uuid='36e7a4dc-998b-4b60-9b14-b52f2a289e2d', l='ServerLevel[WeltMitKurosh]', x=-3059.06, y=56.05, z=6780.50, cpos=[-192, 423], tl=281020, v=true] died, message: 'Cartographer tried to swim in lava'
+[22:58:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:58:24] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
