@@ -468,3 +468,7 @@
 [17:15:53] [Server thread/INFO]: NotJxlly[/127.0.0.1:48722] logged in with entity id 118848 at ([WeltMitKurosh]-418.5171411733395, -43.0, 7004.245533924971)
 [17:19:01] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [17:19:13] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[17:20:33] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[17:20:33] [Server thread/INFO]: Kurocr7 lost connection: Disconnected
+[17:20:33] [Server thread/INFO]: Kurocr7 left the game
+[17:21:42] [Server thread/WARN]: NotJxlly moved wrongly!, (0.8022980881230026)
