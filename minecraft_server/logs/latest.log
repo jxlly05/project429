@@ -218,3 +218,4 @@
 [15:50:55] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [15:54:44] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [15:54:56] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:56:22] [Server thread/INFO]: Villager Villager['Cartographer'/288, uuid='2667659f-cadf-4f4c-812b-41513a329a8e', l='ServerLevel[WeltMitKurosh]', x=-3054.52, y=56.00, z=6771.49, cpos=[-191, 423], tl=26038, v=true] died, message: 'Cartographer tried to swim in lava'
