@@ -616,3 +616,6 @@
 [23:48:58] [Server thread/INFO]: NotJxlly has made the advancement [A Throwaway Joke]
 [23:52:06] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [23:52:18] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:55:55] [Server thread/INFO]: Villager Villager['Librarian'/342, uuid='302d2008-1f31-4fa0-b578-238462c7eeee', l='ServerLevel[WeltMitKurosh]', x=-3059.33, y=56.03, z=6774.47, cpos=[-192, 423], tl=91541, v=true] died, message: 'Librarian tried to swim in lava'
+[23:56:07] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:56:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
