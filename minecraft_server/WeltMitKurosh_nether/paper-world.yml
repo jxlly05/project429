@@ -9,8 +9,9 @@ _version: 31
 anticheat:
   anti-xray:
     enabled: true
-    engine-mode: 3
+    engine-mode: 2
     hidden-blocks:
+    # See note about air and possible client performance issues above.
     - air
     - ancient_debris
     - bone_block
