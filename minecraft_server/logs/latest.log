@@ -174,3 +174,16 @@
 [21:15:14] [Server thread/INFO]: NotJxlly issued server command: /tpsbar
 [21:15:24] [Server thread/INFO]: NotJxlly issued server command: /paper
 [21:15:51] [Server thread/INFO]: NotJxlly issued server command: /ping
+[21:15:54] [Server thread/INFO]: NotJxlly issued server command: /ping
+[21:15:58] [Server thread/INFO]: NotJxlly issued server command: /spark
+[21:15:59] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:16:02] [Server thread/INFO]: NotJxlly issued server command: /spark tps
+[21:16:11] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:16:29] [Server thread/INFO]: NotJxlly issued server command: /spark tps
+[21:16:37] [Server thread/INFO]: NotJxlly issued server command: /spark profiler
+[21:16:43] [Server thread/INFO]: NotJxlly issued server command: /spark profiler open
+[21:16:45] [Paper Async Task Handler Thread - 0/INFO]: [⚡] Profiler live viewer:
+[21:16:45] [Paper Async Task Handler Thread - 0/INFO]: https://spark.lucko.me/xiQjevJsMz
+[21:16:45] [Paper Async Task Handler Thread - 0/INFO]: 
+[21:16:45] [Paper Async Task Handler Thread - 0/INFO]: (NOTE: this link is temporary and will expire after a short period of time. If you need a link to share with other people (e.g. in a bug report), please use /spark profiler stop instead.)
+[21:16:53] [WebSocketConnectReadThread-134/INFO]: [spark] [Viewer - AUfahw2hCLwLRvJ] Client connected: clientId=1c32-563f, keyhash=12c4a5, desc=Chrome on Windows
