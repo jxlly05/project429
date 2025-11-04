@@ -575,3 +575,6 @@
 [23:13:10] [User Authenticator #3/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
 [23:13:11] [Server thread/INFO]: NotJxlly joined the game
 [23:13:11] [Server thread/INFO]: NotJxlly[/127.0.0.1:37480] logged in with entity id 27139 at ([WeltMitKurosh]-3076.051392850653, 63.0, 6797.215209907621)
+[23:15:14] [Server thread/INFO]: Villager Villager['Cartographer'/110, uuid='e98ea360-e225-4ea6-91b4-8b53081d35ba', l='ServerLevel[WeltMitKurosh]', x=-3060.69, y=56.30, z=6779.45, cpos=[-192, 423], tl=42709, v=true] died, message: 'Cartographer tried to swim in lava'
+[23:15:53] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:16:05] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
