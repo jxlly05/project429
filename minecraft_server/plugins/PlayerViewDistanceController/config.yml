@@ -35,16 +35,16 @@ display-max-join-msg: false
 display-max-change-join-msg: true
 
 # If chunks loaded will be limited for AFK players
-afk-chunk-limiter: true
+afk-chunk-limiter: false
 
 # Whether players should be set to the afk limit on join until they first move
 afkOnJoin: false
 
 # After how many seconds a player will be considered AFK
-afkTime: 60
+afkTime: 600
 
 # The view distance of an AFK player
-afkChunks: 2
+afkChunks: 4
 
 # Whether players in spectator mode bypass AFK checks
 spectators-can-afk: true
