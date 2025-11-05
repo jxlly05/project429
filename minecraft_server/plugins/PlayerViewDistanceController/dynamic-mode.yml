@@ -1,5 +1,5 @@
 # Whether dynamic mode is activated on the server (ping mode enabled key does not work in the same way)
-enabled: false
+enabled: true
 
 #  Min and max values dynamic mode will set a player's view distance to (must be within the boundaries in config.yml)
 min: 2
