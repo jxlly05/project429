@@ -183,3 +183,4 @@
 [10:51:08] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [10:51:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [10:52:04] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[10:53:04] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
