@@ -724,3 +724,6 @@ java.net.SocketException: Connection reset
 [19:09:55] [Server thread/WARN]: NotJxlly moved wrongly!
 [19:09:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
 [19:09:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[19:10:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[19:10:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[19:11:09] [Server thread/WARN]: NotJxlly moved wrongly!
