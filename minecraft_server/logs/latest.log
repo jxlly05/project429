@@ -764,3 +764,5 @@ java.net.SocketException: Connection reset
 [19:24:24] [Async Chat Thread - #13/INFO]: <NotJxlly> 6740
 [19:24:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
 [19:24:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[19:25:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[19:25:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
