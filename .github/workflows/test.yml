@@ -1,41 +1,35 @@
-name: Purpur Server Start - Test
+name: Virginia Check & Retry
 
 on:
   workflow_dispatch:
-
-permissions:
-  contents: write
+  push:
+    branches: [ main ]
 
 jobs:
-  locate-runner:
+  check-runner-region:
     runs-on: ubuntu-latest
     steps:
-      - name: Lookup GeoIP
+      - name: Detect runner region
+        id: region
         run: |
           IP=$(curl -s https://api.ipify.org)
-          echo "Runner IP: $IP"
-          curl -s "https://ipinfo.io/$IP"
-  locate-runner2:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Lookup GeoIP
+          REGION=$(curl -s "https://ipinfo.io/$IP/region")
+          echo "Detected region: $REGION"
+          echo "region=$REGION" >> $GITHUB_OUTPUT
+
+      - name: Restart workflow if not Virginia
+        if: ${{ steps.region.outputs.region != 'Virginia' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          IP=$(curl -s https://api.ipify.org)
-          echo "Runner IP: $IP"
-          curl -s "https://ipinfo.io/$IP"
-  locate-runner3:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Lookup GeoIP
-        run: |
-          IP=$(curl -s https://api.ipify.org)
-          echo "Runner IP: $IP"
-          curl -s "https://ipinfo.io/$IP"
-  locate-runner4:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Lookup GeoIP
-        run: |
-          IP=$(curl -s https://api.ipify.org)
-          echo "Runner IP: $IP"
-          curl -s "https://ipinfo.io/$IP"
+          echo "❌ Runner not in Virginia, restarting workflow..."
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/${{ github.workflow }}/dispatches \
+            -d "{\"ref\":\"${{ github.ref_name }}\"}"
+          exit 1
+
+      - name: Hello World (only runs if Virginia)
+        if: ${{ steps.region.outputs.region == 'Virginia' }}
+        run: echo "✅ Runner is in Virginia! Hello World."
