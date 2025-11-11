@@ -189,3 +189,6 @@
 [22:26:35] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
 [22:26:35] [Server thread/INFO]: NotJxlly joined the game
 [22:26:35] [Server thread/INFO]: NotJxlly[/127.0.0.1:44796] logged in with entity id 3161 at ([WeltMitKurosh]-3021.300000011921, 66.0, 6953.611730628764)
+[22:26:49] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[22:26:51] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:27:04] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
