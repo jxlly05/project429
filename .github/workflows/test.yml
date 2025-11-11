@@ -20,13 +20,13 @@ jobs:
       - name: Restart workflow if not Virginia
         if: ${{ steps.region.outputs.region != 'Virginia' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
           WORKFLOW_FILE: test.yml
         run: |
-          echo "❌ Runner not in Virginia, restarting workflow..."
+          echo "❌ Runner not in Virginia, restarting workflow via PAT..."
           curl -X POST \
             -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Authorization: Bearer $GITHUB_PAT" \
             https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/$WORKFLOW_FILE/dispatches \
             -d "{\"ref\":\"${GITHUB_REF_NAME}\"}"
           exit 1
