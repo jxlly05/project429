@@ -9,11 +9,7 @@ permissions:
 jobs:
   start-server:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Get public IP
-        run: curl -s https://api.ipify.org
-
       - name: Lookup GeoIP
         run: |
           IP=$(curl -s https://api.ipify.org)
