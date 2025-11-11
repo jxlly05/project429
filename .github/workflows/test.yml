@@ -7,14 +7,19 @@ permissions:
   contents: write
 
 jobs:
-  start-server:
+  locate-runner:
     runs-on: ubuntu-latest
-
     steps:
       - name: Get public IP
         run: curl -s https://api.ipify.org
+
       - name: Lookup GeoIP
         run: |
           IP=$(curl -s https://api.ipify.org)
           echo "Runner IP: $IP"
           curl -s "https://ipinfo.io/$IP"
+
+      - name: Ping hl-live.de
+        run: |
+          echo "Pinging hl-live.de ..."
+          ping -c 4 hl-live.de
