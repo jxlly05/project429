@@ -1945,3 +1945,6 @@ java.net.SocketException: Connection reset
 [20:49:18] [Server thread/INFO]: Kurocr7 joined the game
 [20:49:18] [Server thread/INFO]: Kurocr7[/127.0.0.1:52856] logged in with entity id 10891 at ([WeltMitKurosh]-3098.346431815092, 192.0, 6775.89354911884)
 [20:49:46] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:49:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:50:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:50:46] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
