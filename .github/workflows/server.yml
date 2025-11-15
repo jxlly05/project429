@@ -14,6 +14,7 @@ jobs:
         id: region
         run: |
           IP=$(curl -s https://api.ipify.org)
+          echo IP: $IP
           REGION=$(curl -s "https://ipinfo.io/$IP/region")
           echo "Detected region: $REGION"
           echo "region=$REGION" >> $GITHUB_OUTPUT
@@ -22,7 +23,7 @@ jobs:
         if: ${{ steps.region.outputs.region != 'Virginia' }}
         env:
           GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
-          WORKFLOW_FILE: purpur_experimental.yml
+          WORKFLOW_FILE: server.yml
         run: |
           echo "❌ Runner not in Virginia, restarting workflow via PAT..."
           curl -X POST \
