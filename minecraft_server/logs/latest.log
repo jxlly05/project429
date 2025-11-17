@@ -274,3 +274,15 @@
 [20:00:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
 [20:01:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
 [20:01:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:02:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:02:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:03:08] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:03:20] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:03:50] [Server thread/INFO]: NotJxlly issued server command: /pvdc set 16
+[20:03:50] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:03:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:03:59] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:04:16] [Server thread/INFO]: NotJxlly issued server command: /pvdc set 16
+[20:04:16] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[20:04:20] [Server thread/INFO]: NotJxlly issued server command: /pvdc set 32
+[20:04:20] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
