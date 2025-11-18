@@ -577,3 +577,10 @@ java.io.IOException: Connection timed out
 [23:56:34] [Server thread/WARN]: NotJxlly moved wrongly!
 [23:56:59] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [23:57:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:57:27] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[23:57:27] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[23:58:27] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[23:58:27] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[23:59:23] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[23:59:23] [Server thread/INFO]: Kurocr7 lost connection: Disconnected
+[23:59:23] [Server thread/INFO]: Kurocr7 left the game
