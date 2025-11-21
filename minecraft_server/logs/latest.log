@@ -1078,3 +1078,5 @@ java.net.SocketException: Connection reset
 [15:37:44] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to establish connection to tunnel claim/69.9.180.2:43784
 [15:38:11] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [15:38:23] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:42:12] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:42:24] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
