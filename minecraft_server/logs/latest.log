@@ -1150,3 +1150,70 @@ java.net.SocketException: Connection reset
 [17:59:01] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [18:02:50] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [18:03:02] [Thread-5/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[18:04:46] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.128:27705, claimAddress=69.9.180.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -45, 81, -85, 94, -122, 105, -128, 108, 57, -41, -36, -10, 89, -85, 8, 105, 32, -87, -66, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, -98, 52, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 38, 37, 0, -124, 6, 30, 111, 102, 102, 101, 114, 115, 45, 108, 97, 117, 100, 101, 114, 100, 97, 108, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 81, -85, 1, -79, -51, -112, -58, 49, -85, -83, 74, -114, -35, -114, -111, 111, 50, -31, -22], tunnelServerId=1, dataCenterId=36}
+[18:04:46] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:04:46] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.180.2:43784 to claim client
+[18:04:49] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.211:20907, peerAddr=94.134.105.128:27721, claimAddress=69.9.180.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -45, 81, -85, 94, -122, 105, -128, 108, 73, 82, -9, 80, -34, -85, 8, 105, 32, -87, -63, 0, 0, 0, 0, 0, 24, 72, 43, 0, 0, 0, 0, 0, 77, -92, 87, 0, 0, 0, 0, 0, 37, 22, -27, 111, -71, -85, 8, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 38, 37, 0, -124, 6, 30, 111, 102, 102, 101, 114, 115, 45, 108, 97, 117, 100, 101, 114, 100, 97, 108, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 81, -85, 2, 77, 84, -31, 17, -61, 25, -37, -60, 78, 56, -51, 31, -80, 47, 48, 10], tunnelServerId=1, dataCenterId=36}
+[18:04:49] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:04:49] [Thread-5/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.180.2:43784 to claim client
+[18:04:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:04:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:04:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:04:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:04:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:04:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:04:49] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:04:50] [User Authenticator #2/INFO]: UUID of player NotJxlly is f34b2cf3-af89-4012-87db-df6e2ab0d3aa
+[18:04:51] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[18:04:51] [Server thread/INFO]: NotJxlly joined the game
+[18:04:51] [Server thread/INFO]: NotJxlly[/127.0.0.1:41632] logged in with entity id 47019 at ([WeltMitKurosh]-2804.4640891317044, 64.0, 6861.596198464247)
+[18:04:54] [Server thread/WARN]: [PVDC] An error occurred while accessing LuckPerms data: net.luckperms.api.LuckPerms
+[18:05:06] [Server thread/INFO]: NotJxlly issued server command: /stop
+[18:05:06] [Server thread/INFO]: [NotJxlly: Stopping the server]
+[18:05:06] [Server thread/INFO]: Stopping server
+[18:05:06] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.1.3
+[18:05:06] [Server thread/INFO]: [DummyPlayers] Disabling DummyPlayers v1.0
+[18:05:06] [Server thread/INFO]: [DummyPlayers] All dummies removed. Plugin disabled!
+[18:05:06] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[18:05:06] [Server thread/INFO]: [PVDC] Disabling PlayerViewDistanceController v2.3.3
+[18:05:06] [Server thread/INFO]: [PVDC] Plugin shut down!
+[18:05:06] [Server thread/INFO]: [ScheduledStop] Disabling ScheduledStop v1.0.0
+[18:05:06] [Server thread/INFO]: [ScheduledStop] ShutdownTimer deaktiviert.
+[18:05:06] [Server thread/INFO]: [NotTooExpensive] Disabling NotTooExpensive v1.3.4
+[18:05:06] [Server thread/INFO]: [KeepChunks] Disabling KeepChunks v1.7.3
+[18:05:06] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.0
+[18:05:06] [Server thread/INFO]: Saving players
+[18:05:06] [Server thread/INFO]: NotJxlly lost connection: Server closed
+[18:05:06] [Server thread/INFO]: NotJxlly left the game
+[18:05:06] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[18:05:06] [Server thread/INFO]: Saving worlds
+[18:05:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh]'/minecraft:overworld
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh'
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh'
+[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh'
+[18:05:07] [Thread-5/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Saved 806 block chunks, 1047 entity chunks, 1 poi chunks in world 'WeltMitKurosh' in 1.44s
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh'
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh'
+[18:05:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_nether]'/minecraft:the_nether
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_nether'
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_nether'
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_nether'
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'WeltMitKurosh_nether' in 0.00s
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_nether'
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_nether'
+[18:05:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WeltMitKurosh_the_end]'/minecraft:the_end
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WeltMitKurosh_the_end'
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WeltMitKurosh_the_end'
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WeltMitKurosh_the_end'
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 19 entity chunks, 0 poi chunks in world 'WeltMitKurosh_the_end' in 0.01s
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WeltMitKurosh_the_end'
+[18:05:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WeltMitKurosh_the_end'
+[18:05:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (WeltMitKurosh): All chunks are saved
+[18:05:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:05:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:05:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:05:08] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[18:05:08] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[18:05:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[18:05:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
