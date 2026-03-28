@@ -1,0 +1,48 @@
+name: Ping Logger
+
+on:
+  workflow_dispatch:   # manuell starten
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Datei sicherstellen
+        run: |
+          if [ ! -f pings.txt ]; then
+            touch pings.txt
+          fi
+
+      - name: IP & Region ermitteln
+        id: region
+        run: |
+          IP=$(curl -s https://api.ipify.org)
+          REGION=$(curl -s "https://ipinfo.io/$IP/region")
+          
+          echo "ip=$IP" >> $GITHUB_OUTPUT
+          echo "region=$REGION" >> $GITHUB_OUTPUT
+
+      - name: Ping messen
+        id: ping
+        run: |
+          # 1 Ping, Zeit extrahieren
+          PING=$(ping -c 1 hetzner.de | grep 'time=' | sed -E 's/.*time=([0-9.]+).*/\1/')
+          
+          echo "ping=$PING" >> $GITHUB_OUTPUT
+
+      - name: In Datei schreiben
+        run: |
+          echo "${{ steps.ping.outputs.ping }} ms: ${{ steps.region.outputs.region }}" >> pings.txt
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          
+          git add pings.txt
+          git commit -m "Update ping log" || echo "No changes"
+          git push
