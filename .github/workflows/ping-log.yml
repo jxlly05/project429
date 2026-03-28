@@ -3,7 +3,7 @@ name: Ping Logger
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"   # alle 5 Minuten (Minimum bei GitHub)
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
@@ -18,49 +18,43 @@ jobs:
 
       - name: Datei sicherstellen
         run: |
-          if [ ! -f pings.txt ]; then
-            touch pings.txt
-          fi
+          [ -f pings.txt ] || touch pings.txt
 
       - name: IP & Region ermitteln
         id: region
         run: |
           IP=$(curl -s https://api.ipify.org)
           REGION=$(curl -s "https://ipinfo.io/$IP/region")
-          
-          echo "IP: $IP"
-          echo "Region: $REGION"
 
           echo "region=$REGION" >> $GITHUB_OUTPUT
 
-      - name: Ping messen (robust)
+      - name: Ping messen (fehlertolerant)
         id: ping
         run: |
-          RESULT=$(ping -c 3 hetzner.de)
+          # Ping ausführen, aber Fehler NICHT abbrechen lassen
+          RESULT=$(ping -c 3 hetzner.de 2>/dev/null || true)
 
           echo "$RESULT"
 
           # Durchschnitt extrahieren
           PING=$(echo "$RESULT" | grep 'rtt' | awk -F'/' '{print $5}')
 
-          # Fallback falls leer
+          # Falls kein Wert → Fallback
           if [ -z "$PING" ]; then
-            PING="N/A"
+            PING="timeout"
           fi
-
-          echo "Ping: $PING ms"
 
           echo "ping=$PING" >> $GITHUB_OUTPUT
 
       - name: In Datei schreiben
         run: |
-          echo "${{ steps.ping.outputs.ping }} ms: ${{ steps.region.outputs.region }}" >> pings.txt
+          echo "$(date '+%Y-%m-%d %H:%M:%S') | ${{ steps.ping.outputs.ping }} ms | ${{ steps.region.outputs.region }}" >> pings.txt
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          
+
           git add pings.txt
           git commit -m "Update ping log" || echo "No changes"
           git push
