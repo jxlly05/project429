@@ -2,6 +2,8 @@ name: Runner Info Logger
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
