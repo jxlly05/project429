@@ -1,4 +1,4 @@
-name: Ping Logger
+name: Runner Info Logger
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  ping:
+  log-runner:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,43 +18,29 @@ jobs:
 
       - name: Datei sicherstellen
         run: |
-          [ -f pings.txt ] || touch pings.txt
+          [ -f runners.txt ] || touch runners.txt
 
       - name: IP & Region ermitteln
-        id: region
+        id: data
         run: |
           IP=$(curl -s https://api.ipify.org)
           REGION=$(curl -s "https://ipinfo.io/$IP/region")
 
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+
+          echo "ip=$IP" >> $GITHUB_OUTPUT
           echo "region=$REGION" >> $GITHUB_OUTPUT
-
-      - name: Ping messen (fehlertolerant)
-        id: ping
-        run: |
-          # Ping ausführen, aber Fehler NICHT abbrechen lassen
-          RESULT=$(ping -c 3 google.com 2>/dev/null || true)
-
-          echo "$RESULT"
-
-          # Durchschnitt extrahieren
-          PING=$(echo "$RESULT" | grep 'rtt' | awk -F'/' '{print $5}')
-
-          # Falls kein Wert → Fallback
-          if [ -z "$PING" ]; then
-            PING="timeout"
-          fi
-
-          echo "ping=$PING" >> $GITHUB_OUTPUT
+          echo "timestamp=$TIMESTAMP" >> $GITHUB_OUTPUT
 
       - name: In Datei schreiben
         run: |
-          echo "$(date '+%Y-%m-%d %H:%M:%S') | ${{ steps.ping.outputs.ping }} ms | ${{ steps.region.outputs.region }}" >> pings.txt
+          echo "${{ steps.data.outputs.timestamp }} | ${{ steps.data.outputs.ip }} | ${{ steps.data.outputs.region }}" >> runners.txt
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add pings.txt
-          git commit -m "Update ping log" || echo "No changes"
+          git add runners.txt
+          git commit -m "Update runner log" || echo "No changes"
           git push
