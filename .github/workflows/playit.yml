@@ -40,4 +40,4 @@ jobs:
         run: playit --help || true
 
       - name: Verify installation
-        run: playit claim generate
+        run: playit setup
