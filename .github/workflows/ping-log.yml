@@ -44,6 +44,9 @@ jobs:
           git push
 
       - name: Selbst erneut starten (mit Schutz)
+        env:
+          GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}
+          WORKFLOW_FILE: ping-log.yml
         run: |
           # Schutz: maximal 1 neuer Run
           sleep 5
