@@ -32,7 +32,7 @@ jobs:
         id: ping
         run: |
           # Ping ausführen, aber Fehler NICHT abbrechen lassen
-          RESULT=$(ping -c 3 hetzner.de 2>/dev/null || true)
+          RESULT=$(ping -c 3 google.com 2>/dev/null || true)
 
           echo "$RESULT"
 
