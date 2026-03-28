@@ -1,7 +1,12 @@
 name: Ping Logger
 
 on:
-  workflow_dispatch:   # manuell starten
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write   # <-- DAS IST DER FIX
 
 jobs:
   ping:
@@ -23,15 +28,12 @@ jobs:
           IP=$(curl -s https://api.ipify.org)
           REGION=$(curl -s "https://ipinfo.io/$IP/region")
           
-          echo "ip=$IP" >> $GITHUB_OUTPUT
           echo "region=$REGION" >> $GITHUB_OUTPUT
 
       - name: Ping messen
         id: ping
         run: |
-          # 1 Ping, Zeit extrahieren
           PING=$(ping -c 1 hetzner.de | grep 'time=' | sed -E 's/.*time=([0-9.]+).*/\1/')
-          
           echo "ping=$PING" >> $GITHUB_OUTPUT
 
       - name: In Datei schreiben
