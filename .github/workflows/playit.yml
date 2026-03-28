@@ -1,43 +1,17 @@
-name: Install Playit
+name: Debug via tmate
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
-  install-playit:
+  debug:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install prerequisites
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y curl gnupg
-
-      - name: Add Playit GPG key
-        run: |
-          curl -SsL https://playit-cloud.github.io/ppa/key.gpg \
-            | gpg --dearmor \
-            | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
-
-      - name: Add Playit repository
-        run: |
-          echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" \
-            | sudo tee /etc/apt/sources.list.d/playit-cloud.list
-
-      - name: Update package list
-        run: sudo apt-get update
-
-      - name: Install Playit
-        run: sudo apt-get install -y playit
-
-      - name: Verify installation
-        run: playit --help || true
-
-      - name: Verify installation
-        run: playit setup
+      - name: Start tmate session
+        uses: mxschmitt/action-tmate@v3
+        with:
+          limit-access-to-actor: true
