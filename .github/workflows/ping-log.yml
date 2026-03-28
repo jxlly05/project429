@@ -3,10 +3,10 @@ name: Ping Logger
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/5 * * * *"   # alle 5 Minuten (Minimum bei GitHub)
 
 permissions:
-  contents: write   # <-- DAS IST DER FIX
+  contents: write
 
 jobs:
   ping:
@@ -28,12 +28,28 @@ jobs:
           IP=$(curl -s https://api.ipify.org)
           REGION=$(curl -s "https://ipinfo.io/$IP/region")
           
+          echo "IP: $IP"
+          echo "Region: $REGION"
+
           echo "region=$REGION" >> $GITHUB_OUTPUT
 
-      - name: Ping messen
+      - name: Ping messen (robust)
         id: ping
         run: |
-          PING=$(ping -c 1 hetzner.de | grep 'time=' | sed -E 's/.*time=([0-9.]+).*/\1/')
+          RESULT=$(ping -c 3 hetzner.de)
+
+          echo "$RESULT"
+
+          # Durchschnitt extrahieren
+          PING=$(echo "$RESULT" | grep 'rtt' | awk -F'/' '{print $5}')
+
+          # Fallback falls leer
+          if [ -z "$PING" ]; then
+            PING="N/A"
+          fi
+
+          echo "Ping: $PING ms"
+
           echo "ping=$PING" >> $GITHUB_OUTPUT
 
       - name: In Datei schreiben
