@@ -38,3 +38,6 @@ jobs:
 
       - name: Verify installation
         run: playit --help || true
+
+      - name: Verify installation
+        run: playit claim
